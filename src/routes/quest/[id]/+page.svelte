@@ -2,7 +2,7 @@
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 	import database from '$lib/data/quiz_database.json';
-	import { playerState, addCorrectAnswer, unlockAnimal } from '$lib/state.svelte.ts';
+	import { playerState, addXp, unlockAnimal } from '$lib/state.svelte.ts';
 	import { onMount } from 'svelte';
 	import { fade, slide } from 'svelte/transition';
 
@@ -38,10 +38,9 @@
 		
 		const chosenOption = currentQuestion.options.find(opt => opt.id === selectedAnswer);
 		if (chosenOption && chosenOption.isCorrect) {
-			// HINWEIS: Prüfe, ob deine Funktion in state.svelte.ts addXp oder addCorrectAnswer heißt!
-			addCorrectAnswer(150); 
-			unlockAnimal(animalId);
-		}
+    addXp(150); 
+    unlockAnimal(animalId);
+}
 	}
 
 	function nextQuestion() {
