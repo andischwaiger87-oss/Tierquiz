@@ -1,169 +1,49 @@
 <script lang="ts">
-	import { goto } from '$app/navigation';
 	import database from '$lib/data/quiz_database.json';
-	// Achte darauf, dass addXp und unlockAnimal exakt so in deiner state.svelte.ts heißen
-	import { playerState, addXp, unlockAnimal } from '$lib/state.svelte.ts';
-	import { onMount } from 'svelte';
-	import { fade, slide } from 'svelte/transition';
-
-	// 1. ALLE Fragen aus ALLEN Biomen laden und mischen
-	const allQuestions = database.biomes
-		.flatMap(biome => biome.animals.flatMap(animal => 
-			animal.quests.map(quest => ({ ...quest, animalId: animal.id }))
-		))
-		.sort(() => Math.random() - 0.5); 
-
-	let currentIndex = $state(0);
-	let currentQuestion = $derived(allQuestions[currentIndex]);
-	
-	let selectedAnswer = $state<string | null>(null);
-	let isSubmitted = $state(false);
-
-	onMount(() => {
-		// Setzt beim Neuladen der Seite die Scrollposition nach oben
-		window.scrollTo(0, 0);
-	});
-
-	// Mobile-Optimierung: Die Antwort wird durch Antippen sofort eingeloggt.
-	function selectAndSubmitAnswer(id: string) {
-		if (isSubmitted) return;
-		
-		selectedAnswer = id;
-		isSubmitted = true;
-		
-		// Prüfen, ob die Antwort richtig war
-		const chosenOption = currentQuestion.options.find(opt => opt.id === selectedAnswer);
-		if (chosenOption && chosenOption.isCorrect) {
-			// Wir vergeben XP und schalten das Tier global frei!
-			addXp(150); 
-			unlockAnimal(currentQuestion.animalId);
-		}
-	}
-
-	function nextQuestion() {
-		if (currentIndex < allQuestions.length - 1) {
-			isSubmitted = false;
-			selectedAnswer = null;
-			currentIndex++;
-			window.scrollTo({ top: 0, behavior: 'smooth' });
-		} else {
-			// Falls alle Fragen durch sind, leiten wir auf eine Ergebnisseite oder ins Lexikon weiter.
-			goto('/lexicon'); 
-		}
-	}
+	import { playerState } from '$lib/state.svelte.ts';
+	import { fade } from 'svelte/transition';
 </script>
 
-<main class="min-h-screen bg-background text-on-background pb-32 px-4 sm:px-6 md:px-12 max-w-2xl mx-auto pt-24">
-	
-	<div class="flex justify-between items-end mb-2">
-		<span class="text-primary font-bold text-sm">Frage {currentIndex + 1} / {allQuestions.length}</span>
-		<span class="text-on-surface-variant font-label text-xs tracking-widest uppercase text-right">Biom:<br>{currentQuestion.biome}</span>
-	</div>
-	
-	<div class="w-full h-2 bg-surface-container-highest rounded-full mb-8 overflow-hidden">
-		<div 
-			class="h-full bg-gradient-to-r from-primary-container to-primary rounded-full transition-all duration-500 ease-out" 
-			style="width: {((currentIndex) / allQuestions.length) * 100}%"
-		></div>
-	</div>
+<svelte:head>
+	<title>Quest Auswahl | Digital Biome</title>
+</svelte:head>
 
-	<div class="relative w-full aspect-[4/3] rounded-3xl overflow-hidden mb-6 border-2 border-outline-variant/20 shadow-2xl">
-		{#key currentQuestion.image}
-			<img 
-				src={currentQuestion.image} 
-				alt="Quest Tier" 
-				class="w-full h-full object-cover"
-				in:fade={{ duration: 400 }}
-			/>
-		{/key}
-		
-		<div class="absolute bottom-4 right-4 w-12 h-12 bg-surface-container-lowest/80 backdrop-blur-md rounded-full flex items-center justify-center shadow-lg border border-outline-variant/30">
-			<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">eco</span>
-		</div>
-	</div>
+<main class="pt-24 pb-32 px-6 max-w-4xl mx-auto min-h-screen" in:fade>
+	<header class="mb-10">
+		<h1 class="text-4xl md:text-5xl font-headline font-black text-on-surface tracking-tight mb-3">Wähle dein Ziel</h1>
+		<p class="text-on-surface-variant text-lg">Suche dir ein Biom aus und wähle die Art, die du erforschen möchtest.</p>
+	</header>
 
-	<div class="mb-8">
-		<span class="inline-block px-3 py-1.5 rounded-lg bg-tertiary-container/30 text-tertiary font-label text-[10px] font-bold tracking-widest uppercase mb-4 border border-tertiary/20">
-			{currentQuestion.challengeType}
-		</span>
-		<h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-on-surface leading-tight">
-			{currentQuestion.questionText}
-		</h2>
-	</div>
-
-	<div class="flex flex-col gap-3 mb-8">
-		{#each currentQuestion.options as option}
-			<button 
-				onclick={() => selectAndSubmitAnswer(option.id)}
-				disabled={isSubmitted}
-				class="w-full text-left p-4 sm:p-5 rounded-2xl flex items-center gap-4 transition-all duration-300 border-2 active:scale-[0.98]
-				{isSubmitted 
-					? (option.isCorrect 
-						? 'bg-primary-container/40 border-primary text-primary shadow-[0_0_15px_rgba(149,212,179,0.2)]' 
-						: (selectedAnswer === option.id 
-							? 'bg-error-container/40 border-error text-error' 
-							: 'bg-surface-container-lowest border-outline-variant/10 text-on-surface opacity-40 grayscale-[50%]')) 
-					: 'bg-surface-container-low border-outline-variant/15 text-on-surface hover:border-primary/50 hover:bg-surface-container shadow-sm'}" 
-			>
-				<div class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold font-label shrink-0 transition-colors
-					{isSubmitted 
-						? (option.isCorrect 
-							? 'bg-primary text-on-primary' 
-							: (selectedAnswer === option.id 
-								? 'bg-error text-on-error' 
-								: 'bg-surface-container-highest text-on-surface-variant'))
-						: 'bg-surface-container-highest text-on-surface-variant'}">
-					
-					{#if isSubmitted && option.isCorrect}
-						<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">check</span>
-					{:else if isSubmitted && selectedAnswer === option.id && !option.isCorrect}
-						<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">close</span>
-					{:else}
-						{option.id}
-					{/if}
-				</div>
-
-				<span class="font-medium text-base sm:text-lg flex-1 leading-snug">{option.text}</span>
-			</button>
-		{/each}
-	</div>
-
-	{#if isSubmitted}
-		<div transition:slide={{ duration: 400 }}>
-			<div class="pb-8 pt-4">
-				<div class="bg-surface-container-lowest rounded-3xl p-5 sm:p-6 shadow-xl border border-outline-variant/15 relative overflow-hidden">
-					<div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-tertiary to-secondary"></div>
-					
-					<h3 class="font-headline font-bold text-xl text-tertiary mb-6 flex items-center gap-2">
-						<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">lightbulb</span> 
-						Wusstest du schon?
-					</h3>
-					
-					<div class="flex flex-col gap-5">
-						{#each currentQuestion.facts as fact}
-							<div class="flex gap-4 items-start">
-								<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center shrink-0 border border-outline-variant/10 shadow-sm">
-									<span class="material-symbols-outlined text-on-surface-variant text-[24px]">{fact.icon}</span>
-								</div>
-								<div>
-									<h4 class="font-bold text-on-surface text-base mb-1">{fact.title}</h4>
-									<p class="text-on-surface-variant text-sm leading-relaxed">{fact.desc}</p>
-								</div>
-							</div>
-						{/each}
+	<div class="space-y-12">
+		{#each database.biomes as biome}
+			<section>
+				<div class="relative w-full h-32 rounded-2xl overflow-hidden mb-6 shadow-md border border-outline-variant/10">
+					<img src={biome.image} alt={biome.name} class="w-full h-full object-cover opacity-60" />
+					<div class="absolute inset-0 bg-gradient-to-t from-background to-transparent"></div>
+					<div class="absolute bottom-4 left-6">
+						<h2 class="text-2xl font-bold text-on-surface">{biome.name}</h2>
 					</div>
 				</div>
-			</div>
 
-			<button 
-				onclick={nextQuestion}
-				class="w-full bg-gradient-to-br from-primary to-primary-container text-on-primary py-5 rounded-2xl font-bold text-lg shadow-lg shadow-primary/20 active:scale-95 transition-all flex justify-center items-center gap-3 border border-primary-fixed/30"
-			>
-				{currentIndex < allQuestions.length - 1 ? 'Nächste Frage' : 'Zum Archiv'}
-				<span class="material-symbols-outlined text-2xl font-bold">
-					{currentIndex < allQuestions.length - 1 ? 'arrow_forward' : 'auto_stories'}
-				</span>
-			</button>
-		</div>
-	{/if}
+				<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+					{#each biome.animals as animal}
+						<a href="/quest/{animal.id}" class="bg-surface-container-low rounded-xl overflow-hidden border border-outline-variant/15 hover:border-primary/50 transition-all active:scale-95 group block">
+							<div class="aspect-square w-full relative">
+								<img src={animal.lexicon.image_main} alt={animal.name} class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" />
+								
+								{#if playerState.collectedSpecies.includes(animal.id)}
+									<div class="absolute top-2 right-2 bg-primary text-on-primary w-6 h-6 rounded-full flex items-center justify-center shadow-md">
+										<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">check</span>
+									</div>
+								{/if}
+							</div>
+							<div class="p-3 text-center bg-surface-container">
+								<h3 class="font-bold text-on-surface text-sm truncate">{animal.name}</h3>
+							</div>
+						</a>
+					{/each}
+				</div>
+			</section>
+		{/each}
+	</div>
 </main>
