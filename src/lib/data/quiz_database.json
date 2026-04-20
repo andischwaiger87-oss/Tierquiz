@@ -3554,8 +3554,52 @@
               ]
             }
           ]
+        },
+{
+  "id": "animal_snow_leopard",
+  "name": "Schneeleopard",
+  "scientific_name": "Panthera uncia",
+  "lexicon": {
+    "habitat": "Hochgebirge in Zentralasien (Himalaja, Karakorum, Altai)",
+    "diet": "Fleischfresser (z.B. Blauschafe, Steinböcke, Murmeltiere)",
+    "wwf_status": "Gefährdet",
+    "description": "Der 'Geist der Berge' ist extrem scheu und perfekt an die Kälte angepasst. Sein außergewöhnlich langer und buschiger Schwanz dient ihm nicht nur als Balancierstange bei gewagten Sprüngen über tiefe Schluchten, sondern auch als dicker Schal, den er sich beim Schlafen um das Gesicht wickelt.",
+    "image_main": "https://images.unsplash.com/photo-1560662241-11b3d047321e?q=80&w=800&auto=format&fit=crop"
+  },
+  "quests": [
+    {
+      "quest_id": "q_snowleopard_01",
+      "biome": "TIEFER WALD",
+      "challengeType": "KÖRPERBAU",
+      "questionText": "Wofür nutzt der Schneeleopard seinen fast ein Meter langen, dicken Schwanz?",
+      "image": "https://images.unsplash.com/photo-1559812497-cd0d9bf0dcd4?q=80&w=800&auto=format&fit=crop",
+      "options": [
+        { "id": "A", "text": "Um Beute zu betäuben", "isCorrect": false },
+        { "id": "B", "text": "Als Balance beim Springen und als wärmenden Schal", "isCorrect": true },
+        { "id": "C", "text": "Um im Schnee Spuren zu verwischen", "isCorrect": false },
+        { "id": "D", "text": "Er hat gar keinen langen Schwanz", "isCorrect": false }
+      ],
+      "facts": [
+        {
+          "icon": "ac_unit",
+          "title": "Eingebauter Schal",
+          "desc": "Beim Schlafen in eisiger Kälte wickelt sich der Schneeleopard seinen dichten Schwanz um die Nase, um die Atemluft vorzuwärmen."
+        },
+        {
+          "icon": "balance",
+          "title": "Steuerruder",
+          "desc": "Bei bis zu 15 Meter weiten Sprüngen über Klippen hält der Schwanz den Körper perfekt in der Waage."
+        },
+        {
+          "icon": "volume_off",
+          "title": "Die stille Katze",
+          "desc": "Im Gegensatz zu Löwen oder Tigern kann der Schneeleopard nicht brüllen, da ihm ein spezielles Polster im Kehlkopf fehlt."
         }
       ]
     }
   ]
+}
+] 
+}
+]
 }
