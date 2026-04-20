@@ -76,10 +76,5 @@
 			<span class="font-bold">Aktuelle Quest</span>
 		</a>
 		
-		<div class="mt-auto bg-primary-container/20 p-4 rounded-xl border border-primary/20 text-center">
-			<span class="material-symbols-outlined text-primary mb-2">workspace_premium</span>
-			<h4 class="text-primary font-bold text-sm">Premium freischalten</h4>
-			<p class="text-on-surface-variant text-xs mt-1">Hol dir Zugang zu allen Biomen.</p>
-		</div>
 	</div>
 {/if}
