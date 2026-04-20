@@ -29,7 +29,8 @@ export function resetQuiz(total: number) {
 }
 
 // Deine erweiterte Funktion: Zählt jetzt Punkte für die Session UND global!
-export function addCorrectAnswer(xp: number = 150) {
+// Exportiere die Funktion als 'addXp', damit die Quest-Seite sie findet
+export function addXp(xp: number = 150) {
 	// Session aktualisieren
 	quizState.correctAnswers += 1;
 	quizState.earnedSessionXp += xp;
