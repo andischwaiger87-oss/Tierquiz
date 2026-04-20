@@ -15,7 +15,7 @@
 	
 	<section class="relative mb-16 mt-4">
 		<div class="relative w-full aspect-[4/5] md:aspect-[21/9] rounded-xl overflow-hidden group">
-			<img alt="Schneeleopard" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1560662241-11b3d047321e?q=80&w=1200&auto=format&fit=crop" />
+			<img alt="Schneeleopard" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1544982772-d83aeb8cf70f?q=80&w=1200&auto=format&fit=crop" />
 			<div class="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent"></div>
 			
 			<div class="absolute bottom-0 left-0 p-8 md:p-12 w-full flex flex-col md:flex-row md:items-end justify-between gap-6">

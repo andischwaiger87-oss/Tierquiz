@@ -16,7 +16,7 @@
             "diet": "Fleischfresser (z.B. Thomson-Gazellen, Impalas, Springböcke)",
             "wwf_status": "Gefährdet",
             "description": "Der Gepard ist das schnellste Landtier der Welt. Er verlässt sich auf sein unglaubliches Sehvermögen und seine Geschwindigkeit, um Beute auf den weiten Ebenen der Savanne zu jagen. Im Gegensatz zu anderen Großkatzen kann der Gepard nicht brüllen, sondern schnurrt wie eine Hauskatze.",
-            "image_main": "https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1516822487734-69ff4b9bf49d?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -914,7 +914,7 @@
             "diet": "Pflanzenfresser (Blätter, Zweige, Früchte, Rinde)",
             "wwf_status": "Vom Aussterben bedroht",
             "description": "Das Spitzmaulnashorn gehört zu den am stärksten bedrohten Großsäugetieren der Erde. Es ist deutlich kleiner als sein Verwandter, das Breitmaulnashorn, und erkennbar an der spitz zulaufenden, greifähigen Oberlippe. Sein Horn besteht aus Keratin – derselben Substanz wie unsere Fingernägel.",
-            "image_main": "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1535338454770-8be927b5a00b?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -1074,7 +1074,7 @@
               "biome": "SAVANNE",
               "challengeType": "TEAMWORK",
               "questionText": "Welche Rolle gibt es in einer Erdmännchen-Gruppe, die für das Überleben aller wichtig ist?",
-              "image": "https://images.unsplash.com/photo-1606404249319-a73e9b0f9d12?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1552071379-041b32707fed?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -1218,7 +1218,7 @@
             "diet": "Allesfresser (v.a. Pflanzen, Samen, Insekten)",
             "wwf_status": "Nicht gefährdet",
             "description": "Der Afrikanische Strauß ist der größte und schwerste lebende Vogel der Welt – und er kann nicht fliegen. Dafür rennt er so schnell wie ein Auto im Stadtverkehr. Sein Ei ist das größte Ei, das heute ein Tier legt: Ein einziges Straußenei kann rund 24 Hühnereier ersetzen!",
-            "image_main": "https://images.unsplash.com/photo-1581452295679-b1d55dcf0234?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1588508107117-227d4ab6b751?Bq=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -1378,7 +1378,7 @@
             "diet": "Ausschließlich Krill (winzige Krebse)",
             "wwf_status": "Stark gefährdet",
             "description": "Der Blauwal ist das größte Tier der Erdgeschichte und übertrifft sogar riesige Dinosaurier. Sein Herz ist so groß wie ein kleines Auto, und durch seine Hauptschlagader könnte ein Baby krabbeln. Obwohl er so riesig ist, ernährt er sich von den kleinsten Tieren des Meeres, indem er das Wasser durch seine Barten filtert.",
-            "image_main": "https://images.unsplash.com/photo-1573134237142-990cb89758cb?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1698334846759-2cdc3352dd85?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -1820,7 +1820,7 @@
             "diet": "Fleischfresser (Krebse, Muscheln, Fische)",
             "wwf_status": "Nicht gefährdet",
             "description": "Kraken gehören zu den intelligentesten wirbellosen Tieren der Welt. Sie haben neun Gehirne (ein zentrales plus eines in jedem Arm), blaues Blut und drei Herzen. Tarnungskünstler der Extraklasse: In weniger als einer Sekunde verändern sie Farbe und Hautstruktur.",
-            "image_main": "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1510637234398-d25c9570a0a0?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -2330,7 +2330,7 @@
             "diet": "Fleischfresser (z.B. Rehe, Gämsen, Hasen)",
             "wwf_status": "Stark gefährdet (in Deutschland)",
             "description": "Der Luchs ist die größte Kleinkatze Europas und ein echtes 'Waldgespenst'. Mit seinen riesigen Pfoten läuft er im Winter wie auf Schneeschuhen über den Schnee, ohne einzusinken. Die schwarzen Haarpinsel an seinen Ohren sehen nicht nur lustig aus, sie funktionieren auch wie feine Antennen für ein Super-Gehör!",
-            "image_main": "https://images.unsplash.com/photo-1502470659424-706f9d372e9a?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1636903773533-84cf46aff23b?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -2574,7 +2574,7 @@
             "diet": "Fleischfresser (jagt Beutetiere bis zu 1.000 kg)",
             "wwf_status": "Stark gefährdet",
             "description": "Der Tiger ist die größte und schwerste lebende Katze der Welt. Seine wunderschönen Streifen sind einzigartig wie ein Fingerabdruck und tarnen ihn perfekt im hohen Gras. Im Gegensatz zu fast allen anderen Katzen liebt der Tiger das Wasser und ist ein hervorragender Schwimmer!",
-            "image_main": "https://images.unsplash.com/photo-1549471156-52c730a00c58?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -3062,7 +3062,7 @@
             "diet": "Allesfresser (Beeren, Wurzeln, Fische, Insekten, Aas, Kleinsäuger)",
             "wwf_status": "Nicht gefährdet (regional bedroht)",
             "description": "Der Braunbär ist eines der größten Landraubtiere der Erde. Er ist ein wahres Multitalent: Er kann klettern, schwimmen, graben und steht sogar auf zwei Beinen. In seinem Winterschlaf senkt er seinen Stoffwechsel extrem ab – ohne zu essen, zu trinken oder zu urinieren, manchmal für 6 Monate.",
-            "image_main": "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1568162603664-fcd658421851?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -3412,7 +3412,7 @@
             "diet": "Fleischfresser (Säugetiere, Vögel bis Gänse-Größe)",
             "wwf_status": "Nicht gefährdet (EU-streng geschützt)",
             "description": "Der Uhu ist mit seiner Spannweite von bis zu 1,8 Metern die größte Eule der Welt. Lautlos gleitet er durch die Nacht – dank speziell gekämmter Federn, die den Luftwiderstand fast geräuschlos machen. Sein Kopf kann um unglaubliche 270 Grad gedreht werden.",
-            "image_main": "https://images.unsplash.com/photo-1518715308788-3005759c61d7?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1707666136984-f4adbeeadf70?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
