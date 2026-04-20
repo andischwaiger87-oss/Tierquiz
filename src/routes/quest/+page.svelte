@@ -1,15 +1,17 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
 	import database from '$lib/data/quiz_database.json';
-	import { quizState, resetQuiz, addCorrectAnswer } from '$lib/state.svelte.ts';
+	// Achte darauf, dass addXp und unlockAnimal exakt so in deiner state.svelte.ts heißen
+	import { playerState, addXp, unlockAnimal } from '$lib/state.svelte.ts';
 	import { onMount } from 'svelte';
+	import { fade, slide } from 'svelte/transition';
 
-	const allQuestions = database.biomes[0].animals.flatMap(animal => animal.quests);
-
-	// Wenn die Seite geladen wird, setzen wir das Quiz zurück
-	onMount(() => {
-		resetQuiz(allQuestions.length);
-	});
+	// 1. ALLE Fragen aus ALLEN Biomen laden und mischen
+	const allQuestions = database.biomes
+		.flatMap(biome => biome.animals.flatMap(animal => 
+			animal.quests.map(quest => ({ ...quest, animalId: animal.id }))
+		))
+		.sort(() => Math.random() - 0.5); 
 
 	let currentIndex = $state(0);
 	let currentQuestion = $derived(allQuestions[currentIndex]);
@@ -17,120 +19,149 @@
 	let selectedAnswer = $state<string | null>(null);
 	let isSubmitted = $state(false);
 
-	function selectAnswer(id: string) {
-		if (!isSubmitted) selectedAnswer = id;
-	}
+	onMount(() => {
+		// Setzt beim Neuladen der Seite die Scrollposition nach oben
+		window.scrollTo(0, 0);
+	});
 
-	function submitAnswer() {
-		if (selectedAnswer) {
-			isSubmitted = true;
-			
-			// Prüfen, ob die Antwort richtig war und Punkte vergeben!
-			const chosenOption = currentQuestion.options.find(opt => opt.id === selectedAnswer);
-			if (chosenOption && chosenOption.isCorrect) {
-				addCorrectAnswer(150); // 150 XP pro richtiger Antwort!
-			}
+	// Mobile-Optimierung: Die Antwort wird durch Antippen sofort eingeloggt.
+	function selectAndSubmitAnswer(id: string) {
+		if (isSubmitted) return;
+		
+		selectedAnswer = id;
+		isSubmitted = true;
+		
+		// Prüfen, ob die Antwort richtig war
+		const chosenOption = currentQuestion.options.find(opt => opt.id === selectedAnswer);
+		if (chosenOption && chosenOption.isCorrect) {
+			// Wir vergeben XP und schalten das Tier global frei!
+			addXp(150); 
+			unlockAnimal(currentQuestion.animalId);
 		}
 	}
 
 	function nextQuestion() {
 		if (currentIndex < allQuestions.length - 1) {
-			currentIndex++;
-			selectedAnswer = null;
 			isSubmitted = false;
+			selectedAnswer = null;
+			currentIndex++;
 			window.scrollTo({ top: 0, behavior: 'smooth' });
 		} else {
-			goto('/quest/results');
+			// Falls alle Fragen durch sind, leiten wir auf eine Ergebnisseite oder ins Lexikon weiter.
+			goto('/lexicon'); 
 		}
 	}
 </script>
 
-<main class="min-h-screen bg-background text-on-background pb-32 px-6 md:px-12 max-w-3xl mx-auto pt-12">
+<main class="min-h-screen bg-background text-on-background pb-32 px-4 sm:px-6 md:px-12 max-w-2xl mx-auto pt-24">
 	
 	<div class="flex justify-between items-end mb-2">
-		<span class="text-primary font-bold text-sm">Frage {currentQuestion.questionNumber}</span>
-		<span class="text-on-surface-variant font-label text-xs tracking-widest uppercase">BIOM: {currentQuestion.biome}</span>
+		<span class="text-primary font-bold text-sm">Frage {currentIndex + 1} / {allQuestions.length}</span>
+		<span class="text-on-surface-variant font-label text-xs tracking-widest uppercase text-right">Biom:<br>{currentQuestion.biome}</span>
 	</div>
-	<div class="w-full h-1 bg-surface-container-highest rounded-full mb-8">
+	
+	<div class="w-full h-2 bg-surface-container-highest rounded-full mb-8 overflow-hidden">
 		<div 
-			class="h-full bg-primary rounded-full transition-all duration-500" 
+			class="h-full bg-gradient-to-r from-primary-container to-primary rounded-full transition-all duration-500 ease-out" 
 			style="width: {((currentIndex) / allQuestions.length) * 100}%"
 		></div>
 	</div>
 
-	<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden mb-6 border border-outline-variant/15">
+	<div class="relative w-full aspect-[4/3] rounded-3xl overflow-hidden mb-6 border-2 border-outline-variant/20 shadow-2xl">
 		{#key currentQuestion.image}
-			<img src={currentQuestion.image} alt="Quiz Tier" class="w-full h-full object-cover animate-in fade-in duration-500" />
+			<img 
+				src={currentQuestion.image} 
+				alt="Quest Tier" 
+				class="w-full h-full object-cover"
+				in:fade={{ duration: 400 }}
+			/>
 		{/key}
-		<div class="absolute bottom-4 right-4 w-12 h-12 bg-tertiary rounded-full flex items-center justify-center shadow-lg shadow-tertiary/20">
-			<span class="material-symbols-outlined text-on-tertiary">lightbulb</span>
+		
+		<div class="absolute bottom-4 right-4 w-12 h-12 bg-surface-container-lowest/80 backdrop-blur-md rounded-full flex items-center justify-center shadow-lg border border-outline-variant/30">
+			<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">eco</span>
 		</div>
 	</div>
 
 	<div class="mb-8">
-		<span class="inline-block px-3 py-1 rounded-md bg-tertiary-container text-tertiary font-label text-[10px] font-bold tracking-widest uppercase mb-4">
+		<span class="inline-block px-3 py-1.5 rounded-lg bg-tertiary-container/30 text-tertiary font-label text-[10px] font-bold tracking-widest uppercase mb-4 border border-tertiary/20">
 			{currentQuestion.challengeType}
 		</span>
-		<h2 class="text-3xl md:text-4xl font-extrabold tracking-tight text-on-surface leading-tight">
+		<h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-on-surface leading-tight">
 			{currentQuestion.questionText}
 		</h2>
 	</div>
 
-	<div class="flex flex-col gap-4 mb-8">
+	<div class="flex flex-col gap-3 mb-8">
 		{#each currentQuestion.options as option}
 			<button 
-				onclick={() => selectAnswer(option.id)}
-				class="w-full text-left p-4 rounded-md flex items-center gap-4 transition-all duration-300 border 
-				{selectedAnswer === option.id && !isSubmitted ? 'bg-primary-container border-primary/50 text-on-primary-container' : 'bg-surface-container-low border-transparent text-on-surface hover:bg-surface-container'}
-				{isSubmitted && option.isCorrect ? 'bg-primary border-primary text-on-primary' : ''}
-				{isSubmitted && selectedAnswer === option.id && !option.isCorrect ? 'bg-error-container border-error/50 text-on-error-container' : ''}"
+				onclick={() => selectAndSubmitAnswer(option.id)}
 				disabled={isSubmitted}
+				class="w-full text-left p-4 sm:p-5 rounded-2xl flex items-center gap-4 transition-all duration-300 border-2 active:scale-[0.98]
+				{isSubmitted 
+					? (option.isCorrect 
+						? 'bg-primary-container/40 border-primary text-primary shadow-[0_0_15px_rgba(149,212,179,0.2)]' 
+						: (selectedAnswer === option.id 
+							? 'bg-error-container/40 border-error text-error' 
+							: 'bg-surface-container-lowest border-outline-variant/10 text-on-surface opacity-40 grayscale-[50%]')) 
+					: 'bg-surface-container-low border-outline-variant/15 text-on-surface hover:border-primary/50 hover:bg-surface-container shadow-sm'}" 
 			>
-				<div class="w-8 h-8 rounded-full bg-surface-container-highest flex items-center justify-center text-sm font-bold font-label shrink-0 opacity-80">
-					{option.id}
+				<div class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold font-label shrink-0 transition-colors
+					{isSubmitted 
+						? (option.isCorrect 
+							? 'bg-primary text-on-primary' 
+							: (selectedAnswer === option.id 
+								? 'bg-error text-on-error' 
+								: 'bg-surface-container-highest text-on-surface-variant'))
+						: 'bg-surface-container-highest text-on-surface-variant'}">
+					
+					{#if isSubmitted && option.isCorrect}
+						<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">check</span>
+					{:else if isSubmitted && selectedAnswer === option.id && !option.isCorrect}
+						<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">close</span>
+					{:else}
+						{option.id}
+					{/if}
 				</div>
-				<span class="font-medium flex-1">{option.text}</span>
-				
-				{#if isSubmitted && option.isCorrect}
-					<span class="material-symbols-outlined">check_circle</span>
-				{/if}
-				{#if isSubmitted && selectedAnswer === option.id && !option.isCorrect}
-					<span class="material-symbols-outlined">cancel</span>
-				{/if}
+
+				<span class="font-medium text-base sm:text-lg flex-1 leading-snug">{option.text}</span>
 			</button>
 		{/each}
 	</div>
 
-	<div class="mb-12">
-		<button 
-			onclick={submitAnswer}
-			class="w-full py-4 rounded-xl font-bold text-lg transition-transform 
-			{selectedAnswer ? 'bg-gradient-to-br from-primary to-primary-container text-on-primary shadow-lg hover:scale-[1.02] active:scale-[0.98]' : 'bg-surface-variant text-on-surface-variant cursor-not-allowed opacity-50'}"
-			disabled={!selectedAnswer || isSubmitted}
-		>
-			Antwort bestätigen
-		</button>
-	</div>
-
 	{#if isSubmitted}
-		<div class="flex flex-col gap-4 animate-in fade-in slide-in-from-bottom-4 duration-500">
-			{#each currentQuestion.facts as fact}
-				<div class="bg-surface-container-low p-6 rounded-md border border-outline-variant/10">
-					<span class="material-symbols-outlined text-tertiary mb-3">{fact.icon}</span>
-					<h4 class="text-on-surface font-bold text-lg mb-2">{fact.title}</h4>
-					<p class="text-on-surface-variant text-sm leading-relaxed">{fact.desc}</p>
+		<div transition:slide={{ duration: 400 }}>
+			<div class="pb-8 pt-4">
+				<div class="bg-surface-container-lowest rounded-3xl p-5 sm:p-6 shadow-xl border border-outline-variant/15 relative overflow-hidden">
+					<div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-tertiary to-secondary"></div>
+					
+					<h3 class="font-headline font-bold text-xl text-tertiary mb-6 flex items-center gap-2">
+						<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">lightbulb</span> 
+						Wusstest du schon?
+					</h3>
+					
+					<div class="flex flex-col gap-5">
+						{#each currentQuestion.facts as fact}
+							<div class="flex gap-4 items-start">
+								<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center shrink-0 border border-outline-variant/10 shadow-sm">
+									<span class="material-symbols-outlined text-on-surface-variant text-[24px]">{fact.icon}</span>
+								</div>
+								<div>
+									<h4 class="font-bold text-on-surface text-base mb-1">{fact.title}</h4>
+									<p class="text-on-surface-variant text-sm leading-relaxed">{fact.desc}</p>
+								</div>
+							</div>
+						{/each}
+					</div>
 				</div>
-			{/each}
-		</div>
-		
-		<div class="mt-8">
+			</div>
+
 			<button 
 				onclick={nextQuestion}
-				class="w-full bg-surface-variant text-on-surface py-4 rounded-xl font-bold text-lg border border-outline-variant/20 hover:bg-surface-container-highest transition-colors flex justify-center items-center gap-2"
+				class="w-full bg-gradient-to-br from-primary to-primary-container text-on-primary py-5 rounded-2xl font-bold text-lg shadow-lg shadow-primary/20 active:scale-95 transition-all flex justify-center items-center gap-3 border border-primary-fixed/30"
 			>
-				{currentIndex < allQuestions.length - 1 ? 'Nächste Frage' : 'Ergebnisse anzeigen'}
-				<span class="material-symbols-outlined text-xl">
-					{currentIndex < allQuestions.length - 1 ? 'arrow_forward' : 'done_all'}
+				{currentIndex < allQuestions.length - 1 ? 'Nächste Frage' : 'Zum Archiv'}
+				<span class="material-symbols-outlined text-2xl font-bold">
+					{currentIndex < allQuestions.length - 1 ? 'arrow_forward' : 'auto_stories'}
 				</span>
 			</button>
 		</div>
