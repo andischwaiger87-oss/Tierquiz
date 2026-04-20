@@ -374,7 +374,7 @@
               "biome": "SAVANNE",
               "challengeType": "SUPER-SINNE",
               "questionText": "Wie weit kann man das mächtige Brüllen eines Löwen in der Savanne hören?",
-              "image": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -420,7 +420,7 @@
               "biome": "SAVANNE",
               "challengeType": "ÜBERLEBENS-TRICK",
               "questionText": "Wofür ist die dicke Mähne der männlichen Löwen eigentlich gut?",
-              "image": "https://images.unsplash.com/photo-1517825738774-7de9363ef735?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -466,7 +466,7 @@
               "biome": "SAVANNE",
               "challengeType": "REKORD-JAGD",
               "questionText": "Wer erledigt im Löwenrudel meistens die anstrengende Jagd?",
-              "image": "https://images.unsplash.com/photo-1571562222718-d56df3eb3648?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -512,7 +512,7 @@
               "biome": "SAVANNE",
               "challengeType": "TIERISCHER ALLTAG",
               "questionText": "Wie viele Stunden am Tag verbringt ein männlicher Löwe durchschnittlich mit Schlafen und Ausruhen?",
-              "image": "https://images.unsplash.com/photo-1521127474489-d524412fd439?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -1066,7 +1066,7 @@
             "diet": "Allesfresser mit Vorliebe für Insekten, Skorpione und kleine Reptilien",
             "wwf_status": "Nicht gefährdet",
             "description": "Erdmännchen sind die wohl aufmerksamsten Tiere der Savanne. Sie leben in organisierten Clans von bis zu 50 Mitgliedern, teilen sich Wachdienste und sogar die Kinderbetreuung auf. Ihr Geheimrezept: Ein Spezialgift der Skorpione macht ihnen fast nichts aus!",
-            "image_main": "https://images.unsplash.com/photo-1544485501-c85b13689cb1?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1611536349817-f4b3664ad419?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -1074,7 +1074,7 @@
               "biome": "SAVANNE",
               "challengeType": "TEAMWORK",
               "questionText": "Welche Rolle gibt es in einer Erdmännchen-Gruppe, die für das Überleben aller wichtig ist?",
-              "image": "https://images.unsplash.com/photo-1552071379-041b32707fed?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1611536349817-f4b3664ad419?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -1120,7 +1120,7 @@
               "biome": "SAVANNE",
               "challengeType": "ÜBERLEBENS-TRICK",
               "questionText": "Was essen Erdmännchen besonders gerne, obwohl es für andere Tiere hochgefährlich wäre?",
-              "image": "https://images.unsplash.com/photo-1606404249319-a73e9b0f9d12?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1611536349817-f4b3664ad419?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -1166,7 +1166,7 @@
               "biome": "SAVANNE",
               "challengeType": "WOHNGEMEINSCHAFT",
               "questionText": "Wie viele Mitglieder kann ein Erdmännchen-Clan maximal haben?",
-              "image": "https://images.unsplash.com/photo-1606404249319-a73e9b0f9d12?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1611536349817-f4b3664ad419?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -2330,7 +2330,7 @@
             "diet": "Fleischfresser (z.B. Rehe, Gämsen, Hasen)",
             "wwf_status": "Stark gefährdet (in Deutschland)",
             "description": "Der Luchs ist die größte Kleinkatze Europas und ein echtes 'Waldgespenst'. Mit seinen riesigen Pfoten läuft er im Winter wie auf Schneeschuhen über den Schnee, ohne einzusinken. Die schwarzen Haarpinsel an seinen Ohren sehen nicht nur lustig aus, sie funktionieren auch wie feine Antennen für ein Super-Gehör!",
-            "image_main": "https://images.unsplash.com/photo-1636903773533-84cf46aff23b?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1526209356877-93300d250337?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -2818,7 +2818,7 @@
             "diet": "Fleischfresser (v.a. Hirsche, Elche, Rehe)",
             "wwf_status": "Nicht gefährdet (regional stark bedroht)",
             "description": "Der Grauwolf ist das Stammtier aller Hunderassen. Wölfe leben in hochorganisierten Familienverbänden – dem Rudel – und können unter guten Bedingungen bis zu 75 km an einem einzigen Tag laufen. Ihr berühmtes Heulen dient nicht nur der Kommunikation im Rudel, sondern markiert auch Territorien gegenüber anderen Wölfen.",
-            "image_main": "https://images.unsplash.com/photo-1589656966895-2f33e7653819?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1664115530316-533d64cd8b70?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -2826,7 +2826,7 @@
               "biome": "TIEFER WALD",
               "challengeType": "RUDEL-STRUKTUR",
               "questionText": "Wie ist ein typisches Wolfsrudel aufgebaut?",
-              "image": "https://images.unsplash.com/photo-1564466809058-bf4114d55352?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1664115530316-533d64cd8b70?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
