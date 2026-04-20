@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+/* Import unserer "Editorial Authority" Schriften und Google Material Icons */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@400;700;800;900&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0..1,0&display=swap');
+
+@theme {
+  /* Unsere "Digital Biome" Farbpalette */
+  --color-background: #121411;
+  --color-surface: #121411;
+  --color-surface-dim: #121411;
+  --color-surface-bright: #383a36;
+  --color-surface-container-lowest: #0d0f0c;
+  --color-surface-container-low: #1a1c19;
+  --color-surface-container: #1e201d;
+  --color-surface-container-high: #292b27;
+  --color-surface-container-highest: #333532;
+  --color-surface-variant: #333532;
+  
+  --color-on-background: #e3e3de;
+  --color-on-surface: #e3e3de;
+  --color-on-surface-variant: #c1c8c2;
+  
+  --color-primary: #95d4b3;
+  --color-on-primary: #003824;
+  --color-primary-container: #00452e;
+  --color-on-primary-container: #76b394;
+  --color-primary-fixed: #b1f0ce;
+  --color-inverse-primary: #2c694e;
+  
+  --color-secondary: #c3cba3;
+  --color-on-secondary: #2c3317;
+  --color-secondary-container: #434a2b;
+  --color-on-secondary-container: #b1b992;
+  
+  --color-tertiary: #ffba27;
+  --color-on-tertiary: #422c00;
+  --color-tertiary-container: #503700;
+  --color-on-tertiary-container: #d89b00;
+  
+  --color-error: #ffb4ab;
+  --color-on-error: #690005;
+  --color-error-container: #93000a;
+  --color-on-error-container: #ffdad6;
+  
+  --color-outline: #8b938d;
+  --color-outline-variant: #414844;
+  --color-inverse-surface: #e3e3de;
+  --color-inverse-on-surface: #2f312e;
+
+  /* Unsere asymmetrischen Abrundungen */
+  --radius-md: 1.5rem;
+  --radius-lg: 2rem;
+  --radius-xl: 3rem;
+
+  /* Typografie für Editorial Design */
+  --font-headline: "Manrope", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "Inter", sans-serif;
+}
+
+@layer base {
+  /* Standard-Styling für den organischen Dark-Mode-Look */
+  body {
+    @apply bg-background text-on-background min-h-screen font-body antialiased selection:bg-primary selection:text-on-primary;
+  }
+  
+  /* Alle Überschriften nutzen die Manrope Schriftart */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline;
+  }
+}
+
+/* Hilfsklasse für die Icons */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}

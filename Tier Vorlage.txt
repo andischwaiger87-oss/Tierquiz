@@ -1,0 +1,33 @@
+{
+          "id": "animal_PLATZHALTER",
+          "name": "PLATZHALTER",
+          "scientific_name": "PLATZHALTER",
+          "lexicon": {
+            "habitat": "PLATZHALTER",
+            "diet": "PLATZHALTER",
+            "wwf_status": "PLATZHALTER",
+            "description": "PLATZHALTER",
+            "image_main": "https://images.unsplash.com/photo-PLATZHALTER"
+          },
+          "quests": [
+            {
+              "quest_id": "q_PLATZHALTER",
+              "questionNumber": "1/5",
+              "biome": "PLATZHALTER",
+              "challengeType": "PLATZHALTER",
+              "questionText": "PLATZHALTER",
+              "image": "https://images.unsplash.com/photo-PLATZHALTER",
+              "options": [
+                { "id": "A", "text": "PLATZHALTER", "isCorrect": false },
+                { "id": "B", "text": "PLATZHALTER", "isCorrect": true },
+                { "id": "C", "text": "PLATZHALTER", "isCorrect": false },
+                { "id": "D", "text": "PLATZHALTER", "isCorrect": false }
+              ],
+              "facts": [
+                { "icon": "PLATZHALTER", "title": "PLATZHALTER", "desc": "PLATZHALTER" },
+                { "icon": "PLATZHALTER", "title": "PLATZHALTER", "desc": "PLATZHALTER" },
+                { "icon": "PLATZHALTER", "title": "PLATZHALTER", "desc": "PLATZHALTER" }
+              ]
+            }
+          ]
+        }

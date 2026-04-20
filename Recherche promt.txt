@@ -1,0 +1,68 @@
+Du bist ein leitender Biologe, Redakteur für AAA-Lern-Apps und JSON-Datenbank-Architekt. Deine Aufgabe ist es, für eine hochwertige Tierquiz-App (Zielgruppe: 10-jährige Kinder) extrem umfangreiche und faktisch einwandfreie Daten zu sammeln.
+
+Deine Aufgabe:
+Führe eine tiefgreifende Recherche zu folgenden 3 Tieren durch:
+
+Orca (Schwertwal)
+
+Weißer Hai
+
+Kaiserpinguin
+
+Quellen-Vorgabe (STRIKT):
+Verwende für deine Faktenprüfung AUSSCHLIESSLICH wissenschaftlich anerkannte und vertrauenswürdige Quellen. Beschränke deine Suche vorrangig auf:
+
+WWF (wwf.de / wwf.org)
+
+National Geographic (nationalgeographic.de)
+
+Wikipedia (de.wikipedia.org)
+
+NABU (nabu.de) oder ähnliche Tierschutzorganisationen.
+
+Inhaltliche Vorgaben (Zielgruppe 10 Jahre):
+
+Lexikon-Text: Spannend, faszinierend und verständlich formuliert. Keine langweiligen Wikipedia-Kopien, sondern "Wusstest du schon..."-Vibes.
+
+Quizfragen (Quests): Erstelle pro Tier genau 5 einzigartige Fragen (für das finale Spiel brauchen wir später mehr, aber starte mit 5). Die Fragen sollen Wissen abfragen, das verblüfft (z.B. Jagdverhalten, Rekorde, Sinne).
+
+Fakten (Bento-Boxen): Zu jeder Frage musst du 3 kurze Erklär-Fakten liefern, die dem Kind nach der Antwort gezeigt werden. Nutze für jeden Fakt ein passendes Google Material Icon (z.B. "speed", "visibility", "water_drop", "restaurant", "thermostat").
+
+Output-Format (STRIKTES JSON):
+Generiere als finale Antwort AUSSCHLIESSLICH einen validen JSON-Codeblock, der exakt diesem Schema folgt. Generiere keinen Text außerhalb des JSON-Blocks.
+
+JSON
+{
+  "id": "animal_[tiername_englisch]",
+  "name": "[Tiername Deutsch]",
+  "scientific_name": "[Wissenschaftlicher Name]",
+  "lexicon": {
+    "habitat": "[Kurze Angabe zum Lebensraum]",
+    "diet": "[Kurze Angabe zur Ernährung]",
+    "wwf_status": "[Exakter aktueller WWF Gefährdungsstatus auf Deutsch, z.B. Gefährdet, Stark gefährdet]",
+    "description": "[Ca. 3-4 spannende Sätze für das Lexikon, optimiert für 10-Jährige]",
+    "image_main": "https://images.unsplash.com/photo-[PLATZHALTER]"
+  },
+  "quests": [
+    {
+      "quest_id": "q_[tiername_englisch]_01",
+      "questionNumber": "1/5",
+      "biome": "[BIOM NAME, z.B. OZEANISCHE TIEFE]",
+      "challengeType": "[SPANNENDER KATEGORIE-NAME, z.B. JAGD-TAKTIK oder REKORD-JAGD]",
+      "questionText": "[Die Quizfrage]",
+      "image": "https://images.unsplash.com/photo-[PLATZHALTER]",
+      "options": [
+        { "id": "A", "text": "[Option 1]", "isCorrect": false },
+        { "id": "B", "text": "[Option 2]", "isCorrect": true },
+        { "id": "C", "text": "[Option 3]", "isCorrect": false },
+        { "id": "D", "text": "[Option 4]", "isCorrect": false }
+      ],
+      "facts": [
+        { "icon": "[material_icon_name]", "title": "[Titel Fakt 1]", "desc": "[Erklärung Fakt 1]" },
+        { "icon": "[material_icon_name]", "title": "[Titel Fakt 2]", "desc": "[Erklärung Fakt 2]" },
+        { "icon": "[material_icon_name]", "title": "[Titel Fakt 3]", "desc": "[Erklärung Fakt 3]" }
+      ]
+    }
+    // ... hier folgen die Quests 2 bis 5
+  ]
+}

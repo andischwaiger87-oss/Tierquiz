@@ -1,0 +1,3561 @@
+{
+  "version": "2.0",
+  "biomes": [
+    {
+      "id": "biome_savanna",
+      "name": "Afrikanische Savanne",
+      "description": "Die weiten Graslandschaften Afrikas mit ihren ikonischen Großtieren.",
+      "image": "https://images.unsplash.com/photo-1523805009345-7448845a9e53?q=80&w=1200&auto=format&fit=crop",
+      "animals": [
+        {
+          "id": "animal_cheetah",
+          "name": "Gepard",
+          "scientific_name": "Acinonyx jubatus",
+          "lexicon": {
+            "habitat": "Savannen und Graslandschaften in Afrika sowie ein Restbestand im Iran",
+            "diet": "Fleischfresser (z.B. Thomson-Gazellen, Impalas, Springböcke)",
+            "wwf_status": "Gefährdet",
+            "description": "Der Gepard ist das schnellste Landtier der Welt. Er verlässt sich auf sein unglaubliches Sehvermögen und seine Geschwindigkeit, um Beute auf den weiten Ebenen der Savanne zu jagen. Im Gegensatz zu anderen Großkatzen kann der Gepard nicht brüllen, sondern schnurrt wie eine Hauskatze.",
+            "image_main": "https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_cheetah_01",
+              "biome": "SAVANNE",
+              "challengeType": "TEMPO-CHALLENGE",
+              "questionText": "Welches dieser Tiere ist das schnellste Landtier der Welt?",
+              "image": "https://images.unsplash.com/photo-1534187886935-1e1236e856c3?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Wanderfalke",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Gepard",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Gabelbock",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Springbock",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "speed",
+                  "title": "Höchstgeschwindigkeit",
+                  "desc": "Erreicht bis zu 110 km/h in kurzen Sprints über Strecken von maximal 500 Metern."
+                },
+                {
+                  "icon": "timer",
+                  "title": "Beschleunigung",
+                  "desc": "Beschleunigt von 0 auf 100 km/h in rund drei Sekunden – schneller als die meisten Sportwagen."
+                },
+                {
+                  "icon": "visibility",
+                  "title": "Adleraugen",
+                  "desc": "Ein spezieller Streifen in der Netzhaut sorgt für scharfes horizontales Sehen, perfekt zum Verfolgen flüchtender Beute."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_cheetah_02",
+              "biome": "SAVANNE",
+              "challengeType": "KATZEN-RÄTSEL",
+              "questionText": "Welche Besonderheit hat der Gepard gegenüber anderen Großkatzen?",
+              "image": "https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Er kann nicht brüllen, nur schnurren",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Er hat keine Krallen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Er lebt ausschließlich in Bäumen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Er ist nachtaktiv",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "volume_up",
+                  "title": "Schnurrer statt Brüller",
+                  "desc": "Dem Gepard fehlt das bewegliche Zungenbein, das Löwen und Tigern das Brüllen ermöglicht – er schnurrt stattdessen wie eine Hauskatze."
+                },
+                {
+                  "icon": "pets",
+                  "title": "Krallen immer draußen",
+                  "desc": "Als einzige Katze kann der Gepard seine Krallen nicht vollständig einziehen – sie wirken wie Spikes und geben Halt beim Sprint."
+                },
+                {
+                  "icon": "wb_sunny",
+                  "title": "Tagaktiver Jäger",
+                  "desc": "Im Gegensatz zu Löwe und Leopard jagt der Gepard am Tag, um Konkurrenz bei der Beute zu vermeiden."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_cheetah_03",
+              "biome": "SAVANNE",
+              "challengeType": "KÖRPERBAU",
+              "questionText": "Was ist das wichtigste 'Steuerruder' des Geparden beim Sprint?",
+              "image": "https://images.unsplash.com/photo-1534187886935-1e1236e856c3?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Seine Ohren",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Der lange, muskulöse Schwanz",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Seine Schnauze",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Die Mähne",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "drive_eta",
+                  "title": "Lebendes Steuer",
+                  "desc": "Der bis zu 80 cm lange Schwanz balanciert den Körper in engen Kurven bei 100 km/h aus."
+                },
+                {
+                  "icon": "straighten",
+                  "title": "Flexible Wirbelsäule",
+                  "desc": "Die Wirbelsäule wirkt wie eine Feder – ein Satz im Vollgalopp ist bis zu 7 Meter weit."
+                },
+                {
+                  "icon": "favorite",
+                  "title": "Atmung im Extremmodus",
+                  "desc": "Beim Sprint steigt die Atemfrequenz von 60 auf 150 Atemzüge pro Minute."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animal_elephant",
+          "name": "Afrikanischer Elefant",
+          "scientific_name": "Loxodonta africana",
+          "lexicon": {
+            "habitat": "Savannen, Wälder und Halbwüsten Afrikas südlich der Sahara",
+            "diet": "Pflanzenfresser (Gräser, Blätter, Rinde, Früchte, Wurzeln)",
+            "wwf_status": "Stark gefährdet",
+            "description": "Als größtes lebendes Landsäugetier prägt der Afrikanische Elefant seinen Lebensraum entscheidend. Die riesigen Ohren dienen nicht nur dem Gehör, sondern vor allem als komplexe Klimaanlage, um die Körpertemperatur in der heißen afrikanischen Sonne zu regulieren.",
+            "image_main": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_elephant_01",
+              "biome": "SAVANNE",
+              "challengeType": "ÜBERLEBENS-TRICK",
+              "questionText": "Wofür nutzt der Afrikanische Elefant seine riesigen Ohren hauptsächlich?",
+              "image": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Um Feinde zu verscheuchen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Als Regenschirm bei Regen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Zur Abkühlung des Blutes",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Zum besseren Hören von Wasser",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "thermostat",
+                  "title": "Klimaanlage",
+                  "desc": "Durch das Wedeln der extrem gut durchbluteten Ohren kühlt der Elefant sein gesamtes Blut um mehrere Grad ab."
+                },
+                {
+                  "icon": "water_drop",
+                  "title": "Wasser marsch!",
+                  "desc": "Ein Elefantenrüssel besteht aus rund 40.000 Muskeln und kann bis zu 8 Liter Wasser auf einmal einsaugen."
+                },
+                {
+                  "icon": "groups",
+                  "title": "Familienbande",
+                  "desc": "Elefanten leben in Herden, die immer von einem sehr erfahrenen, älteren Weibchen (der Leitkuh) angeführt werden."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_elephant_02",
+              "biome": "SAVANNE",
+              "challengeType": "REKORD-RIESE",
+              "questionText": "Wie viel wiegt ein ausgewachsener männlicher Afrikanischer Elefant maximal?",
+              "image": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Bis zu 2 Tonnen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Bis zu 6 Tonnen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Bis zu 15 Tonnen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Bis zu 25 Tonnen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "scale",
+                  "title": "Gigantisches Schwergewicht",
+                  "desc": "Ein Elefantenbulle wiegt bis zu 6.000 kg und wird bis zu 4 Meter hoch an der Schulter."
+                },
+                {
+                  "icon": "restaurant",
+                  "title": "Großer Appetit",
+                  "desc": "Um dieses Gewicht zu halten, frisst er täglich bis zu 200 kg Pflanzenmaterial und trinkt 200 Liter Wasser."
+                },
+                {
+                  "icon": "schedule",
+                  "title": "Rekordhalter",
+                  "desc": "Der Afrikanische Elefant ist das größte Landsäugetier der Welt – noch vor dem Asiatischen Elefanten."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_elephant_03",
+              "biome": "SAVANNE",
+              "challengeType": "SUPER-SINNE",
+              "questionText": "Wie kommunizieren Elefanten oft über viele Kilometer hinweg?",
+              "image": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Mit ultrahohem Pfeifen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Über Infraschall und Vibrationen im Boden",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Durch lautes Stampfen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sie können gar nicht über Distanz kommunizieren",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "graphic_eq",
+                  "title": "Infraschall-Rufe",
+                  "desc": "Elefanten erzeugen tiefe Töne unter 20 Hertz – für Menschen unhörbar, aber kilometerweit wahrnehmbar."
+                },
+                {
+                  "icon": "vibration",
+                  "title": "Fuß als Ohr",
+                  "desc": "Sie spüren Bodenvibrationen durch spezielle Rezeptoren in den Fußsohlen und können so andere Herden 'hören'."
+                },
+                {
+                  "icon": "psychology",
+                  "title": "Tierische Erinnerung",
+                  "desc": "Leitkühe erinnern sich auch nach Jahrzehnten an Wasserlöcher und Wanderrouten – ihr Gedächtnis sichert das Überleben der Herde."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animal_lion",
+          "name": "Löwe",
+          "scientific_name": "Panthera leo",
+          "lexicon": {
+            "habitat": "Savannen und Graslandschaften Afrikas sowie ein kleiner Restbestand im indischen Gir-Nationalpark",
+            "diet": "Fleischfresser (z.B. Zebras, Gnus, Büffel)",
+            "wwf_status": "Gefährdet",
+            "description": "Der Löwe ist der unangefochtene 'König der Savanne'. Während fast alle anderen Katzen als einsame Jäger durch die Wildnis streifen, ist der Löwe ein echter Teamplayer und lebt in großen Familienverbänden. Das Brüllen eines ausgewachsenen Männchens ist so gewaltig, dass es noch in acht Kilometern Entfernung zu hören ist.",
+            "image_main": "https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_lion_01",
+              "biome": "SAVANNE",
+              "challengeType": "KATZEN-RÄTSEL",
+              "questionText": "Was macht den Löwen unter allen großen Wildkatzen absolut einzigartig?",
+              "image": "https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Er kann nicht schwimmen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Er lebt in festen Familien (Rudeln)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Er frisst Pflanzen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Er hat keine Krallen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "diversity_3",
+                  "title": "Teamplayer",
+                  "desc": "Löwen sind die einzigen Katzen, die echte Sozialstrukturen haben. Ein Rudel kann aus bis zu 40 Mitgliedern bestehen."
+                },
+                {
+                  "icon": "home",
+                  "title": "Feste Heimat",
+                  "desc": "Die Weibchen bleiben oft ihr ganzes Leben im selben Rudel, während junge Männchen später weiterziehen müssen."
+                },
+                {
+                  "icon": "shield",
+                  "title": "Gemeinsam stark",
+                  "desc": "Durch die Gruppe können sie ihre Jungen besser vor Feinden beschützen und gemeinsam größere Tiere jagen."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_lion_02",
+              "biome": "SAVANNE",
+              "challengeType": "SUPER-SINNE",
+              "questionText": "Wie weit kann man das mächtige Brüllen eines Löwen in der Savanne hören?",
+              "image": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Etwa 500 Meter",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Bis zu 2 Kilometer",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Bis zu 8 Kilometer weit",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Über 20 Kilometer",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "volume_up",
+                  "title": "Ohrenbetäubend",
+                  "desc": "Das Brüllen erreicht bis zu 114 Dezibel und ist lauter als ein Presslufthammer direkt daneben."
+                },
+                {
+                  "icon": "record_voice_over",
+                  "title": "Besonderer Kehlkopf",
+                  "desc": "Die Stimmbänder sind extrem dehnbar und quadratisch geformt, was den tiefen, lauten Sound erst möglich macht."
+                },
+                {
+                  "icon": "radar",
+                  "title": "Revier-Markierung",
+                  "desc": "Das Brüllen dient nicht der Jagd, sondern warnt andere Löwen: 'Das ist mein Gebiet!'"
+                }
+              ]
+            },
+            {
+              "quest_id": "q_lion_03",
+              "biome": "SAVANNE",
+              "challengeType": "ÜBERLEBENS-TRICK",
+              "questionText": "Wofür ist die dicke Mähne der männlichen Löwen eigentlich gut?",
+              "image": "https://images.unsplash.com/photo-1517825738774-7de9363ef735?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie wärmt im kalten Winter",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sie dient als Schutzschild bei Kämpfen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Damit lassen sich Fliegen vertreiben",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sie hilft beim Schwimmen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "security",
+                  "title": "Eingebauter Helm",
+                  "desc": "Die Mähne wirkt wie ein dicker Polsterkragen, der den Löwen bei Kämpfen mit Rivalen vor Bissen in den Hals schützt."
+                },
+                {
+                  "icon": "visibility",
+                  "title": "Statussymbol",
+                  "desc": "Je dunkler und voller die Mähne, desto gesünder und stärker ist der Löwe – ein echtes Attraktivitätsmerkmal."
+                },
+                {
+                  "icon": "content_cut",
+                  "title": "Nicht jeder hat eine",
+                  "desc": "Junge Männchen oder Asiatische Löwen haben oft eine viel kürzere Mähne, bei der sogar die Ohren freiliegen."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_lion_04",
+              "biome": "SAVANNE",
+              "challengeType": "REKORD-JAGD",
+              "questionText": "Wer erledigt im Löwenrudel meistens die anstrengende Jagd?",
+              "image": "https://images.unsplash.com/photo-1571562222718-d56df3eb3648?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Der stärkste männliche Löwe",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Nur die ganz jungen Löwen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Die Weibchen (Löwinnen) im Team",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Jeder jagt für sich allein",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "groups",
+                  "title": "Frauen-Power",
+                  "desc": "Die Löwinnen sind kleiner und agiler. Sie jagen im Team, umzingeln die Beute und greifen von mehreren Seiten an."
+                },
+                {
+                  "icon": "speed",
+                  "title": "Kurze Puste",
+                  "desc": "Löwen können nur etwa 100 Meter weit sprinten, weshalb sich die Weibchen unbemerkt nah heranschleichen müssen."
+                },
+                {
+                  "icon": "restaurant",
+                  "title": "Der König isst zuerst",
+                  "desc": "Obwohl die Männchen meist nur zuschauen, sichern sie sich nach der Jagd fast immer den ersten Bissen der Beute."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_lion_05",
+              "biome": "SAVANNE",
+              "challengeType": "TIERISCHER ALLTAG",
+              "questionText": "Wie viele Stunden am Tag verbringt ein männlicher Löwe durchschnittlich mit Schlafen und Ausruhen?",
+              "image": "https://images.unsplash.com/photo-1521127474489-d524412fd439?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Etwa 4 Stunden",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Etwa 8 Stunden",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Bis zu 20 Stunden",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Löwen schlafen fast nie",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "bedtime",
+                  "title": "Dauer-Schläfer",
+                  "desc": "Löwen sind extrem inaktiv. Durch das viele Schlafen sparen sie wertvolle Energie in der brutalen Hitze der Savanne."
+                },
+                {
+                  "icon": "nightlight",
+                  "title": "Nachtaktiv",
+                  "desc": "Da es tagsüber viel zu heiß ist, verlagern Löwen ihre Aktivitäten in die kühleren Nachtstunden."
+                },
+                {
+                  "icon": "set_meal",
+                  "title": "Riesiger Hunger",
+                  "desc": "Wenn sie wach sind, können sie unglaublich viel fressen. Ein Löwe frisst bis zu 30 kg Fleisch auf einmal."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animal_giraffe",
+          "name": "Giraffe",
+          "scientific_name": "Giraffa camelopardalis",
+          "lexicon": {
+            "habitat": "Savannen und offene Baumlandschaften in Afrika südlich der Sahara",
+            "diet": "Pflanzenfresser (v.a. Akazienblätter und -triebe)",
+            "wwf_status": "Gefährdet",
+            "description": "Die Giraffe ist das höchste lebende Landtier der Welt. Ihr langer Hals erlaubt ihr, Blätter zu erreichen, die sonst keinem anderen Pflanzenfresser zugänglich sind. Trotz des 2 Meter langen Halses hat sie – genau wie wir Menschen – nur 7 Halswirbel.",
+            "image_main": "https://images.unsplash.com/photo-1547721064-da6cfb341d50?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_giraffe_01",
+              "biome": "SAVANNE",
+              "challengeType": "KÖRPERBAU",
+              "questionText": "Wie viele Halswirbel hat eine Giraffe?",
+              "image": "https://images.unsplash.com/photo-1547721064-da6cfb341d50?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Genau 7 – wie ein Mensch",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Rund 20",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Über 50",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Giraffen haben keine Halswirbel",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "straighten",
+                  "title": "Nur sieben",
+                  "desc": "Fast alle Säugetiere – von Maus bis Giraffe – haben exakt 7 Halswirbel. Bei der Giraffe sind sie einfach extrem verlängert."
+                },
+                {
+                  "icon": "height",
+                  "title": "Zwei Meter Hals",
+                  "desc": "Ein einzelner Halswirbel kann bis zu 28 cm lang sein. Der gesamte Hals wiegt dabei bis zu 250 kg."
+                },
+                {
+                  "icon": "visibility",
+                  "title": "Beste Aussicht",
+                  "desc": "Ausgewachsene Giraffenbullen werden bis zu 5,8 Meter hoch – das höchste Landtier der Erde."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_giraffe_02",
+              "biome": "SAVANNE",
+              "challengeType": "ÜBERLEBENS-TRICK",
+              "questionText": "Warum haben Giraffen einen extrem hohen Blutdruck?",
+              "image": "https://images.unsplash.com/photo-1547721064-da6cfb341d50?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Um Feinde mit Blutspritzen zu verjagen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Damit das Blut bis zum Kopf hochgepumpt werden kann",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Weil sie oft Stress haben",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sie haben gar keinen hohen Blutdruck",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "favorite",
+                  "title": "Pump-Rekord",
+                  "desc": "Das Giraffenherz ist ca. 11 kg schwer und erzeugt den höchsten Blutdruck aller Säugetiere – rund doppelt so hoch wie beim Menschen."
+                },
+                {
+                  "icon": "water_drop",
+                  "title": "Cleveres Ventil",
+                  "desc": "Spezielle Klappen in den Halsvenen verhindern, dass das Blut zurückfließt, wenn die Giraffe den Kopf zum Trinken senkt."
+                },
+                {
+                  "icon": "psychology",
+                  "title": "Schutz vor Ohnmacht",
+                  "desc": "Eine Art 'Kompressionsstrumpf' in den Beinen verhindert, dass die Giraffe beim Bücken ohnmächtig wird."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_giraffe_03",
+              "biome": "SAVANNE",
+              "challengeType": "TIERISCHER ALLTAG",
+              "questionText": "Wie viel Schlaf braucht eine Giraffe pro Tag?",
+              "image": "https://images.unsplash.com/photo-1547721064-da6cfb341d50?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Rund 18 Stunden",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Etwa 10 Stunden",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Meist nur 30 Minuten bis 2 Stunden",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Giraffen schlafen gar nicht",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "bedtime",
+                  "title": "Minischlaf",
+                  "desc": "Giraffen schlafen meist nur in Kurzphasen von 5 Minuten – insgesamt oft unter 2 Stunden pro Tag."
+                },
+                {
+                  "icon": "warning",
+                  "title": "Wachsam bleiben",
+                  "desc": "Wenige, kurze Schlafphasen im Stehen schützen sie in der offenen Savanne vor Raubtieren wie Löwen."
+                },
+                {
+                  "icon": "accessibility",
+                  "title": "Komplexes Aufstehen",
+                  "desc": "Im tiefen Schlaf liegen sie kurz auf dem Boden – aufzustehen dauert aber Sekunden zu lang, um sicher zu sein."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_giraffe_04",
+              "biome": "SAVANNE",
+              "challengeType": "SUPER-WERKZEUG",
+              "questionText": "Wie lang ist die Zunge einer Giraffe ungefähr?",
+              "image": "https://images.unsplash.com/photo-1547721064-da6cfb341d50?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Ungefähr 10 cm",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Bis zu 50 cm",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Über 1 Meter",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Giraffen haben keine Zunge",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "restaurant",
+                  "title": "Greifzunge",
+                  "desc": "Mit ihrer bis zu 50 cm langen, blau-violetten Zunge können Giraffen gezielt einzelne Blätter zwischen Akaziendornen herauspicken."
+                },
+                {
+                  "icon": "wb_sunny",
+                  "title": "UV-Schutz",
+                  "desc": "Die dunkelblaue Zunge enthält viel Melanin – das schützt sie bei stundenlangem Fressen vor Sonnenbrand."
+                },
+                {
+                  "icon": "shield",
+                  "title": "Dornen? Kein Problem",
+                  "desc": "Die Zunge ist extrem zäh und Speichel mit antibakterieller Wirkung heilt kleine Schnittwunden sofort."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animal_zebra",
+          "name": "Steppenzebra",
+          "scientific_name": "Equus quagga",
+          "lexicon": {
+            "habitat": "Offene Graslandschaften und Savannen im östlichen und südlichen Afrika",
+            "diet": "Pflanzenfresser (hauptsächlich Gräser)",
+            "wwf_status": "Nicht gefährdet (aber Grevyzebra stark gefährdet)",
+            "description": "Das Steppenzebra ist der bekannteste wilde Verwandte unserer Hauspferde. Sein schwarz-weißes Streifenmuster ist bei jedem Individuum einzigartig – wie ein tierischer Fingerabdruck. Forschungen zeigen: Die Streifen verwirren Raubtiere UND vertreiben lästige Stechfliegen.",
+            "image_main": "https://images.unsplash.com/photo-1526095179574-86e545346ae6?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_zebra_01",
+              "biome": "SAVANNE",
+              "challengeType": "DAS TIER-MUSTER",
+              "questionText": "Wofür sind die schwarz-weißen Streifen des Zebras gut?",
+              "image": "https://images.unsplash.com/photo-1526095179574-86e545346ae6?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Zum Aufwärmen in der Sonne",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sie verwirren Raubtiere und vertreiben Fliegen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Sie sind nur zur Deko",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sie leuchten nachts",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "visibility_off",
+                  "title": "Optische Täuschung",
+                  "desc": "Im Rudel verschwimmen die Streifen zu einem unscharfen Muster – Löwen und Hyänen können schwer ein einzelnes Tier fokussieren."
+                },
+                {
+                  "icon": "bug_report",
+                  "title": "Anti-Fliegen-Code",
+                  "desc": "Studien zeigen: Stechfliegen (z.B. Tsetse) landen seltener auf gestreiften Oberflächen."
+                },
+                {
+                  "icon": "fingerprint",
+                  "title": "Einzigartig",
+                  "desc": "Jedes Zebra hat ein individuelles Streifenmuster – so erkennen sich Fohlen und Mütter auch aus der Entfernung."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_zebra_02",
+              "biome": "SAVANNE",
+              "challengeType": "ÜBERLEBENS-TRICK",
+              "questionText": "Wie wehrt sich ein Zebra gegen angreifende Löwen?",
+              "image": "https://images.unsplash.com/photo-1526095179574-86e545346ae6?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Es beißt mit messerscharfen Zähnen und schlägt mit den Hinterhufen aus",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Es stellt sich tot",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Es vergräbt sich im Sand",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Es klettert auf einen Baum",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "fitness_center",
+                  "title": "Tödlicher Tritt",
+                  "desc": "Ein Huftritt eines Zebras kann so stark sein, dass er den Kiefer eines Löwen brechen kann."
+                },
+                {
+                  "icon": "groups",
+                  "title": "Familienschutz",
+                  "desc": "Hengste bilden im Notfall einen Ring um die Stuten und Fohlen – der Angreifer hat wenig Chancen."
+                },
+                {
+                  "icon": "speed",
+                  "title": "Schnelle Flucht",
+                  "desc": "Zebras laufen bis zu 65 km/h – fast so schnell wie ein sprintender Löwe über kurze Distanz."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_zebra_03",
+              "biome": "SAVANNE",
+              "challengeType": "TIERISCHE WANDERUNG",
+              "questionText": "An der berühmten 'Großen Wanderung' in der Serengeti nehmen Zebras mit welchen anderen Tieren gemeinsam teil?",
+              "image": "https://images.unsplash.com/photo-1526095179574-86e545346ae6?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Mit Gnus und Gazellen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Mit Elefanten und Giraffen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Mit Geparden und Löwen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Mit Flamingos",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "route",
+                  "title": "1,5 Millionen Tiere",
+                  "desc": "In der Serengeti wandern jedes Jahr rund 200.000 Zebras zusammen mit 1,5 Millionen Gnus auf der Suche nach frischem Gras."
+                },
+                {
+                  "icon": "handshake",
+                  "title": "Perfekte Partner",
+                  "desc": "Zebras fressen die hohen, harten Grasspitzen – Gnus die kürzeren, weichen Halme darunter. Niemand nimmt dem anderen was weg."
+                },
+                {
+                  "icon": "south",
+                  "title": "3.000 Kilometer",
+                  "desc": "Die Herden legen jährlich bis zu 3.000 km zwischen Tansania und Kenia zurück."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animal_rhino",
+          "name": "Spitzmaulnashorn",
+          "scientific_name": "Diceros bicornis",
+          "lexicon": {
+            "habitat": "Savannen und Buschland in Ost- und Südafrika",
+            "diet": "Pflanzenfresser (Blätter, Zweige, Früchte, Rinde)",
+            "wwf_status": "Vom Aussterben bedroht",
+            "description": "Das Spitzmaulnashorn gehört zu den am stärksten bedrohten Großsäugetieren der Erde. Es ist deutlich kleiner als sein Verwandter, das Breitmaulnashorn, und erkennbar an der spitz zulaufenden, greifähigen Oberlippe. Sein Horn besteht aus Keratin – derselben Substanz wie unsere Fingernägel.",
+            "image_main": "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_rhino_01",
+              "biome": "SAVANNE",
+              "challengeType": "KÖRPERBAU",
+              "questionText": "Woraus besteht das berühmte Horn eines Nashorns?",
+              "image": "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Aus echtem Elfenbein",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Aus Knochen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Aus Keratin (wie Fingernägel und Haare)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Aus massivem Metall",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "content_cut",
+                  "title": "Gepresstes Haar",
+                  "desc": "Das Horn besteht aus dicht gepackten Keratinfasern – derselben Substanz wie unsere Fingernägel und Haare."
+                },
+                {
+                  "icon": "autorenew",
+                  "title": "Es wächst nach",
+                  "desc": "Ein abgebrochenes Horn wächst im Laufe von Jahren wieder nach – rund 6 cm pro Jahr."
+                },
+                {
+                  "icon": "warning",
+                  "title": "Fatale Nachfrage",
+                  "desc": "Der illegale Handel mit Nashornhorn bedroht die Tiere: In manchen Ländern wird es als Statussymbol oder Medizin gehandelt – obwohl es keine medizinische Wirkung hat."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_rhino_02",
+              "biome": "SAVANNE",
+              "challengeType": "SUPER-SINNE",
+              "questionText": "Welcher Sinn ist bei Nashörnern NICHT besonders gut ausgeprägt?",
+              "image": "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Das Gehör",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Der Geruchssinn",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Das Sehvermögen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Der Tastsinn",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "visibility_off",
+                  "title": "Kurzsichtig",
+                  "desc": "Ein Nashorn erkennt Objekte oft erst auf 20 Meter Entfernung scharf – deshalb wirken sie manchmal 'grundlos' aggressiv."
+                },
+                {
+                  "icon": "hearing",
+                  "title": "Perfektes Gehör",
+                  "desc": "Ihre trichterförmigen Ohren können unabhängig voneinander gedreht werden – 360-Grad-Soundscan inklusive."
+                },
+                {
+                  "icon": "wind_power",
+                  "title": "Supernase",
+                  "desc": "Der Riechkolben im Gehirn ist größer als der gesamte Bereich fürs Sehen – sie 'erschnüffeln' Freund und Feind."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_rhino_03",
+              "biome": "SAVANNE",
+              "challengeType": "REKORD-TEMPO",
+              "questionText": "Wie schnell kann ein Nashorn trotz seines massiven Körpers rennen?",
+              "image": "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Maximal 10 km/h",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Bis zu 50 km/h",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Über 100 km/h",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Nashörner können gar nicht rennen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "speed",
+                  "title": "Überraschend schnell",
+                  "desc": "Trotz 1.400 kg Gewicht sprinten Spitzmaulnashörner bis zu 55 km/h – schneller als die meisten Menschen jemals laufen können."
+                },
+                {
+                  "icon": "straighten",
+                  "title": "Wendiger als gedacht",
+                  "desc": "Sie können auch abrupt die Richtung ändern und sehr eng wenden – eine gefährliche Kombination mit ihrem Horn."
+                },
+                {
+                  "icon": "warning",
+                  "title": "Notfall-Mutter",
+                  "desc": "Wenn ein Kalb bedroht ist, greift die Mutter ohne Vorwarnung an – selbst Elefanten weichen dann aus."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animal_meerkat",
+          "name": "Erdmännchen",
+          "scientific_name": "Suricata suricatta",
+          "lexicon": {
+            "habitat": "Halbwüsten und Trockensavannen im südlichen Afrika (v.a. Kalahari)",
+            "diet": "Allesfresser mit Vorliebe für Insekten, Skorpione und kleine Reptilien",
+            "wwf_status": "Nicht gefährdet",
+            "description": "Erdmännchen sind die wohl aufmerksamsten Tiere der Savanne. Sie leben in organisierten Clans von bis zu 50 Mitgliedern, teilen sich Wachdienste und sogar die Kinderbetreuung auf. Ihr Geheimrezept: Ein Spezialgift der Skorpione macht ihnen fast nichts aus!",
+            "image_main": "https://images.unsplash.com/photo-1606404249319-a73e9b0f9d12?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_meerkat_01",
+              "biome": "SAVANNE",
+              "challengeType": "TEAMWORK",
+              "questionText": "Welche Rolle gibt es in einer Erdmännchen-Gruppe, die für das Überleben aller wichtig ist?",
+              "image": "https://images.unsplash.com/photo-1606404249319-a73e9b0f9d12?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Der Friseur",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Der Wächter (Sentinel)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Der Lehrer",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Der Handwerker",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "visibility",
+                  "title": "Aufrechter Wachposten",
+                  "desc": "Ein Erdmännchen stellt sich auf die Hinterbeine und späht nach Greifvögeln. Bei Gefahr warnt ein hoher Pfiff den Clan."
+                },
+                {
+                  "icon": "schedule",
+                  "title": "Schichtsystem",
+                  "desc": "Der Wachdienst wird alle paar Stunden gewechselt – niemand muss den ganzen Tag Wache schieben."
+                },
+                {
+                  "icon": "translate",
+                  "title": "Tierische Sprache",
+                  "desc": "Erdmännchen haben unterschiedliche Rufe für Bodenfeinde (z.B. Schlangen) und Luftfeinde (z.B. Adler)."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_meerkat_02",
+              "biome": "SAVANNE",
+              "challengeType": "ÜBERLEBENS-TRICK",
+              "questionText": "Was essen Erdmännchen besonders gerne, obwohl es für andere Tiere hochgefährlich wäre?",
+              "image": "https://images.unsplash.com/photo-1606404249319-a73e9b0f9d12?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Giftige Pilze",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Skorpione (inkl. Gift)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Rohes Fleisch von Löwen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Heiße Chilischoten",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "science",
+                  "title": "Natürliche Immunität",
+                  "desc": "Erdmännchen sind gegen das Gift vieler Skorpione teilweise immun – der Stich macht ihnen wenig aus."
+                },
+                {
+                  "icon": "school",
+                  "title": "Schule des Lebens",
+                  "desc": "Die Erwachsenen beißen zuerst den Giftstachel ab, bevor sie das Beutetier den Jungen geben. Stückweise wird der Umgang beigebracht."
+                },
+                {
+                  "icon": "eco",
+                  "title": "Öko-Nutzen",
+                  "desc": "Durch ihren Skorpion-Appetit halten Erdmännchen andere Bodentiere in Balance – sie sind ein wichtiges Glied des Ökosystems."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_meerkat_03",
+              "biome": "SAVANNE",
+              "challengeType": "WOHNGEMEINSCHAFT",
+              "questionText": "Wie viele Mitglieder kann ein Erdmännchen-Clan maximal haben?",
+              "image": "https://images.unsplash.com/photo-1606404249319-a73e9b0f9d12?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Immer nur ein Paar",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Etwa 5 bis 10 Tiere",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Bis zu 50 Tiere",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Über 500 Tiere",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "groups",
+                  "title": "Große Familien",
+                  "desc": "Ein Clan besteht meist aus 20–30 Tieren, manchmal bis zu 50 – geleitet wird er vom dominanten Weibchen."
+                },
+                {
+                  "icon": "home",
+                  "title": "Unterirdisches Reich",
+                  "desc": "Sie bewohnen weitverzweigte Erdbau-Systeme mit Dutzenden Eingängen, Kammern und Gängen von bis zu 2 m Tiefe."
+                },
+                {
+                  "icon": "child_care",
+                  "title": "Babysitter-Prinzip",
+                  "desc": "Während die Mutter Futter sucht, bleiben andere Weibchen bei den Welpen – sie geben ihnen sogar Milch, ohne selbst Nachwuchs zu haben."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animal_ostrich",
+          "name": "Afrikanischer Strauß",
+          "scientific_name": "Struthio camelus",
+          "lexicon": {
+            "habitat": "Halbwüsten und offene Savannen Afrikas",
+            "diet": "Allesfresser (v.a. Pflanzen, Samen, Insekten)",
+            "wwf_status": "Nicht gefährdet",
+            "description": "Der Afrikanische Strauß ist der größte und schwerste lebende Vogel der Welt – und er kann nicht fliegen. Dafür rennt er so schnell wie ein Auto im Stadtverkehr. Sein Ei ist das größte Ei, das heute ein Tier legt: Ein einziges Straußenei kann rund 24 Hühnereier ersetzen!",
+            "image_main": "https://images.unsplash.com/photo-1556483942-a6c3f57add05?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_ostrich_01",
+              "biome": "SAVANNE",
+              "challengeType": "REKORD-TEMPO",
+              "questionText": "Wie schnell kann der flugunfähige Strauß rennen?",
+              "image": "https://images.unsplash.com/photo-1556483942-a6c3f57add05?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Maximal 15 km/h",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Rund 35 km/h",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Bis zu 70 km/h",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Über 150 km/h",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "speed",
+                  "title": "Schnellster 2-Beiner",
+                  "desc": "Mit bis zu 70 km/h Sprint ist der Strauß das schnellste zweibeinige Tier der Erde."
+                },
+                {
+                  "icon": "straighten",
+                  "title": "Riesen-Schritte",
+                  "desc": "Ein einziger Laufschritt kann bis zu 5 Meter weit sein – vergleichbar mit einem Olympia-Weitsprung."
+                },
+                {
+                  "icon": "directions_run",
+                  "title": "Ausdauer-Läufer",
+                  "desc": "Über 30 Minuten lang kann er konstant 50 km/h halten – ein Dauer-Marathon-Tempo."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_ostrich_02",
+              "biome": "SAVANNE",
+              "challengeType": "REKORD-EI",
+              "questionText": "Einem Straußenei entspricht ungefähr, wie viele Hühnereier?",
+              "image": "https://images.unsplash.com/photo-1556483942-a6c3f57add05?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "2 Hühnereier",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "6 Hühnereier",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Rund 24 Hühnereier",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Über 500 Hühnereier",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "egg",
+                  "title": "XXL-Frühstück",
+                  "desc": "Ein Straußenei wiegt rund 1,5 kg – das entspricht etwa 24 normalen Hühnereiern."
+                },
+                {
+                  "icon": "shield",
+                  "title": "Panzer-Schale",
+                  "desc": "Die Schale ist so stabil, dass ein erwachsener Mensch darauf stehen kann, ohne sie zu zerbrechen."
+                },
+                {
+                  "icon": "pause_circle",
+                  "title": "Bebrütungs-Team",
+                  "desc": "Männchen und Weibchen wechseln sich beim Brüten ab – das dauert ca. 42 Tage."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_ostrich_03",
+              "biome": "SAVANNE",
+              "challengeType": "MYTHOS-CHECK",
+              "questionText": "Steckt der Strauß bei Gefahr wirklich den Kopf in den Sand?",
+              "image": "https://images.unsplash.com/photo-1556483942-a6c3f57add05?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Ja, immer wenn er Angst hat",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Nein, das ist ein Mythos",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Nur in der Nacht",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Nur die Jungtiere",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "fact_check",
+                  "title": "Mythos widerlegt",
+                  "desc": "Strauße stecken den Kopf NICHT in den Sand. Bei Gefahr rennen sie weg – oder kämpfen mit mächtigen Tritten."
+                },
+                {
+                  "icon": "egg_alt",
+                  "title": "Ei-Kontrolle",
+                  "desc": "Der Mythos entstand, weil Strauße ihre Eier im Sand drehen. Dabei sieht der Kopf aus, als stecke er im Boden."
+                },
+                {
+                  "icon": "front_hand",
+                  "title": "Mächtige Waffe",
+                  "desc": "Ein einziger Tritt der großen 2-Zehen-Füße kann einen Löwen töten – deshalb fliehen die meisten Raubtiere lieber."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biome_ocean",
+      "name": "Ozeanische Tiefe",
+      "description": "Die gewaltigen Weltmeere – Lebensraum der größten Tiere der Erde.",
+      "image": "https://images.unsplash.com/photo-1582967788606-a171c1080cb0?q=80&w=1200&auto=format&fit=crop",
+      "animals": [
+        {
+          "id": "animal_blue_whale",
+          "name": "Blauwal",
+          "scientific_name": "Balaenoptera musculus",
+          "lexicon": {
+            "habitat": "Alle Ozeane der Welt, vom Nordatlantik bis zum Südpolarmeer",
+            "diet": "Ausschließlich Krill (winzige Krebse)",
+            "wwf_status": "Stark gefährdet",
+            "description": "Der Blauwal ist das größte Tier der Erdgeschichte und übertrifft sogar riesige Dinosaurier. Sein Herz ist so groß wie ein kleines Auto, und durch seine Hauptschlagader könnte ein Baby krabbeln. Obwohl er so riesig ist, ernährt er sich von den kleinsten Tieren des Meeres, indem er das Wasser durch seine Barten filtert.",
+            "image_main": "https://images.unsplash.com/photo-1573134237142-990cb89758cb?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_blue_whale_01",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "GIGANTEN-ANATOMIE",
+              "questionText": "Wie groß ist das Herz eines ausgewachsenen Blauwals ungefähr?",
+              "image": "https://images.unsplash.com/photo-1573134237142-990cb89758cb?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "So groß wie ein Fußball",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "So groß wie ein Kleinwagen (VW Käfer)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "So groß wie ein Reisebus",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "So groß wie ein Apfel",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "monitor_weight",
+                  "title": "Echtes Schwergewicht",
+                  "desc": "Das Herz des Blauwals ist das größte bekannte Pumporgan und wiegt zwischen 180 kg und 1.000 kg."
+                },
+                {
+                  "icon": "water_drop",
+                  "title": "Enorme Leistung",
+                  "desc": "Mit jedem einzigen Herzschlag pumpt es bis zu 220 Liter Blut durch den Körper."
+                },
+                {
+                  "icon": "child_care",
+                  "title": "Riesige Adern",
+                  "desc": "Die Hauptschlagader ist so dick, dass ein Kleinkind theoretisch hindurchkrabbeln könnte."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_blue_whale_02",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "ÜBERLEBENS-TRICK",
+              "questionText": "Was passiert mit dem Herzschlag des Blauwals, wenn er tief im Ozean nach Nahrung taucht?",
+              "image": "https://images.unsplash.com/photo-1582967788606-a171c1080cb0?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Er schlägt doppelt so schnell",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Er bleibt genau gleich",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Er schlägt nur noch 2 bis 8 Mal pro Minute",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Das Herz setzt komplett aus",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "favorite",
+                  "title": "Extreme Sparflamme",
+                  "desc": "Unter Wasser verlangsamt sich der Puls massiv auf 2 bis 8 Schläge pro Minute – Sauerstoff wird gespart."
+                },
+                {
+                  "icon": "speed",
+                  "title": "Schneller an der Luft",
+                  "desc": "An der Wasseroberfläche kann sein Herzschlag auf bis zu 37 Schläge pro Minute steigen."
+                },
+                {
+                  "icon": "air",
+                  "title": "Super-Lungen",
+                  "desc": "Bei jedem Atemzug tauscht der Wal rund 90 % der Luft in den Lungen aus (beim Menschen nur ca. 15 %)."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_blue_whale_03",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "REKORD-HUNGER",
+              "questionText": "Wie viele winzige Krebse (Krill) frisst ein ausgewachsener Blauwal an einem einzigen Tag?",
+              "image": "https://images.unsplash.com/photo-1616422285623-1345c22501ee?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Etwa 50.000",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Knapp 1 Million",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Bis zu 40 Millionen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Blauwale fressen Fische, keinen Krill",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "restaurant",
+                  "title": "Gigantische Portion",
+                  "desc": "40 Millionen Krillkrebse entsprechen einem Gewicht von 3,5 bis 7 Tonnen Futter jeden Tag!"
+                },
+                {
+                  "icon": "waves",
+                  "title": "Riesiger Schluck",
+                  "desc": "Beim Fressen dehnt sich sein Maul so weit aus, dass er eine Wassermenge aufnimmt, die fast seinem Körpervolumen entspricht."
+                },
+                {
+                  "icon": "ac_unit",
+                  "title": "Langes Fasten",
+                  "desc": "In den Wintermonaten frisst der Blauwal fast gar nichts und lebt nur von seiner Blubber-Fettschicht."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_blue_whale_04",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "SUPER-SINNE",
+              "questionText": "Wie laut können die Rufe und Gesänge eines Blauwals im Meer werden?",
+              "image": "https://images.unsplash.com/photo-1549660299-2cb4a49c4f03?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "So laut wie ein Hundegebell",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "So laut wie ein Presslufthammer",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Deutlich lauter als ein startendes Düsenflugzeug",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Blauwale sind völlig stumm",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "volume_up",
+                  "title": "Ohrenbetäubend",
+                  "desc": "Die Rufe erreichen bis zu 188 Dezibel. Ein lautes Düsentriebwerk kommt auf ca. 140 dB."
+                },
+                {
+                  "icon": "radar",
+                  "title": "Extreme Reichweite",
+                  "desc": "Die tiefen Töne werden durchs Wasser getragen und sind oft noch über 1.600 Kilometer weit hörbar."
+                },
+                {
+                  "icon": "fingerprint",
+                  "title": "Einzigartiges Muster",
+                  "desc": "Forscher erkennen einzelne Wale aber meist nicht am Gesang, sondern an ihrer einzigartigen grau-blauen Haut-Marmorierung."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_blue_whale_05",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "WACHSTUMS-REKORD",
+              "questionText": "Wie schnell wächst ein Blauwal-Kalb (Baby) in seinen ersten Lebensmonaten?",
+              "image": "https://images.unsplash.com/photo-1454692173233-f4f34c12adad?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Es nimmt etwa 1 kg am Tag zu",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Es nimmt etwa 10 kg am Tag zu",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Es nimmt jeden Tag fast 90 kg zu",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Es wächst erst nach einem Jahr",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "scale",
+                  "title": "Stündliches Wachstum",
+                  "desc": "Das Kalb wächst so schnell, dass es pro Stunde fast 4 kg an Gewicht zulegt."
+                },
+                {
+                  "icon": "set_meal",
+                  "title": "Super-Milch",
+                  "desc": "Dieser Wachstumsrekord wird durch die extrem reichhaltige Muttermilch möglich, die zu rund 50 % aus Fett besteht."
+                },
+                {
+                  "icon": "straighten",
+                  "title": "Riesiges Baby",
+                  "desc": "Schon bei der Geburt ist das Kalb 6 bis 7 Meter lang und wiegt bis zu 3 Tonnen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animal_great_white_shark",
+          "name": "Weißer Hai",
+          "scientific_name": "Carcharodon carcharias",
+          "lexicon": {
+            "habitat": "Küstennahe und offene Meere weltweit in gemäßigten und warmen Zonen",
+            "diet": "Fleischfresser (v.a. Robben, Seelöwen, große Fische)",
+            "wwf_status": "Gefährdet",
+            "description": "Der Weiße Hai ist der größte räuberische Fisch der Welt und ein nahezu perfekter Jäger. Er existiert seit über 16 Millionen Jahren kaum verändert. Trotz seines gruseligen Rufs tötet er weniger Menschen pro Jahr als Selfies auf Klippen – und er ist für unser Meeres-Ökosystem unverzichtbar.",
+            "image_main": "https://images.unsplash.com/photo-1560275619-4662e36fa65c?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_shark_01",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "SUPER-SINNE",
+              "questionText": "Welchen zusätzlichen 'sechsten Sinn' nutzt der Weiße Hai zur Jagd?",
+              "image": "https://images.unsplash.com/photo-1560275619-4662e36fa65c?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Echoortung wie eine Fledermaus",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Wahrnehmung elektrischer Felder",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Gedankenlesen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Wärmesicht (Infrarot)",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "electric_bolt",
+                  "title": "Lorenzinische Ampullen",
+                  "desc": "Kleine Gelporen an der Schnauze erkennen schwächste elektrische Felder – sogar den Herzschlag eines versteckten Fisches."
+                },
+                {
+                  "icon": "radar",
+                  "title": "Riechprofi",
+                  "desc": "Der Hai kann einen Tropfen Blut in olympischen Schwimmbecken aufspüren – so sensibel ist seine Nase."
+                },
+                {
+                  "icon": "hearing",
+                  "title": "Tiefe Vibrationen",
+                  "desc": "Ein Seitenlinienorgan entlang seines Körpers spürt Wasserbewegungen in mehreren hundert Metern Entfernung."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_shark_02",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "REKORD-GEBISS",
+              "questionText": "Wie viele Zähne verliert und ersetzt ein Weißer Hai im Laufe seines Lebens?",
+              "image": "https://images.unsplash.com/photo-1560275619-4662e36fa65c?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Ungefähr 32 – einmal wie wir",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Etwa 200 Zähne",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Zehntausende",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Gar keine – er hat nur einen Zahn",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "autorenew",
+                  "title": "Zahn-Fließband",
+                  "desc": "Hinter jedem aktiven Zahn stehen mehrere Reservereihen. Verlorene Zähne werden innerhalb von Tagen ersetzt."
+                },
+                {
+                  "icon": "hardware",
+                  "title": "300 Zähne gleichzeitig",
+                  "desc": "Ein Weißer Hai trägt bis zu 300 Zähne im Maul, verteilt auf mehrere Reihen."
+                },
+                {
+                  "icon": "bolt",
+                  "title": "Bissstärke",
+                  "desc": "Sein Biss erreicht bis zu 2 Tonnen Druck – stärker als jeder andere lebende Hai."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_shark_03",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "ÜBERLEBENS-TRICK",
+              "questionText": "Warum muss der Weiße Hai ständig schwimmen?",
+              "image": "https://images.unsplash.com/photo-1560275619-4662e36fa65c?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Er kann nicht schlafen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sonst sinkt er zu Boden und bekommt keine Luft (bzw. kein Wasser über die Kiemen)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Seine Muskeln schrumpfen sonst",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Er wird seekrank",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "air",
+                  "title": "Pflicht-Schwimmer",
+                  "desc": "Ein Weißer Hai hat keine Schwimmblase. Ohne Bewegung sinkt er – und Wasser fließt nicht über die Kiemen."
+                },
+                {
+                  "icon": "bedtime",
+                  "title": "Halb-Schlaf",
+                  "desc": "Er schläft niemals richtig – stattdessen ruhen Gehirnhälften abwechselnd, während er weiterschwimmt."
+                },
+                {
+                  "icon": "speed",
+                  "title": "Turbo-Sprinter",
+                  "desc": "Kurzzeitig erreicht er über 50 km/h – perfekt für den berühmten Überraschungsangriff von unten."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_shark_04",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "REKORD-GRÖSSE",
+              "questionText": "Wie groß kann ein ausgewachsener Weißer Hai werden?",
+              "image": "https://images.unsplash.com/photo-1560275619-4662e36fa65c?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Rund 1,5 Meter",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Bis zu 6 Meter und 2 Tonnen schwer",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Über 30 Meter",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Immer genau 3 Meter",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "straighten",
+                  "title": "Giganten der Meere",
+                  "desc": "Weibchen werden deutlich größer als Männchen – bis zu 6 Meter und rund 2 Tonnen schwer."
+                },
+                {
+                  "icon": "schedule",
+                  "title": "Spätzünder",
+                  "desc": "Weiße Haie werden erst mit 20–30 Jahren geschlechtsreif und können über 70 Jahre alt werden."
+                },
+                {
+                  "icon": "ac_unit",
+                  "title": "Warmblüter?",
+                  "desc": "Fast: Weiße Haie halten ihre Körpertemperatur rund 14°C über der Wassertemperatur – das macht sie schneller und stärker."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animal_octopus",
+          "name": "Gemeiner Krake",
+          "scientific_name": "Octopus vulgaris",
+          "lexicon": {
+            "habitat": "Küstennahe Meeresböden in gemäßigten und warmen Gewässern",
+            "diet": "Fleischfresser (Krebse, Muscheln, Fische)",
+            "wwf_status": "Nicht gefährdet",
+            "description": "Kraken gehören zu den intelligentesten wirbellosen Tieren der Welt. Sie haben neun Gehirne (ein zentrales plus eines in jedem Arm), blaues Blut und drei Herzen. Tarnungskünstler der Extraklasse: In weniger als einer Sekunde verändern sie Farbe und Hautstruktur.",
+            "image_main": "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_octopus_01",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "ANATOMIE-RÄTSEL",
+              "questionText": "Wie viele Herzen hat ein Krake?",
+              "image": "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Eins, wie wir",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Zwei",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Drei",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Acht – eins pro Arm",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "favorite",
+                  "title": "Triple-Pumpe",
+                  "desc": "Zwei Herzen pumpen Blut durch die Kiemen, ein drittes durch den Rest des Körpers."
+                },
+                {
+                  "icon": "water_drop",
+                  "title": "Blaues Blut",
+                  "desc": "Statt Eisen enthält ihr Blut Kupfer (Hämocyanin) – das macht es bläulich und effizient in kaltem Wasser."
+                },
+                {
+                  "icon": "pool",
+                  "title": "Schwimm-Pause",
+                  "desc": "Wenn der Krake schwimmt, setzt das 'Hauptherz' sogar kurz aus – deshalb kriecht er lieber."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_octopus_02",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "SUPER-INTELLIGENZ",
+              "questionText": "Was können Kraken besonders gut, das andere Wirbellose nicht schaffen?",
+              "image": "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Schraubgläser öffnen und Rätsel lösen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Im Schlaf sprechen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Musikinstrumente spielen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Jahreszeiten vorhersagen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "psychology",
+                  "title": "Rätsel-Profi",
+                  "desc": "Kraken öffnen Schraubgläser, um an Beute zu kommen, und navigieren durch komplexe Labyrinthe."
+                },
+                {
+                  "icon": "hub",
+                  "title": "Neun Gehirne",
+                  "desc": "Sie haben ein zentrales Gehirn und acht 'Mini-Hirne' in ihren Armen – jeder Arm kann quasi autonom handeln."
+                },
+                {
+                  "icon": "handyman",
+                  "title": "Werkzeuggebrauch",
+                  "desc": "Kokoskraken sammeln Kokosnussschalen und bauen sich daraus mobile Schutz-Behausungen."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_octopus_03",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "VERWANDLUNGS-KUNST",
+              "questionText": "Wie tarnt sich ein Krake auf dem Meeresgrund?",
+              "image": "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Er baut Häuser aus Sand",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Er verändert Farbe UND Hautstruktur in Sekundenbruchteilen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Er legt sich Pflanzen auf den Körper",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Er versteckt sich nur nachts",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "palette",
+                  "title": "Hautzellen-Magie",
+                  "desc": "Spezielle Zellen (Chromatophoren) ändern in weniger als einer Sekunde die Farbe von Sand, Fels oder Koralle."
+                },
+                {
+                  "icon": "texture",
+                  "title": "3D-Haut",
+                  "desc": "Papillen lassen die Haut rau oder glatt werden – perfekte Oberflächen-Nachahmung."
+                },
+                {
+                  "icon": "visibility_off",
+                  "title": "Farbblind?",
+                  "desc": "Überraschung: Kraken sind vermutlich farbenblind! Sie 'sehen' Farben wohl über lichtempfindliche Zellen in der Haut."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_octopus_04",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "ÜBERLEBENS-TRICK",
+              "questionText": "Wenn ein Krake einen Arm verliert – was passiert dann?",
+              "image": "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Der Arm wächst komplett nach",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Er stirbt sofort",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Aus dem Stumpf wächst ein anderes Tier",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Nichts, Kraken haben nur ein paar Monate Arme",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "autorenew",
+                  "title": "Regenerations-Wunder",
+                  "desc": "Ein verlorener Arm wächst inklusive Nerven und Saugnäpfen innerhalb von Wochen komplett nach."
+                },
+                {
+                  "icon": "gesture",
+                  "title": "Über 2.000 Saugnäpfe",
+                  "desc": "Auf acht Armen sitzen insgesamt rund 2.240 Saugnäpfe – jeder davon kann riechen und schmecken."
+                },
+                {
+                  "icon": "warning",
+                  "title": "Flucht-Tintenwolke",
+                  "desc": "Bei Gefahr verspritzt der Krake eine dunkle Tintenwolke, die gleichzeitig den Geruchssinn von Fressfeinden blockiert."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animal_dolphin",
+          "name": "Großer Tümmler",
+          "scientific_name": "Tursiops truncatus",
+          "lexicon": {
+            "habitat": "Küstennahe Gewässer und offener Ozean weltweit",
+            "diet": "Fleischfresser (Fische, Tintenfische)",
+            "wwf_status": "Nicht gefährdet (aber durch Fischfang und Verschmutzung bedroht)",
+            "description": "Der Große Tümmler ist einer der intelligentesten Meeresbewohner. Er kommuniziert mit individuellen 'Namen' (Signaturpfiffen), nutzt Werkzeuge und arbeitet sogar mit Menschen beim Fischen zusammen. Sein Gehirn ist relativ zur Körpergröße fast so groß wie unseres.",
+            "image_main": "https://images.unsplash.com/photo-1607153333879-c174d265f1d2?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_dolphin_01",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "SUPER-SINNE",
+              "questionText": "Wie orientiert sich ein Delfin in trübem Wasser?",
+              "image": "https://images.unsplash.com/photo-1607153333879-c174d265f1d2?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Mit GPS-Sinn",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Über Echoortung (Sonar)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Mit Lichtblitzen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Gar nicht – er verlässt sich auf die Gruppe",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "graphic_eq",
+                  "title": "Klick-Klick-Sonar",
+                  "desc": "Delfine senden Klicklaute aus und lauschen den Echos. So 'sehen' sie sogar die innere Struktur von Beute."
+                },
+                {
+                  "icon": "face",
+                  "title": "Stirn als Linse",
+                  "desc": "Die charakteristische 'Melone' an der Stirn fokussiert die Schallwellen wie eine Linse."
+                },
+                {
+                  "icon": "waves",
+                  "title": "Detail-Auflösung",
+                  "desc": "Mit Echoortung erkennen sie Objekte von weniger als 1 cm Größe auf mehrere Meter Entfernung."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_dolphin_02",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "SOZIAL-GENIE",
+              "questionText": "Was ist ein 'Signaturpfiff' bei Delfinen?",
+              "image": "https://images.unsplash.com/photo-1607153333879-c174d265f1d2?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Eine Art eigener Name für jedes Tier",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Ein Warnruf bei Hai-Gefahr",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Ein Balz-Gesang",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Ein Schlaflied für Jungtiere",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "badge",
+                  "title": "Tierische Vornamen",
+                  "desc": "Jeder Delfin entwickelt einen einzigartigen Pfiff, mit dem er sich identifiziert – wie ein Name."
+                },
+                {
+                  "icon": "record_voice_over",
+                  "title": "Rufen und Antworten",
+                  "desc": "Delfine rufen andere gezielt beim Namen – und diese antworten mit ihrem eigenen Signatur-Pfiff."
+                },
+                {
+                  "icon": "memory",
+                  "title": "Langzeitgedächtnis",
+                  "desc": "Sie erkennen Signaturpfiffe ehemaliger Gruppenmitglieder noch nach über 20 Jahren wieder."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_dolphin_03",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "ÜBERLEBENS-TRICK",
+              "questionText": "Wie schlafen Delfine, ohne zu ertrinken?",
+              "image": "https://images.unsplash.com/photo-1607153333879-c174d265f1d2?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie atmen sogar im Schlaf automatisch",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Eine Gehirnhälfte schläft, die andere bleibt wach",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Sie schlafen nie",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sie lassen sich von anderen tragen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "bedtime",
+                  "title": "Halb-Schlaf",
+                  "desc": "Delfine nutzen den 'unihemisphärischen Schlaf' – eine Gehirnhälfte ruht, die andere steuert Atmung und Wachsamkeit."
+                },
+                {
+                  "icon": "remove_red_eye",
+                  "title": "Ein Auge offen",
+                  "desc": "Meist ist das Auge auf der Seite der wachen Hirnhälfte geöffnet – perfektes Alarmsystem."
+                },
+                {
+                  "icon": "air",
+                  "title": "Kontrollierte Atmung",
+                  "desc": "Anders als wir atmen Delfine bewusst durch das Blasloch – deshalb dürfen sie nie 'tief' schlafen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animal_sea_turtle",
+          "name": "Grüne Meeresschildkröte",
+          "scientific_name": "Chelonia mydas",
+          "lexicon": {
+            "habitat": "Tropische und subtropische Ozeane weltweit",
+            "diet": "Als Jungtier Allesfresser, als Erwachsene Pflanzenfresser (Seegras, Algen)",
+            "wwf_status": "Stark gefährdet",
+            "description": "Meeresschildkröten existieren seit über 100 Millionen Jahren – sie erlebten noch die Dinosaurier. Die Grüne Meeresschildkröte ist die einzige, die sich als Erwachsene fast nur pflanzlich ernährt. Sie wandert jedes Jahr tausende Kilometer zu jenem Strand zurück, an dem sie selbst geschlüpft ist.",
+            "image_main": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_turtle_01",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "REKORD-NAVIGATION",
+              "questionText": "Wie findet eine Meeresschildkröte nach Jahren im Meer ihren Geburtsstrand wieder?",
+              "image": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie nutzt das Magnetfeld der Erde",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Sie folgt dem Mond",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Sie schwimmt den Fischen hinterher",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sie zählt die Wellen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "explore",
+                  "title": "Magnet-GPS",
+                  "desc": "Meeresschildkröten erkennen das Magnetfeld der Erde und prägen sich den 'magnetischen Fingerabdruck' ihres Geburtsstrands ein."
+                },
+                {
+                  "icon": "south",
+                  "title": "10.000 km Reise",
+                  "desc": "Einzelne Tiere legen zwischen Fressgründen und Nistplätzen über 10.000 km zurück."
+                },
+                {
+                  "icon": "warning",
+                  "title": "Licht-Verwirrung",
+                  "desc": "Frisch geschlüpfte Babys folgen dem Mondlicht zur Küstenlinie – künstliches Licht bringt sie aber tödlich in die falsche Richtung."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_turtle_02",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "GESCHLECHTS-RÄTSEL",
+              "questionText": "Was bestimmt, ob aus einem Schildkröten-Ei ein Männchen oder Weibchen schlüpft?",
+              "image": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Die Temperatur des Sandes",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Die Jahreszeit",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Die Anzahl der Eier im Nest",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Zufall – wie bei uns",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "thermostat",
+                  "title": "Heiße Mädels",
+                  "desc": "Bei Sand-Temperaturen über 30°C schlüpfen fast nur Weibchen, unter 28°C fast nur Männchen."
+                },
+                {
+                  "icon": "warning_amber",
+                  "title": "Klimakrise-Problem",
+                  "desc": "Durch die Klimaerwärmung werden immer mehr Weibchen geboren – das bedroht langfristig die ganze Art."
+                },
+                {
+                  "icon": "egg",
+                  "title": "Nacht-Mission",
+                  "desc": "Weibchen legen pro Saison mehrere Gelege mit je rund 100 Eiern in selbst gegrabenen Sandlöchern ab."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_turtle_03",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "REKORD-ALTER",
+              "questionText": "Wie alt können Grüne Meeresschildkröten werden?",
+              "image": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Höchstens 10 Jahre",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Etwa 30 Jahre",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Über 80 Jahre",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Maximal 5 Jahre",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "schedule",
+                  "title": "Methusalems",
+                  "desc": "In freier Wildbahn können Grüne Meeresschildkröten über 80 Jahre alt werden."
+                },
+                {
+                  "icon": "child_care",
+                  "title": "Langsame Reife",
+                  "desc": "Erst mit 25–35 Jahren werden sie geschlechtsreif – sehr spät im Vergleich zu anderen Reptilien."
+                },
+                {
+                  "icon": "eco",
+                  "title": "Meeresgärtner",
+                  "desc": "Durch das Abweiden von Seegrasfeldern halten sie diese gesund – ein Schlüsselrolle fürs Ökosystem."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biome_deep_forest",
+      "name": "Tiefer Wald",
+      "description": "Die dichten Wälder Europas, Asiens und der Welt – Heimat heimlicher Jäger.",
+      "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=1200&auto=format&fit=crop",
+      "animals": [
+        {
+          "id": "animal_lynx",
+          "name": "Eurasischer Luchs",
+          "scientific_name": "Lynx lynx",
+          "lexicon": {
+            "habitat": "Boreale und alpine Wälder in Europa und Asien",
+            "diet": "Fleischfresser (z.B. Rehe, Gämsen, Hasen)",
+            "wwf_status": "Stark gefährdet (in Deutschland)",
+            "description": "Der Luchs ist die größte Kleinkatze Europas und ein echtes 'Waldgespenst'. Mit seinen riesigen Pfoten läuft er im Winter wie auf Schneeschuhen über den Schnee, ohne einzusinken. Die schwarzen Haarpinsel an seinen Ohren sehen nicht nur lustig aus, sie funktionieren auch wie feine Antennen für ein Super-Gehör!",
+            "image_main": "https://images.unsplash.com/photo-1502470659424-706f9d372e9a?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_lynx_01",
+              "biome": "TIEFER WALD",
+              "challengeType": "SUPER-SINNE",
+              "questionText": "Wofür sind die schwarzen Haarpinsel an den Ohren des Luchses da?",
+              "image": "https://images.unsplash.com/photo-1502470659424-706f9d372e9a?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Um im Schnee nicht zu frieren",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Als Antennen, um Geräusche besser zu hören",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Um Vögel zu erschrecken",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sie haben gar keine Funktion",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "radar",
+                  "title": "Akustische Antennen",
+                  "desc": "Die bis zu 5 cm langen Pinsel leiten Luftströmungen und Schallwellen präziser zum Ohr."
+                },
+                {
+                  "icon": "hearing",
+                  "title": "Unglaubliches Gehör",
+                  "desc": "Mit diesen Pinseln kann der Luchs das Rascheln einer Maus auf 50 Meter Entfernung hören."
+                },
+                {
+                  "icon": "surround_sound",
+                  "title": "Eingebauter Trichter",
+                  "desc": "Auch sein buschiger Backenbart hilft: Er wirkt wie ein Schalltrichter, der Geräusche in die Ohren lenkt."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_lynx_02",
+              "biome": "TIEFER WALD",
+              "challengeType": "ÜBERLEBENS-TRICK",
+              "questionText": "Warum hat der Luchs verhältnismäßig riesige und behaarte Pfoten?",
+              "image": "https://images.unsplash.com/photo-1550212002-3f14a6da7cde?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Damit er schneller schwimmen kann",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sie wirken wie Schneeschuhe im tiefen Winter",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Um besser auf Bäume klettern zu können",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Damit gräbt er tiefe Höhlen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "ac_unit",
+                  "title": "Tierische Schneeschuhe",
+                  "desc": "Durch das Spreizen der Zehen vergrößert sich die Trittfläche. So sinkt er im tiefen Schnee nicht ein."
+                },
+                {
+                  "icon": "pets",
+                  "title": "Warme Sohlen",
+                  "desc": "Ein dichtes Haarpolster an den Sohlen schützt die Pfoten wie warme Socken vor dem Bodenfrost."
+                },
+                {
+                  "icon": "snowshoeing",
+                  "title": "Vorteil bei der Jagd",
+                  "desc": "Während seine Beutetiere (wie Rehe) im Schnee einsinken, kann der Luchs mühelos über die Oberfläche flitzen."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_lynx_03",
+              "biome": "TIEFER WALD",
+              "challengeType": "KÖRPERBAU",
+              "questionText": "Woran erkennt man einen Eurasischen Luchs sofort, wenn man ihn von hinten sieht?",
+              "image": "https://images.unsplash.com/photo-1582236873323-9580cb18a4a0?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Er hat einen extrem langen Schwanz",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Er hat leuchtend weiße Streifen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Er hat nur einen winzigen Stummelschwanz",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Er hat keine Hinterbeine",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "straighten",
+                  "title": "Ziemlich kurz",
+                  "desc": "Der Schwanz des Luchses ist extrem kurz und meist nur 10 bis 25 Zentimeter lang."
+                },
+                {
+                  "icon": "palette",
+                  "title": "Schwarze Spitze",
+                  "desc": "Man erkennt den Schwanz auch daran, dass seine Spitze pechschwarz gefärbt ist."
+                },
+                {
+                  "icon": "fitness_center",
+                  "title": "Kraftvolle Beine",
+                  "desc": "Seine Hinterbeine sind länger als die Vorderbeine, was ihm enorme Sprungkraft verleiht."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_lynx_04",
+              "biome": "TIEFER WALD",
+              "challengeType": "JAGD-TAKTIK",
+              "questionText": "Wie jagt der Luchs seine Beute im Wald am liebsten?",
+              "image": "https://images.unsplash.com/photo-1502470659424-706f9d372e9a?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Er hetzt sie über viele Kilometer",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Als Schleichjäger aus dem Hinterhalt",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Er gräbt Fallen im Boden",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Er jagt in riesigen Rudeln",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "visibility_off",
+                  "title": "Unsichtbar",
+                  "desc": "Der Luchs nutzt Felsen und dichtes Unterholz, um sich unbemerkt bis auf wenige Meter an sein Opfer heranzupirschen."
+                },
+                {
+                  "icon": "bolt",
+                  "title": "Kurzer Prozess",
+                  "desc": "Der Angriff erfolgt durch einen weiten Sprung oder extrem kurzen Sprint. Für lange Verfolgungsjagden fehlt ihm die Puste."
+                },
+                {
+                  "icon": "restaurant",
+                  "title": "Gute Verstecke",
+                  "desc": "Wenn er satt ist, versteckt er den Rest seiner Beute unter Laub und Ästen und kehrt nachts dorthin zurück."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_lynx_05",
+              "biome": "TIEFER WALD",
+              "challengeType": "GEBISSPROFI",
+              "questionText": "Warum hat der Luchs weniger Zähne als andere Raubtiere?",
+              "image": "https://images.unsplash.com/photo-1550212002-3f14a6da7cde?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Damit der Schädel kürzer ist und er fester zubeißen kann",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Weil er im Winter oft Zähne verliert",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Er braucht nicht so viele Zähne für Beeren",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Es passen nicht mehr Zähne in sein Maul",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "hardware",
+                  "title": "Weniger ist mehr",
+                  "desc": "Ein Luchs hat nur 28 Zähne. Durch das Fehlen einiger Backenzähne ist der Schädel kürzer und die Hebelwirkung beim Zubeißen viel stärker."
+                },
+                {
+                  "icon": "gps_fixed",
+                  "title": "Tödliche Präzision",
+                  "desc": "Mit seinen Eckzähnen tötet er Beute durch einen gezielten, einzigen Biss in die Kehle."
+                },
+                {
+                  "icon": "pets",
+                  "title": "Hauskatzen-Verwandtschaft",
+                  "desc": "Obwohl er so ein wildes Raubtier ist, schnurrt der Luchs wie unsere Hauskatzen, wenn er sich wohlfühlt."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animal_tiger",
+          "name": "Tiger",
+          "scientific_name": "Panthera tigris",
+          "lexicon": {
+            "habitat": "Tropische Regenwälder Asiens bis hin zur eisigen Taiga Sibiriens",
+            "diet": "Fleischfresser (jagt Beutetiere bis zu 1.000 kg)",
+            "wwf_status": "Stark gefährdet",
+            "description": "Der Tiger ist die größte und schwerste lebende Katze der Welt. Seine wunderschönen Streifen sind einzigartig wie ein Fingerabdruck und tarnen ihn perfekt im hohen Gras. Im Gegensatz zu fast allen anderen Katzen liebt der Tiger das Wasser und ist ein hervorragender Schwimmer!",
+            "image_main": "https://images.unsplash.com/photo-1549471156-52c730a00c58?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_tiger_01",
+              "biome": "TIEFER WALD",
+              "challengeType": "DAS TIGER-MUSTER",
+              "questionText": "Was ist das Besondere an den Streifen eines Tigers?",
+              "image": "https://images.unsplash.com/photo-1549471156-52c730a00c58?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie wechseln im Sommer ihre Farbe",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Jeder Tiger hat exakt dasselbe Muster",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Sie sind bei jedem Tiger einzigartig",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Sie leuchten nachts",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "fingerprint",
+                  "title": "Tierischer Fingerabdruck",
+                  "desc": "Kein Tiger auf der Welt hat die gleichen Streifen. Forscher können einzelne Tiger an ihrem Muster sicher erkennen."
+                },
+                {
+                  "icon": "brush",
+                  "title": "Hauttief",
+                  "desc": "Das Verrückte: Die dunklen Streifen sind nicht nur im Fell, sondern direkt in die Haut gezeichnet!"
+                },
+                {
+                  "icon": "visibility_off",
+                  "title": "Meister der Tarnung",
+                  "desc": "Im hohen Gras brechen die Streifen die Kontur des Körpers auf, sodass der Tiger fast unsichtbar wird."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_tiger_02",
+              "biome": "TIEFER WALD",
+              "challengeType": "WASSER-RATTE",
+              "questionText": "Welche Eigenschaft unterscheidet Tiger von den meisten anderen Katzen?",
+              "image": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie springen niemals",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sie lieben Wasser und schwimmen sehr gerne",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Sie schlafen auf Bäumen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sie bellen wie Hunde",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "pool",
+                  "title": "Abkühlung gefällig?",
+                  "desc": "Anstatt wasserscheu zu sein, nutzen Tiger Seen und Flüsse in heißen Gebieten zum Abkühlen."
+                },
+                {
+                  "icon": "water",
+                  "title": "Schwimmende Jäger",
+                  "desc": "Sie sind ausdauernde Schwimmer und verfolgen flüchtende Beute kilometerweit quer durch Flüsse."
+                },
+                {
+                  "icon": "scuba_diving",
+                  "title": "Mini-Flossen",
+                  "desc": "Der Sumatra-Tiger hat sogar kleine Schwimmhäute zwischen den Zehen!"
+                }
+              ]
+            },
+            {
+              "quest_id": "q_tiger_03",
+              "biome": "TIEFER WALD",
+              "challengeType": "REKORD-JAGD",
+              "questionText": "Welcher Tiger ist die größte und massivste Raubkatze der Welt?",
+              "image": "https://images.unsplash.com/photo-1549471156-52c730a00c58?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Der Amurtiger (Sibirischer Tiger)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Der Sumatratiger",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Der afrikanische Löwe",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Der Bengaltiger",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "scale",
+                  "title": "Echtes Schwergewicht",
+                  "desc": "Männliche Amurtiger wiegen über 300 Kilogramm – so schwer wie drei kräftige Männer."
+                },
+                {
+                  "icon": "straighten",
+                  "title": "Riesig",
+                  "desc": "Ihre reine Körperlänge (ohne Schwanz) erreicht oft über 2 Meter."
+                },
+                {
+                  "icon": "thermostat",
+                  "title": "Die Kälte macht dick",
+                  "desc": "Tiere in kalten Regionen werden oft viel massiger, weil ein dickerer Körper die Wärme besser speichert."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_tiger_04",
+              "biome": "TIEFER WALD",
+              "challengeType": "SOZIALLEBEN",
+              "questionText": "Wie leben Tiger normalerweise in freier Wildbahn?",
+              "image": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "In riesigen Herden",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Als stolze Einzelgänger",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "In kleinen Löwen-Rudeln",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Männchen und Weibchen immer als Paar",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "person",
+                  "title": "Allein auf der Jagd",
+                  "desc": "Im Gegensatz zu Löwen jagen und leben Tiger fast immer komplett allein in riesigen Revieren."
+                },
+                {
+                  "icon": "child_care",
+                  "title": "Nur die Mama",
+                  "desc": "Die einzige Ausnahme sind Tiger-Mütter. Sie ziehen ihre Jungen rund zwei Jahre alleine groß."
+                },
+                {
+                  "icon": "warning",
+                  "title": "Raufbolde",
+                  "desc": "Wenn zwei männliche Tiger aufeinandertreffen, kommt es meist zu gefährlichen Revierkämpfen."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_tiger_05",
+              "biome": "TIEFER WALD",
+              "challengeType": "HUNGER-SPIELE",
+              "questionText": "Wie erfolgreich ist ein Tiger bei der Jagd?",
+              "image": "https://images.unsplash.com/photo-1549471156-52c730a00c58?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Jeder einzelne Angriff ist tödlich",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Jeder zweite Angriff klappt",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Nur etwa 1 von 10 Jagdversuchen gelingt",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Tiger fangen ihre Beute im Schlaf",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "cancel",
+                  "title": "Oft Pech gehabt",
+                  "desc": "Trotz seiner Stärke können viele Beutetiere entkommen. Nur rund 10 % der Angriffe sind erfolgreich."
+                },
+                {
+                  "icon": "restaurant",
+                  "title": "Riesen-Appetit",
+                  "desc": "Wenn er etwas fängt, kann er bis zu 40 Kilogramm Fleisch bei einer Mahlzeit fressen."
+                },
+                {
+                  "icon": "fitness_center",
+                  "title": "Bärenstark",
+                  "desc": "Tiger erlegen Tiere bis zu 1.000 Kilogramm (eine Tonne) – ganz alleine."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animal_wolf",
+          "name": "Grauwolf",
+          "scientific_name": "Canis lupus",
+          "lexicon": {
+            "habitat": "Wälder, Tundra und Steppen Nordamerikas, Europas und Asiens",
+            "diet": "Fleischfresser (v.a. Hirsche, Elche, Rehe)",
+            "wwf_status": "Nicht gefährdet (regional stark bedroht)",
+            "description": "Der Grauwolf ist das Stammtier aller Hunderassen. Wölfe leben in hochorganisierten Familienverbänden – dem Rudel – und können unter guten Bedingungen bis zu 75 km an einem einzigen Tag laufen. Ihr berühmtes Heulen dient nicht nur der Kommunikation im Rudel, sondern markiert auch Territorien gegenüber anderen Wölfen.",
+            "image_main": "https://images.unsplash.com/photo-1564466809058-bf4114d55352?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_wolf_01",
+              "biome": "TIEFER WALD",
+              "challengeType": "RUDEL-STRUKTUR",
+              "questionText": "Wie ist ein typisches Wolfsrudel aufgebaut?",
+              "image": "https://images.unsplash.com/photo-1564466809058-bf4114d55352?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Ein Alphatier herrscht über fremde Wölfe",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Es ist eine normale Familie mit Eltern und Kindern",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Jeder Wolf lebt allein",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Nur die Männchen leben zusammen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "family_restroom",
+                  "title": "Familienverband",
+                  "desc": "Ein Rudel besteht meist aus den Eltern und ihren Jungtieren aus ein bis drei Jahrgängen."
+                },
+                {
+                  "icon": "psychology",
+                  "title": "Alphawolf-Mythos",
+                  "desc": "Der Begriff 'Alphawolf' stammt aus alten Studien an Gefangenen-Gruppen – in freier Wildbahn führen einfach die Eltern."
+                },
+                {
+                  "icon": "school",
+                  "title": "Lange Schule",
+                  "desc": "Jungwölfe lernen im Rudel jagen und bleiben oft 2–3 Jahre, bevor sie sich ein eigenes Revier suchen."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_wolf_02",
+              "biome": "TIEFER WALD",
+              "challengeType": "AUSDAUER-CHALLENGE",
+              "questionText": "Wie weit kann ein Wolf an einem einzigen Tag laufen?",
+              "image": "https://images.unsplash.com/photo-1564466809058-bf4114d55352?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Maximal 5 km",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Rund 20 km",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Bis zu 70 km",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Über 500 km",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "directions_run",
+                  "title": "Marathon-Läufer",
+                  "desc": "Wölfe laufen bei der Wanderung durchschnittlich 8 km/h und können 50–70 km pro Tag zurücklegen."
+                },
+                {
+                  "icon": "bolt",
+                  "title": "Sprint-Geschwindigkeit",
+                  "desc": "Im Sprint erreichen sie bis zu 60 km/h."
+                },
+                {
+                  "icon": "map",
+                  "title": "Riesige Reviere",
+                  "desc": "Ein Rudelrevier kann über 1.000 km² groß sein – vergleichbar mit der Fläche Berlins."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_wolf_03",
+              "biome": "TIEFER WALD",
+              "challengeType": "KOMMUNIKATION",
+              "questionText": "Wozu heulen Wölfe hauptsächlich?",
+              "image": "https://images.unsplash.com/photo-1564466809058-bf4114d55352?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie heulen den Mond an",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Um Rudelmitglieder zu finden und Revier zu markieren",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Nur aus Spaß",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Zum Schlafen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "radar",
+                  "title": "10 km hörbar",
+                  "desc": "Ein Heulen ist unter idealen Bedingungen in 10–16 km Entfernung hörbar."
+                },
+                {
+                  "icon": "flag",
+                  "title": "Grenz-Markierung",
+                  "desc": "Heulen signalisiert fremden Rudeln: 'Hier ist unser Gebiet, bleibt weg!'"
+                },
+                {
+                  "icon": "groups",
+                  "title": "Rudel-Versammlung",
+                  "desc": "Gemeinsames Heulen stärkt die Bindung innerhalb der Familie – eine Art tierischer Gemeinschafts-Chor."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_wolf_04",
+              "biome": "TIEFER WALD",
+              "challengeType": "ÖKO-ROLLE",
+              "questionText": "Was zeigte das berühmte Yellowstone-Experiment nach Rückkehr der Wölfe?",
+              "image": "https://images.unsplash.com/photo-1564466809058-bf4114d55352?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Der gesamte Nationalpark blühte wieder auf",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Alle anderen Tiere starben aus",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Nichts hat sich geändert",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Die Wölfe wurden sofort wieder verjagt",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "eco",
+                  "title": "Top-Predator-Effekt",
+                  "desc": "1995 kehrten Wölfe in den Yellowstone-Park zurück – Pflanzen und Tiere erholten sich daraufhin massiv."
+                },
+                {
+                  "icon": "forest",
+                  "title": "Flüsse verändert",
+                  "desc": "Weil Hirsche vorsichtiger wurden, wuchsen Weiden an Flussufern nach. Das stabilisierte sogar die Flussläufe!"
+                },
+                {
+                  "icon": "volunteer_activism",
+                  "title": "Biber kehren zurück",
+                  "desc": "Durch die neuen Bäume kamen Biber zurück, deren Dämme Lebensraum für unzählige andere Arten schufen."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_wolf_05",
+              "biome": "TIEFER WALD",
+              "challengeType": "SUPER-SINNE",
+              "questionText": "Wie gut ist der Geruchssinn eines Wolfes im Vergleich zum Menschen?",
+              "image": "https://images.unsplash.com/photo-1564466809058-bf4114d55352?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Ungefähr gleich gut",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Etwa 10 Mal besser",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Rund 100-mal besser",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Schlechter als der menschliche",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "wind_power",
+                  "title": "Nase an der Arbeit",
+                  "desc": "Wölfe haben rund 200 Millionen Riechzellen – der Mensch nur etwa 5 Millionen."
+                },
+                {
+                  "icon": "radar",
+                  "title": "Beute-Radar",
+                  "desc": "Sie riechen Beute auf über 2 Kilometer Entfernung, wenn der Wind günstig steht."
+                },
+                {
+                  "icon": "timeline",
+                  "title": "Duft-Geschichte",
+                  "desc": "Aus Urinmarkierungen lesen Wölfe ab, welcher Wolf wann vorbeikam – wie eine chemische Zeitung."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animal_brown_bear",
+          "name": "Braunbär",
+          "scientific_name": "Ursus arctos",
+          "lexicon": {
+            "habitat": "Wälder und Gebirge in Europa, Asien und Nordamerika",
+            "diet": "Allesfresser (Beeren, Wurzeln, Fische, Insekten, Aas, Kleinsäuger)",
+            "wwf_status": "Nicht gefährdet (regional bedroht)",
+            "description": "Der Braunbär ist eines der größten Landraubtiere der Erde. Er ist ein wahres Multitalent: Er kann klettern, schwimmen, graben und steht sogar auf zwei Beinen. In seinem Winterschlaf senkt er seinen Stoffwechsel extrem ab – ohne zu essen, zu trinken oder zu urinieren, manchmal für 6 Monate.",
+            "image_main": "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_bear_01",
+              "biome": "TIEFER WALD",
+              "challengeType": "WINTER-WUNDER",
+              "questionText": "Was passiert im Körper eines Bären während der Winterruhe?",
+              "image": "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Er friert komplett ein wie ein Eisblock",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Herzschlag und Atmung werden extrem verlangsamt",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Er verliert alle Zähne",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Nichts, es ist normaler Schlaf",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "favorite",
+                  "title": "Extreme Sparflamme",
+                  "desc": "Der Herzschlag sinkt von normalerweise 40–50 auf nur 8–12 Schläge pro Minute."
+                },
+                {
+                  "icon": "thermostat",
+                  "title": "Temperatur-Kontrolle",
+                  "desc": "Die Körpertemperatur sinkt nur um ca. 5°C – das spart Energie, aber er bleibt jederzeit bereit zum Aufwachen."
+                },
+                {
+                  "icon": "no_food",
+                  "title": "Kein Essen, kein Klo",
+                  "desc": "Bis zu 6 Monate frisst, trinkt oder uriniert er nicht – sein Körper recycelt eigene Abfallprodukte!"
+                }
+              ]
+            },
+            {
+              "quest_id": "q_bear_02",
+              "biome": "TIEFER WALD",
+              "challengeType": "REKORD-GEWICHT",
+              "questionText": "Wie viel kann ein ausgewachsener Kodiakbär (Unterart des Braunbären) maximal wiegen?",
+              "image": "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Maximal 150 kg",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Rund 400 kg",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Über 700 kg",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Bis zu 3 Tonnen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "scale",
+                  "title": "Schwergewicht",
+                  "desc": "Kodiakbären aus Alaska können über 700 kg wiegen – auf den Hinterbeinen stehen sie über 3 Meter hoch."
+                },
+                {
+                  "icon": "restaurant",
+                  "title": "Herbst-Futter-Wahn",
+                  "desc": "Vor dem Winterschlaf nehmen sie täglich bis zu 20.000 Kalorien zu sich – rund das Zehnfache eines Menschen."
+                },
+                {
+                  "icon": "set_meal",
+                  "title": "Lachs-Buffet",
+                  "desc": "An Lachsläufen fressen sie pro Tag 50–80 kg Fisch."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_bear_03",
+              "biome": "TIEFER WALD",
+              "challengeType": "SUPER-SINNE",
+              "questionText": "Welcher Sinn ist bei Braunbären am besten ausgeprägt?",
+              "image": "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Der Sehsinn",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Der Geruchssinn",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Der Tastsinn",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Der Geschmackssinn",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "wind_power",
+                  "title": "Super-Nase",
+                  "desc": "Bären riechen 7-mal besser als Bluthunde – sie nehmen Aas auf über 30 km Entfernung wahr."
+                },
+                {
+                  "icon": "restaurant_menu",
+                  "title": "Futterfinder",
+                  "desc": "Selbst reife Beeren und Honig im Baum können sie kilometerweit erschnüffeln."
+                },
+                {
+                  "icon": "remove_red_eye",
+                  "title": "Gute Sicht",
+                  "desc": "Ihr Sehvermögen ist besser als lange angenommen – sie sehen sogar Farben (anders als viele andere Raubtiere)."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_bear_04",
+              "biome": "TIEFER WALD",
+              "challengeType": "TEMPO-RÄTSEL",
+              "questionText": "Wie schnell kann ein Braunbär trotz seines Gewichts sprinten?",
+              "image": "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Maximal 10 km/h",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Bis zu 50 km/h",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Über 100 km/h",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Bären können gar nicht rennen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "speed",
+                  "title": "Überraschend schnell",
+                  "desc": "Auf kurzer Distanz erreichen Braunbären 50 km/h – damit sind sie schneller als jeder Mensch."
+                },
+                {
+                  "icon": "hiking",
+                  "title": "Bergsteiger",
+                  "desc": "Sie erklimmen steilste Hänge und lockern beim Aufstieg den Boden – wichtig für Samenverbreitung."
+                },
+                {
+                  "icon": "pool",
+                  "title": "Schwimmer",
+                  "desc": "Bären schwimmen kilometerweit – Eisbären (auch Ursus) sogar tagelang im offenen Meer."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animal_red_fox",
+          "name": "Rotfuchs",
+          "scientific_name": "Vulpes vulpes",
+          "lexicon": {
+            "habitat": "Fast überall: Wälder, Felder, Berge, Städte – in ganz Europa, Asien, Nordamerika und Australien",
+            "diet": "Allesfresser (Mäuse, Vögel, Früchte, Abfälle)",
+            "wwf_status": "Nicht gefährdet",
+            "description": "Der Rotfuchs ist eines der anpassungsfähigsten Säugetiere überhaupt. Er lebt in Wäldern genauso erfolgreich wie mitten in Großstädten. Sein Geheimnis: Ein Super-Gehör, das sogar Mäuse unter 70 cm Schneedecke orten kann. Ganz neu entdeckt: Er nutzt wohl das Magnetfeld der Erde als Jagd-Werkzeug!",
+            "image_main": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_fox_01",
+              "biome": "TIEFER WALD",
+              "challengeType": "SUPER-SINNE",
+              "questionText": "Wie kann ein Fuchs Mäuse unter dem Schnee orten?",
+              "image": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Über das Magnetfeld der Erde plus Super-Gehör",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Er schmilzt den Schnee mit seinem Atem",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Er sieht einfach hindurch",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Er gräbt zufällig",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "explore",
+                  "title": "Magnet-Visier",
+                  "desc": "Studien zeigen: Füchse springen überraschend oft in Richtung Nordosten – wie mit innerem Kompass."
+                },
+                {
+                  "icon": "hearing",
+                  "title": "Punktgenaue Ohren",
+                  "desc": "Das Rascheln einer Maus unter 70 cm Schnee reicht, um punktgenau hineinzuspringen ('Mausen')."
+                },
+                {
+                  "icon": "psychology",
+                  "title": "Wintertaktik",
+                  "desc": "Im Sprung drehen Füchse sich zusätzlich, um die Maus mit den Vorderpfoten zu fixieren."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_fox_02",
+              "biome": "TIEFER WALD",
+              "challengeType": "STADT-LEBEN",
+              "questionText": "Warum leben heute so viele Füchse in Städten wie Berlin oder London?",
+              "image": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie haben dort keine Feinde und finden viel Futter",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Sie wollen Menschen kennenlernen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Die Städte wurden absichtlich gegründet",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sie sind vor Schnee geflüchtet",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "location_city",
+                  "title": "Stadt-Jäger",
+                  "desc": "In Städten finden Füchse Essensreste, Haustiere (Mäuse) und keine natürlichen Feinde wie Wölfe."
+                },
+                {
+                  "icon": "psychology",
+                  "title": "Urbane Intelligenz",
+                  "desc": "Stadtfüchse zeigen messbar größere Gehirnregionen für Neugier und Lernfähigkeit."
+                },
+                {
+                  "icon": "nightlight",
+                  "title": "Nachtaktive Nachbarn",
+                  "desc": "Sie passen ihren Tag-Nacht-Rhythmus perfekt an den des Menschen an – wir sehen sie fast nie."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_fox_03",
+              "biome": "TIEFER WALD",
+              "challengeType": "FAMILIEN-LEBEN",
+              "questionText": "Was ist ein 'Fuchsbau'?",
+              "image": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Ein verzweigtes Tunnelsystem mit mehreren Eingängen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Ein Nest in den Baumkronen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Ein Bau aus Ästen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Eine Höhle unter Felsen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "construction",
+                  "title": "Underground-City",
+                  "desc": "Ein Bau kann 2–3 m tief sein, mehrere 'Kessel' als Wohnkammern haben und bis zu 10 Ausgänge."
+                },
+                {
+                  "icon": "schedule",
+                  "title": "Erbstück",
+                  "desc": "Fuchsbauten werden oft über Generationen genutzt – manche sind über 100 Jahre alt."
+                },
+                {
+                  "icon": "family_restroom",
+                  "title": "WG mit Dachs",
+                  "desc": "Füchse teilen sich ihren Bau manchmal mit Dachsen – jeder nutzt nur einen Teil der Tunnel."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animal_eagle_owl",
+          "name": "Uhu",
+          "scientific_name": "Bubo bubo",
+          "lexicon": {
+            "habitat": "Wälder, Felsen und Steinbrüche in Europa und Teilen Asiens",
+            "diet": "Fleischfresser (Säugetiere, Vögel bis Gänse-Größe)",
+            "wwf_status": "Nicht gefährdet (EU-streng geschützt)",
+            "description": "Der Uhu ist mit seiner Spannweite von bis zu 1,8 Metern die größte Eule der Welt. Lautlos gleitet er durch die Nacht – dank speziell gekämmter Federn, die den Luftwiderstand fast geräuschlos machen. Sein Kopf kann um unglaubliche 270 Grad gedreht werden.",
+            "image_main": "https://images.unsplash.com/photo-1518715308788-3005759c61d7?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_owl_01",
+              "biome": "TIEFER WALD",
+              "challengeType": "KÖRPERBAU",
+              "questionText": "Wie weit kann ein Uhu seinen Kopf drehen?",
+              "image": "https://images.unsplash.com/photo-1518715308788-3005759c61d7?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "90 Grad – wie wir Menschen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "180 Grad",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Rund 270 Grad",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Einmal komplett im Kreis (360 Grad)",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "rotate_right",
+                  "title": "Super-Dreher",
+                  "desc": "Mit 270 Grad Drehung deckt der Uhu fast seine gesamte Umgebung ab – ohne den Körper zu bewegen."
+                },
+                {
+                  "icon": "favorite",
+                  "title": "Spezial-Adern",
+                  "desc": "Besondere Knochenkanäle verhindern, dass beim Drehen Blutgefäße abgeklemmt werden."
+                },
+                {
+                  "icon": "visibility_off",
+                  "title": "Starrer Blick",
+                  "desc": "Der Grund: Eulen können ihre Augen NICHT in den Höhlen bewegen, deshalb dreht sich der ganze Kopf."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_owl_02",
+              "biome": "TIEFER WALD",
+              "challengeType": "ÜBERLEBENS-TRICK",
+              "questionText": "Wie gelingt es dem Uhu, lautlos zu fliegen?",
+              "image": "https://images.unsplash.com/photo-1518715308788-3005759c61d7?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Seine Federn haben spezielle Kanten, die den Wind dämpfen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Er bewegt die Flügel gar nicht",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Er gleitet immer nur",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Er fliegt nur bei Wind",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "air",
+                  "title": "Feder-Kämme",
+                  "desc": "Die vorderste Flügelfeder hat einen feinen Zahnrand – der zerlegt die Luft lautlos in Mini-Wirbel."
+                },
+                {
+                  "icon": "volume_off",
+                  "title": "Ultra-Schlaf-Flieger",
+                  "desc": "Menschliche Ingenieure kopieren dieses Prinzip für leise Flugzeug-Flügel und Ventilatoren."
+                },
+                {
+                  "icon": "nightlight",
+                  "title": "Totale Überraschung",
+                  "desc": "Die Beute hört den Uhu wortwörtlich erst, wenn es zu spät ist."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_owl_03",
+              "biome": "TIEFER WALD",
+              "challengeType": "SUPER-SINNE",
+              "questionText": "Wie kann ein Uhu in völliger Dunkelheit Beute orten?",
+              "image": "https://images.unsplash.com/photo-1518715308788-3005759c61d7?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Er hat Nachtsichtgeräte",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Über asymmetrische Ohren, die Entfernung präzise berechnen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Er wartet, bis es wieder hell wird",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Er spricht mit der Beute",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "hearing",
+                  "title": "Asymmetrische Ohren",
+                  "desc": "Ein Ohr sitzt etwas höher als das andere – das Gehirn berechnet aus dem Laufzeitunterschied Richtung UND Höhe."
+                },
+                {
+                  "icon": "remove_red_eye",
+                  "title": "Lichtsammler-Augen",
+                  "desc": "Die riesigen Pupillen sammeln 100-mal mehr Licht als unsere – in ihrer Netzhaut sitzen fast nur Stäbchen."
+                },
+                {
+                  "icon": "gps_fixed",
+                  "title": "Dunkel-Präzision",
+                  "desc": "In absoluter Dunkelheit kann der Uhu eine Maus allein am Geräusch auf den Zentimeter genau orten."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
