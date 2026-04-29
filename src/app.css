@@ -58,6 +58,38 @@
   --font-label: "Inter", sans-serif;
 }
 
+
+@layer base {
+  /* Das ist unser Ozean-Look */
+  .theme-ocean {
+    --color-primary: #82c4e6;
+    --color-on-primary: #00334d;
+    --color-primary-container: #004c73;
+    --color-tertiary: #f4c271;
+    --color-background: #0b1318;
+    --color-surface: #0b1318;
+    --color-surface-container-low: #111e26;
+    --color-surface-container: #162630;
+    --color-surface-container-high: #1c3240;
+  }
+
+  /* Das ist unser Savannen-Look */
+  .theme-savanna {
+    --color-primary: #e6b882;
+    --color-on-primary: #4d2b00;
+    --color-primary-container: #734000;
+    --color-tertiary: #e66f51;
+    --color-background: #181410;
+    --color-surface: #181410;
+    --color-surface-container-low: #261f19;
+    --color-surface-container: #302720;
+    --color-surface-container-high: #40342a;
+  }
+}
+
+
+
+
 @layer base {
   /* Standard-Styling für den organischen Dark-Mode-Look */
   body {

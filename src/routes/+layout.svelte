@@ -3,12 +3,25 @@
 	import TopBar from '$lib/components/TopBar.svelte';
 	import BottomNav from '$lib/components/BottomNav.svelte';
 	import { page } from '$app/stores';
-	// Wir importieren Sveltes Animations-Funktionen
 	import { fade, fly } from 'svelte/transition';
 	
+	// Importiere unsere States und den Browser-Check
+	import { settingsState, playerState } from '$lib/state.svelte.ts';
+	import { browser } from '$app/environment';
+
 	let { children } = $props();
-	
 	let isPlayingQuiz = $derived($page.url.pathname.includes('/quest'));
+
+	// Dieser Effekt "beobachtet" die States und speichert sie automatisch bei jeder Änderung!
+	$effect(() => {
+		if (browser) {
+			localStorage.setItem('settingsState', JSON.stringify(settingsState));
+			localStorage.setItem('playerState', JSON.stringify(playerState));
+			
+			// Das ändert die Farben der gesamten App!
+			document.body.className = `theme-${settingsState.theme} bg-background text-on-background min-h-screen font-body antialiased`;
+		}
+	});
 </script>
 
 <TopBar />

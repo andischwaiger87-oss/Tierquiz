@@ -6096,6 +6096,255 @@
               ]
             }
           ]
+        },
+        {
+          "id": "animal_chameleon",
+          "name": "Chamäleon",
+          "scientific_name": "Chamaeleonidae",
+          "lexicon": {
+            "habitat": "Tropische Regenwälder, Steppen und Oasen, v.a. auf Madagaskar und in Afrika",
+            "diet": "Insektenfresser",
+            "wwf_status": "Viele Arten gefährdet",
+            "description": "Das Chamäleon sieht aus wie ein kleiner, bunter Mini-Drache. Diese besonderen Echsen verbringen ihr ganzes Leben in den Bäumen. Mit ihren unabhängig voneinander beweglichen Augen und der blitzschnellen Zunge sind sie perfekte, aber geduldige Jäger.",
+            "image_main": "https://images.unsplash.com/photo-1542106725-d9134a66a157?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_chameleon_01",
+              "questionNumber": "1/5",
+              "biome": "TROPISCHER REGENWALD",
+              "challengeType": "SUPER-SINNE",
+              "questionText": "Was ist das Unglaubliche an den Augen eines Chamäleons?",
+              "image": "https://images.unsplash.com/photo-1542106725-d9134a66a157?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie leuchten im Dunkeln",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sie können sich völlig unabhängig voneinander bewegen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Sie können wie Teleskope ausfahren",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Es hat drei Augen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "visibility",
+                  "title": "Rundum-Blick",
+                  "desc": "Ein Chamäleon kann mit dem linken Auge nach oben schauen, während das rechte Auge gleichzeitig nach hinten blickt!"
+                },
+                {
+                  "icon": "radar",
+                  "title": "Sicher ist Sicher",
+                  "desc": "So kann es nach Feinden (wie Vögeln) Ausschau halten und gleichzeitig nach leckeren Insekten scannen, ohne den Kopf zu bewegen."
+                },
+                {
+                  "icon": "filter_center_focus",
+                  "title": "Fokus!",
+                  "desc": "Erst wenn es eine Beute angreifen will, dreht es beide Augen nach vorne auf das Insekt, um die Entfernung perfekt zu messen."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_chameleon_02",
+              "questionNumber": "2/5",
+              "biome": "TROPISCHER REGENWALD",
+              "challengeType": "JAGD-TAKTIK",
+              "questionText": "Wie fängt das Chamäleon eine Fliege?",
+              "image": "https://images.unsplash.com/photo-1542106725-d9134a66a157?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Es fängt sie mit den Händen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Es schießt extrem schnell seine klebrige Zunge heraus",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Es pustet die Fliege um",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Es rennt ihr schnell hinterher",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "bolt",
+                  "title": "Blitz-Zunge",
+                  "desc": "Das Chamäleon schießt seine Zunge in einem Bruchteil einer Sekunde auf das Opfer. Das ist eine der schnellsten Bewegungen im Tierreich!"
+                },
+                {
+                  "icon": "straighten",
+                  "title": "Gummiband",
+                  "desc": "Die Zunge kann anderthalb bis zweimal so lang sein wie das ganze Tier selbst."
+                },
+                {
+                  "icon": "hardware",
+                  "title": "Klebe-Falle",
+                  "desc": "An der Spitze der Zunge ist klebriger Speichel. Das Insekt pappt fest und wird wie an einem Gummiband in den Mund gezogen."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_chameleon_03",
+              "questionNumber": "3/5",
+              "biome": "TROPISCHER REGENWALD",
+              "challengeType": "FARB-WECHSEL",
+              "questionText": "Warum wechseln Chamäleons WIRKLICH ihre Farbe?",
+              "image": "https://images.unsplash.com/photo-1542106725-d9134a66a157?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Ausschließlich, um sich vor Feinden zu tarnen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sie tun das, wenn sie niesen müssen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Hauptsächlich, um anderen ihre Stimmung (z.B. Wut, Entspannung) zu zeigen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Weil ihnen langweilig ist",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "chat",
+                  "title": "Bunte Sprache",
+                  "desc": "Tarnung ist nur ein Nebeneffekt. Die Farbe ist ihre Sprache! Ein dunkles Muster bedeutet oft Stress oder Wut, hell leuchtend bedeutet oft Aufregung."
+                },
+                {
+                  "icon": "thermostat",
+                  "title": "Temperatur-Trick",
+                  "desc": "Morgens machen sie sich oft dunkel, weil dunkle Farben die Wärme der Sonne besser aufsaugen. So werden sie schneller wach."
+                },
+                {
+                  "icon": "palette",
+                  "title": "Kristall-Haut",
+                  "desc": "In ihrer Haut sind winzige Kristalle eingebaut. Je nachdem, wie das Tier diese verschiebt, bricht das Licht anders und eine andere Farbe leuchtet auf."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_chameleon_04",
+              "questionNumber": "4/5",
+              "biome": "TROPISCHER REGENWALD",
+              "challengeType": "TAR-NUNG",
+              "questionText": "Wie bewegt sich ein Chamäleon auf dem Baum, um von Raubvögeln nicht entdeckt zu werden?",
+              "image": "https://images.unsplash.com/photo-1542106725-d9134a66a157?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Es springt blitzschnell von Ast zu Ast",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Es wippt beim Gehen hin und her wie ein Blatt im Wind",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Es kriecht immer unter dem Ast",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Es macht sich rund wie ein Ball",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "waves",
+                  "title": "Der Schaukelgang",
+                  "desc": "Chamäleons gehen einen Schritt vor, wippen zurück, und dann wieder vor. Dadurch verschmelzen sie mit den Blättern, die sich im Wind bewegen."
+                },
+                {
+                  "icon": "front_hand",
+                  "title": "Zangen-Hände",
+                  "desc": "Ihre Zehen sind zu einer Art Zange verwachsen. Damit umschließen sie Äste so fest, dass selbst starker Wind sie nicht herunterwehen kann."
+                },
+                {
+                  "icon": "gesture",
+                  "title": "Die fünfte Hand",
+                  "desc": "Den kräftigen Schwanz können sie wie einen Arm einrollen und sich damit zusätzlich an Ästen sichern."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_chameleon_05",
+              "questionNumber": "5/5",
+              "biome": "TROPISCHER REGENWALD",
+              "challengeType": "HEITMAT",
+              "questionText": "Wo auf der Welt leben fast die Hälfte aller bekannten Chamäleon-Arten?",
+              "image": "https://images.unsplash.com/photo-1542106725-d9134a66a157?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "In Europa",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Auf der Insel Madagaskar (vor der Küste Afrikas)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "In Australien",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "In Nordamerika",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "travel_explore",
+                  "title": "Das Insel-Paradies",
+                  "desc": "Madagaskar ist das absolute Paradies für Chamäleons. Dort gibt es Arten, die nirgendwo sonst auf der Erde vorkommen."
+                },
+                {
+                  "icon": "scale",
+                  "title": "Winzlinge",
+                  "desc": "Auf Madagaskar lebt auch das Erdchamäleon – eines der kleinsten Reptilien der Welt, das bequem auf eine Streichholzkopf passt!"
+                },
+                {
+                  "icon": "warning",
+                  "title": "Bedrohter Wald",
+                  "desc": "Da die einzigartigen Regenwälder auf Madagaskar abgeholzt werden, setzen sich Naturschützer extrem für den Erhalt ihres Zuhauses ein."
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6601,6 +6850,1267 @@
                   "icon": "visibility_off",
                   "title": "Kein Kauer",
                   "desc": "Er hat kleine, stumpfe Zähne, mit denen er Beute nur festhält, aber nicht kauen kann. Er schluckt alles im Ganzen!"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biome_european_forest",
+      "name": "Heimischer Wald",
+      "description": "Die dichten Laub- und Nadelwälder Europas, voller verborgener Geheimnisse und schlauer Tiere.",
+      "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=1200&auto=format&fit=crop",
+      "animals": [
+        {
+          "id": "animal_red_deer",
+          "name": "Rothirsch",
+          "scientific_name": "Cervus elaphus",
+          "lexicon": {
+            "habitat": "Wälder, Wiesen und Alpengebiete in Europa",
+            "diet": "Pflanzenfresser (Gräser, Kräuter, Blätter, Triebe)",
+            "wwf_status": "Nicht gefährdet (aber Lebensraum zerschnitten)",
+            "description": "Der Rothirsch wird oft ehrfürchtig der 'König des Waldes' genannt. Er ist das größte wild lebende Tier in unseren heimischen Wäldern. Wenn ein ausgewachsener Hirsch im Herbst lautstark durch den Wald 'röhrt', klingt das wie das Brüllen eines Löwen!",
+            "image_main": "https://images.unsplash.com/photo-1542129161-0731fa1a1151?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_red_deer_01",
+              "questionNumber": "1/5",
+              "biome": "HEIMISCHER WALD",
+              "challengeType": "KÖRPERBAU",
+              "questionText": "Woraus besteht das mächtige Geweih des männlichen Rothirsches?",
+              "image": "https://images.unsplash.com/photo-1542129161-0731fa1a1151?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Aus hohlem Holz",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Aus echtem Knochen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Aus festen Haaren (wie bei Nashörnern)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Aus Knorpel",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "monitor_weight",
+                  "title": "Schwergewichte",
+                  "desc": "Ein voll ausgewachsenes Geweih kann bei alten Hirschen bis zu 25 Kilogramm wiegen – so schwer wie ein kleiner Sack Kartoffeln!"
+                },
+                {
+                  "icon": "loop",
+                  "title": "Abwerfen",
+                  "desc": "Unglaublich: Jedes Jahr im Frühling werfen die Hirsche ihr komplettes Geweih ab, und es wächst innerhalb weniger Monate neu nach!"
+                },
+                {
+                  "icon": "pets",
+                  "title": "Schützender Bast",
+                  "desc": "Während es nachwächst, ist der Knochen von einer stark durchbluteten, pelzigen Haut umgeben, die 'Bast' genannt wird."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_red_deer_02",
+              "questionNumber": "2/5",
+              "biome": "HEIMISCHER WALD",
+              "challengeType": "FAMILIE",
+              "questionText": "Wie nennt man die weiblichen Hirsche?",
+              "image": "https://images.unsplash.com/photo-1542129161-0731fa1a1151?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Rehe",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Hirschkühe",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Hirschstuten",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Damen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "warning",
+                  "title": "Oft verwechselt!",
+                  "desc": "Viele denken, das Reh ist die Frau vom Hirsch. Falsch! Rehe und Hirsche sind zwei völlig verschiedene Tierarten."
+                },
+                {
+                  "icon": "visibility_off",
+                  "title": "Kahlwild",
+                  "desc": "Hirschkühe tragen niemals ein Geweih. Deswegen werden sie von Förstern und Jägern oft als 'Kahlwild' bezeichnet."
+                },
+                {
+                  "icon": "child_care",
+                  "title": "Die Babys",
+                  "desc": "Ein Hirschbaby nennt man 'Kalb'. Es hat nach der Geburt weiße Flecken im Fell, um im Waldschatten gut getarnt zu sein."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_red_deer_03",
+              "questionNumber": "3/5",
+              "biome": "HEIMISCHER WALD",
+              "challengeType": "SUPER-SINNE",
+              "questionText": "Wozu dient der weiße Fleck am Hinterteil ('Spiegel') der Rothirsche?",
+              "image": "https://images.unsplash.com/photo-1542129161-0731fa1a1151?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Damit andere Hirsche sie nachts besser riechen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Als optisches Warnsignal bei Gefahr für die restliche Herde",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Um Raubtiere zu blenden",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Es gibt keinen Grund",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "lightbulb",
+                  "title": "Wie ein Blinker",
+                  "desc": "Wenn ein Hirsch aufgeschreckt wird und wegrennt, spreizt er die Haare dieses Spiegels ab, sodass das Weiß grell aufleuchtet."
+                },
+                {
+                  "icon": "groups",
+                  "title": "Stummes Signal",
+                  "desc": "Andere Hirsche sehen dieses weiße Leuchten sofort im Wald und wissen, ohne dass ein Ton gesagt wird: 'Achtung, wir müssen rennen!'"
+                },
+                {
+                  "icon": "hearing",
+                  "title": "Riesige Ohren",
+                  "desc": "Ihre Ohren sind außerdem riesig und lassen sich wie Radarschüsseln in alle Richtungen drehen."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_red_deer_04",
+              "questionNumber": "4/5",
+              "biome": "HEIMISCHER WALD",
+              "challengeType": "TIERISCHER ALLTAG",
+              "questionText": "Was passiert mit männlichen Rothirschen während der Paarungszeit ('Brunft') im Herbst?",
+              "image": "https://images.unsplash.com/photo-1542129161-0731fa1a1151?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie schlafen drei Monate lang",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sie fressen fast nichts und brüllen oft die ganze Nacht",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Sie werden zu Vegetariern",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Ihr Fell wird schneeweiß",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "volume_up",
+                  "title": "Das Röhren",
+                  "desc": "Sie machen unglaublichen Lärm! Das tiefe, laute 'Röhren' schüchtert Feinde ein und lockt Hirschkühe an."
+                },
+                {
+                  "icon": "sports_martial_arts",
+                  "title": "Heftige Kämpfe",
+                  "desc": "Wenn zwei gleich starke Männchen aufeinandertreffen, krachen sie mit ihren Geweihen gegeneinander, um den Chef auszumachen."
+                },
+                {
+                  "icon": "restaurant",
+                  "title": "Keine Zeit für Essen",
+                  "desc": "Weil sie so viel streiten und wachen müssen, verlieren manche Hirsche in dieser Zeit bis zu 30 Prozent ihres Körpergewichts."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_red_deer_05",
+              "questionNumber": "5/5",
+              "biome": "HEIMISCHER WALD",
+              "challengeType": "TIERSCHUTZ",
+              "questionText": "Wie helfen NABU und WWF den Hirschen, wenn Autobahnen durch ihren Wald gebaut werden?",
+              "image": "https://images.unsplash.com/photo-1542129161-0731fa1a1151?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie bringen den Hirschen das Warten an der Ampel bei",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sie sperren die Autobahnen ab",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Sie bauen spezielle begrünte Brücken über die Straßen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Sie fliegen sie mit dem Hubschrauber rüber",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "forest",
+                  "title": "Grünbrücken",
+                  "desc": "Naturschützer lassen Brücken bauen, die mit Erde, Gras und Büschen bepflanzt sind, damit Tiere die Straße gefahrlos überqueren können."
+                },
+                {
+                  "icon": "travel_explore",
+                  "title": "Freies Wandern",
+                  "desc": "Hirsche wandern eigentlich gerne weite Strecken. Wenn der Wald zerschnitten ist, finden sie oft keine neuen Partner aus anderen Herden."
+                },
+                {
+                  "icon": "favorite",
+                  "title": "Gut für alle",
+                  "desc": "Auch Wildschweine, Dachse, Frösche und sogar Käfer nutzen diese lebenswichtigen 'Wildtierkorridore'."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animal_wild_boar",
+          "name": "Wildschwein",
+          "scientific_name": "Sus scrofa",
+          "lexicon": {
+            "habitat": "Laub- und Mischwälder in Europa und Asien",
+            "diet": "Allesfresser (Eicheln, Wurzeln, Insekten, Aas)",
+            "wwf_status": "Nicht gefährdet",
+            "description": "Wildschweine sind die wilden, klugen und extrem starken Vorfahren unserer Hausschweine. Mit ihrer kräftigen Schnauze wühlen sie den Waldboden wie kleine Pflüge um und helfen so als die 'Gärtner des Waldes' sogar dabei, dass neue Bäume wachsen können.",
+            "image_main": "https://images.unsplash.com/photo-1500331002958-37d45e69baf4?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_wild_boar_01",
+              "questionNumber": "1/5",
+              "biome": "HEIMISCHER WALD",
+              "challengeType": "FAMILIE",
+              "questionText": "Wer ist der Boss in einer Wildschwein-Familie (Rotte)?",
+              "image": "https://images.unsplash.com/photo-1500331002958-37d45e69baf4?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Der stärkste männliche Keiler",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Die erfahrenste, älteste Bache (Weibchen)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Immer das jüngste Mitglied",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Es gibt keinen Boss",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "groups",
+                  "title": "Frauen-Power",
+                  "desc": "Wildschweine leben in strengen Gruppen, den 'Rotten', die immer von einem sehr erfahrenen Weibchen angeführt werden: der Leitbache."
+                },
+                {
+                  "icon": "psychology",
+                  "title": "Kluge Anführerin",
+                  "desc": "Die Leitbache entscheidet, wann die Rotte schläft, wo sie fressen geht und warnt alle vor Gefahren."
+                },
+                {
+                  "icon": "directions_run",
+                  "title": "Einsame Männer",
+                  "desc": "Ausgewachsene Männchen, 'Keiler' genannt, leben fast das ganze Jahr über alleine als Einzelgänger."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_wild_boar_02",
+              "questionNumber": "2/5",
+              "biome": "HEIMISCHER WALD",
+              "challengeType": "TAR-NUNG",
+              "questionText": "Wie sehen kleine Wildschweinbabys aus?",
+              "image": "https://images.unsplash.com/photo-1500331002958-37d45e69baf4?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie haben kleine weiße Punkte",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sie sind hellbraun mit hellen Längsstreifen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Sie sind komplett rosa wie normale Ferkel",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sie sind pechschwarz",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "visibility_off",
+                  "title": "Der Streifen-Pyjama",
+                  "desc": "Die hellen Streifen wirken wie ein Tarnanzug. Wenn sie im Wald zwischen Licht und Schatten stehen, sind sie für Raubtiere kaum zu sehen."
+                },
+                {
+                  "icon": "child_care",
+                  "title": "Frischlinge",
+                  "desc": "Deshalb und weil sie immer so frisch und fröhlich durch den Wald flitzen, nennt man die Wildschwein-Kinder 'Frischlinge'."
+                },
+                {
+                  "icon": "timer",
+                  "title": "Schneller Farbwechsel",
+                  "desc": "Nach ungefähr 4 bis 5 Monaten verlieren sie die Streifen und ihr Fell wird dunkel."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_wild_boar_03",
+              "questionNumber": "3/5",
+              "biome": "HEIMISCHER WALD",
+              "challengeType": "WELLNESS",
+              "questionText": "Warum wälzen sich Wildschweine extrem gerne tief im nassen Schlamm?",
+              "image": "https://images.unsplash.com/photo-1500331002958-37d45e69baf4?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Um böse Insekten abzuwehren und sich abzukühlen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Um schwarz zu werden und gefährlicher auszusehen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Damit ihr Fell schneller wächst",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sie machen einfach gerne Dinge dreckig",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "pool",
+                  "title": "Die Suhle",
+                  "desc": "Diesen Matsch-Pool nennt man 'Suhle'. Da Wildschweine nicht richtig schwitzen können, wirkt der Matsch wie eine wunderbare Klimaanlage."
+                },
+                {
+                  "icon": "bug_report",
+                  "title": "Gegen das Jucken",
+                  "desc": "Wenn der Schlamm später im Fell trocknet, schrubben sie sich an Baumstämmen. Dabei fallen lästige Parasiten wie Zecken mit ab."
+                },
+                {
+                  "icon": "park",
+                  "title": "Die Malbäume",
+                  "desc": "Die rauen Bäume, an denen sie sich scheuern, nennt man 'Malbäume'. Man erkennt sie sofort am abgeriebenen Schlamm."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_wild_boar_04",
+              "questionNumber": "4/5",
+              "biome": "HEIMISCHER WALD",
+              "challengeType": "SUPER-SINNE",
+              "questionText": "Welcher Sinn ist beim Wildschwein fast so gut wie bei einem Spürhund?",
+              "image": "https://images.unsplash.com/photo-1500331002958-37d45e69baf4?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Die Augen (Sehsinn)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Die Haut (Tastsinn)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Die Nase (Geruchssinn)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Der Geschmackssinn",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "air",
+                  "title": "Wahnsinns-Nase",
+                  "desc": "Mit ihrer großen, feuchten Rüsselscheibe können sie Eicheln oder sogar Trüffelpilze riechen, die tief unter der Erde versteckt sind."
+                },
+                {
+                  "icon": "hearing",
+                  "title": "Spitze Ohren",
+                  "desc": "Auch ihr Gehör ist fantastisch: Sie nehmen das Brechen eines winzigen Zweiges auf große Entfernung wahr."
+                },
+                {
+                  "icon": "visibility_off",
+                  "title": "Schlechte Augen",
+                  "desc": "Dafür sehen sie ziemlich schlecht und können Menschen oft nicht erkennen, wenn diese regungslos im Wald stehen."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_wild_boar_05",
+              "questionNumber": "5/5",
+              "biome": "HEIMISCHER WALD",
+              "challengeType": "TIERISCHER ALLTAG",
+              "questionText": "Warum nennt man Wildschweine oft die 'Gärtner des Waldes'?",
+              "image": "https://images.unsplash.com/photo-1500331002958-37d45e69baf4?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie pflanzen gezielt schöne Blumen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sie wühlen den Boden um, wodurch neue Baumsamen in die Erde fallen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Sie fressen Unkraut",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sie knabbern kranke Äste ab",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "agriculture",
+                  "title": "Natürlicher Pflug",
+                  "desc": "Bei der Suche nach Insekten, Würmern und Wurzeln graben sie die Walderde richtig um."
+                },
+                {
+                  "icon": "eco",
+                  "title": "Guter Dünger",
+                  "desc": "Dadurch wird der Boden belüftet und Samen von Eichen oder Buchen, die auf der Oberfläche lagen, fallen tief in die gute Erde, um dort zu keimen."
+                },
+                {
+                  "icon": "restaurant",
+                  "title": "Echte Allesfresser",
+                  "desc": "Sie fressen wirklich alles! Eicheln, Pilze, Schnecken, Käfer und sogar verendete Tiere stehen auf dem Speiseplan."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animal_badger",
+          "name": "Dachs",
+          "scientific_name": "Meles meles",
+          "lexicon": {
+            "habitat": "Wälder, Wiesen und Hügellandschaften in ganz Eurasien",
+            "diet": "Allesfresser (Regenwürmer, Beeren, Insekten, Wurzeln)",
+            "wwf_status": "Nicht gefährdet",
+            "description": "Der Dachs wird oft liebevoll 'Grimbart' genannt, weil er durch seine markanten schwarzen Gesichtsstreifen ein wenig grimmig wirkt. Er ist eigentlich der größte heimische Vertreter der Marder-Familie. Er ist ein unglaublicher Architekt und gräbt gewaltige 'Burgen' unter der Erde, die zum Teil hunderte von Jahren alt sind!",
+            "image_main": "https://images.unsplash.com/photo-1555541679-e3144a159f8c?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_badger_01",
+              "questionNumber": "1/5",
+              "biome": "HEIMISCHER WALD",
+              "challengeType": "ARCHITEKTUR",
+              "questionText": "Welche Meisterwerke baut der Dachs unter der Erde?",
+              "image": "https://images.unsplash.com/photo-1555541679-e3144a159f8c?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Große Unterwasser-Nester",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Riesige 'Dachsburgen' mit langen Tunnelsystemen und gemütlichen Wohnkesseln",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Schlamm-Iglus",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Er gräbt kleine Löcher wie ein Hase",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "foundation",
+                  "title": "Generationen-Bau",
+                  "desc": "Ein Dachsbau wird oft über hunderte von Jahren von vielen Generationen immer weiter gegraben und ausgebaut."
+                },
+                {
+                  "icon": "king_bed",
+                  "title": "Extrem gemütlich",
+                  "desc": "Tief unter der Erde gibt es spezielle 'Wohnkessel'. Der Dachs polstert sie regelmäßig mit frischem Heu, Laub und Moos aus."
+                },
+                {
+                  "icon": "handshake",
+                  "title": "Eine WG?",
+                  "desc": "Manchmal ziehen sogar Rotfüchse in ungenutzte Röhren der Burg ein, sodass Dachs und Fuchs im selben Höhlensystem leben."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_badger_02",
+              "questionNumber": "2/5",
+              "biome": "HEIMISCHER WALD",
+              "challengeType": "KÖRPERBAU",
+              "questionText": "Woran erkennt man einen Dachs sofort, wenn man sein Gesicht sieht?",
+              "image": "https://images.unsplash.com/photo-1555541679-e3144a159f8c?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "An seinem roten Schnabel",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Er hat riesige Geweihe",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "An zwei breiten, schwarzen Streifen auf einem weißen Gesicht",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "An einem komplett schwarzen Kopf",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "masks",
+                  "title": "Die Dachsmaske",
+                  "desc": "Die dunklen Streifen ziehen sich von der Schnauze über die Augen bis zu den Ohren und sehen aus wie eine echte Räubermaske."
+                },
+                {
+                  "icon": "hardware",
+                  "title": "Bagger-Krallen",
+                  "desc": "An seinen Pfoten hat er fünf extrem starke, lange und gebogene Krallen, die wie kleine Schaufeln funktionieren."
+                },
+                {
+                  "icon": "pets",
+                  "title": "Größter Marder",
+                  "desc": "Auch wenn er durch die kurzen Beine oft dicklich aussieht, ist der Dachs ein wendiger Marder, genau wie das winzige Wiesel."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_badger_03",
+              "questionNumber": "3/5",
+              "biome": "HEIMISCHER WALD",
+              "challengeType": "WINTER-ZEIT",
+              "questionText": "Wie verbringt der Dachs den eiskalten Winter?",
+              "image": "https://images.unsplash.com/photo-1555541679-e3144a159f8c?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Er hält einen echten, tiefen Winterschlaf",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Er zieht in den Süden",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Er hält Winterruhe, wacht aber zwischendurch immer wieder auf",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Er baut Schneemänner",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "bedtime",
+                  "title": "Winterruhe",
+                  "desc": "Im Gegensatz zum echten Winterschlaf senkt der Dachs seine Körpertemperatur nicht extrem ab und wacht immer wieder auf."
+                },
+                {
+                  "icon": "restaurant",
+                  "title": "Winterspeck",
+                  "desc": "Um nicht zu verhungern, frisst er sich im Herbst eine dicke Fettschicht an, von der er dann wochenlang in seinem Bau zehrt."
+                },
+                {
+                  "icon": "wb_sunny",
+                  "title": "Kurze Ausflüge",
+                  "desc": "Wenn an Wintertagen die Sonne scheint und es etwas milder ist, kommt er manchmal aus der Höhle, um frische Luft zu schnappen."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_badger_04",
+              "questionNumber": "4/5",
+              "biome": "HEIMISCHER WALD",
+              "challengeType": "LEIBSPEISE",
+              "questionText": "Was frisst der Dachs am allerliebsten, wenn er nachts umherstreift?",
+              "image": "https://images.unsplash.com/photo-1555541679-e3144a159f8c?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Große Fische",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Regenwürmer",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Rehe",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Heu",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "bug_report",
+                  "title": "Wurm-Fan",
+                  "desc": "Besonders nach einem warmen Sommerregen läuft der Dachs gezielt Wiesen ab, um leckere Regenwürmer in Massen einzusaugen."
+                },
+                {
+                  "icon": "eco",
+                  "title": "Süßer Zahn",
+                  "desc": "Er liebt auch reife Früchte, Beeren und sogar kleine Pilze. Er ist ein Allesfresser!"
+                },
+                {
+                  "icon": "visibility_off",
+                  "title": "Schlechte Augen",
+                  "desc": "Das Futter sucht er dabei mit seiner feinen Nase, denn Dachse können fast gar keine Farben sehen und sehen ziemlich unscharf."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_badger_05",
+              "questionNumber": "5/5",
+              "biome": "HEIMISCHER WALD",
+              "challengeType": "TIERISCHER ALLTAG",
+              "questionText": "Warum gilt der Dachs als eines der saubersten Tiere im Wald?",
+              "image": "https://images.unsplash.com/photo-1555541679-e3144a159f8c?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Er putzt sich dreimal täglich die Zähne",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Er duscht unter Wasserfällen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Er legt spezielle Toiletten außerhalb seines Baus an",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Er trägt Socken",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "wash",
+                  "title": "Echte Dachs-Toilette",
+                  "desc": "Er macht niemals in seine Höhle! Stattdessen gräbt er in der Nähe seines Eingangs extra flache Gruben für sein Geschäft (Dachs-Aborte)."
+                },
+                {
+                  "icon": "cleaning_services",
+                  "title": "Bett machen",
+                  "desc": "Er wechselt sogar regelmäßig die Einrichtung seines Bettes. Altes, feuchtes Heu wird aus der Höhle rausgeworfen und frisches Moos geholt."
+                },
+                {
+                  "icon": "healing",
+                  "title": "Keine Krabbeltiere",
+                  "desc": "Diese ständige Sauberkeit hilft enorm dabei, lästige Parasiten wie Flöhe oder Milben in der tiefen Dachsburg zu verhindern."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animal_bat",
+          "name": "Fledermaus",
+          "scientific_name": "Microchiroptera",
+          "lexicon": {
+            "habitat": "Höhlen, Wälder und Dachböden weltweit",
+            "diet": "Insektenfresser (die meisten heimischen Arten)",
+            "wwf_status": "Gefährdet (viele heimische Arten)",
+            "description": "Fledermäuse sind echte Superhelden der Nacht und die einzigen Säugetiere der Welt, die richtig fliegen können. Obwohl sie im Dunkeln jagen, fliegen sie niemals gegen Bäume, denn sie sehen quasi mit den Ohren!",
+            "image_main": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_bat_01",
+              "questionNumber": "1/5",
+              "biome": "HEIMISCHER WALD",
+              "challengeType": "SUPER-SINNE",
+              "questionText": "Wie können Fledermäuse im Stockdunkeln Insekten fangen, ohne gegen Äste zu fliegen?",
+              "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie haben Scheinwerfer in den Augen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sie nutzen Echoortung (Senden Töne aus und hören das Echo)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Sie riechen die Insekten",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sie fliegen einfach auf gut Glück",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "volume_up",
+                  "title": "Ultraschall",
+                  "desc": "Sie rufen sehr hohe Töne, die Menschen nicht hören können. Prallt der Ton an einer Mücke ab, kommt ein Echo zurück."
+                },
+                {
+                  "icon": "hearing",
+                  "title": "Riesen-Ohren",
+                  "desc": "Mit ihren großen Ohren fangen sie das Echo auf und das Gehirn baut daraus ein blitzschnelles Bild der Umgebung."
+                },
+                {
+                  "icon": "speed",
+                  "title": "Sekundenschnell",
+                  "desc": "Das alles passiert so schnell, dass sie im rasanten Flug noch den kleinsten Nachtfaltern ausweichen können."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_bat_02",
+              "questionNumber": "2/5",
+              "biome": "HEIMISCHER WALD",
+              "challengeType": "KÖRPERBAU",
+              "questionText": "Was ist das Besondere an den Flügeln der Fledermaus?",
+              "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie bestehen aus Federn",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sie sind eigentlich umgebaute Hände mit einer Flughaut dazwischen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Sie sind aus harten Schuppen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sie wachsen aus dem Bauch",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "front_hand",
+                  "title": "Riesige Finger",
+                  "desc": "Würde man eine Fledermaus röntgen, sähe der Flügel aus wie eine menschliche Hand mit extrem langen Fingern."
+                },
+                {
+                  "icon": "swipe",
+                  "title": "Dünne Haut",
+                  "desc": "Zwischen den Fingern, den Armen und Beinen ist eine hauchdünne, sehr elastische Flughaut gespannt."
+                },
+                {
+                  "icon": "flight",
+                  "title": "Einzigartig",
+                  "desc": "Fledermäuse sind damit die absolut einzigen Säugetiere auf unserem Planeten, die richtig fliegen können!"
+                }
+              ]
+            },
+            {
+              "quest_id": "q_bat_03",
+              "questionNumber": "3/5",
+              "biome": "HEIMISCHER WALD",
+              "challengeType": "TIERISCHER ALLTAG",
+              "questionText": "Wie verbringen Fledermäuse den Tag, wenn sie schlafen?",
+              "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie graben sich in den Boden ein",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sie liegen auf weichem Moos",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Sie hängen kopfüber von der Decke oder an Ästen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Sie schwimmen auf Seen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "flip",
+                  "title": "Kopfüber",
+                  "desc": "Ihre speziellen Krallen haken sich fest, sobald sie sich hängen lassen. Das kostet sie beim Schlafen gar keine Muskelkraft."
+                },
+                {
+                  "icon": "hotel",
+                  "title": "Eingekuschelt",
+                  "desc": "Als 'Bettdecke' wickeln sie einfach ihre eigenen Flügel komplett um sich herum, um es warm und dunkel zu haben."
+                },
+                {
+                  "icon": "dark_mode",
+                  "title": "Sichere Verstecke",
+                  "desc": "Sie schlafen in dunklen Höhlen, Baumritzen oder Dachböden, wo sie vor Raubvögeln sicher sind."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_bat_04",
+              "questionNumber": "4/5",
+              "biome": "HEIMISCHER WALD",
+              "challengeType": "REKORD-JAGD",
+              "questionText": "Wie viel frisst eine winzige Zwergfledermaus in einer einzigen Nacht?",
+              "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Nur eine einzige Fliege",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Zwei oder drei dicke Käfer",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Bis zu 4000 kleine Insekten, wie z.B. Mücken!",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Sie isst nur Beeren",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "bug_report",
+                  "title": "Mückenjäger",
+                  "desc": "Eine kleine Zwergfledermaus jagt im rasanten Zickzack-Flug und schnappt in einer Nacht tausende Mücken weg."
+                },
+                {
+                  "icon": "health_and_safety",
+                  "title": "Helden der Nacht",
+                  "desc": "Das macht Fledermäuse extrem wichtig für uns Menschen, da sie uns viele lästige Insekten vom Leib halten."
+                },
+                {
+                  "icon": "scale",
+                  "title": "Leichtgewicht",
+                  "desc": "Die kleinste Fledermausart der Welt (Schweinsnasenfledermaus) wiegt gerade mal 2 Gramm – so viel wie eine Gummibärchen!"
+                }
+              ]
+            },
+            {
+              "quest_id": "q_bat_05",
+              "questionNumber": "5/5",
+              "biome": "HEIMISCHER WALD",
+              "challengeType": "WINTER-ZEIT",
+              "questionText": "Was machen unsere heimischen Fledermäuse im kalten Winter?",
+              "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie ziehen dicke Pullover an",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sie halten tiefen Winterschlaf und kühlen ihren Körper extrem ab",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Sie essen Nüsse",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sie jagen im Schnee",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "thermostat",
+                  "title": "Eisige Körper",
+                  "desc": "Weil es im Winter keine Insekten gibt, fahren sie ihren Körper herunter. Ihre Temperatur sinkt von 37 Grad auf bis zu 2 Grad!"
+                },
+                {
+                  "icon": "favorite",
+                  "title": "Langsamlauf",
+                  "desc": "Das Herz, das sonst im Flug bis zu 1000 Mal pro Minute schlägt, pumpt im Winterschlaf nur noch 10 Mal pro Minute."
+                },
+                {
+                  "icon": "warning",
+                  "title": "Bloß nicht wecken!",
+                  "desc": "Wenn Fledermäuse im Winter aus Versehen geweckt werden, verbrauchen sie beim Aufwärmen so viel Energie, dass sie verhungern könnten."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biome_bamboo_forest",
+      "name": "Asiatischer Bambuswald",
+      "description": "Dichte Bambuswälder im Hochland von China.",
+      "image": "https://images.unsplash.com/photo-1533036972036-edb0e78c8fb6?q=80&w=1200&auto=format&fit=crop",
+      "animals": [
+        {
+          "id": "animal_giant_panda",
+          "name": "Großer Panda",
+          "scientific_name": "Ailuropoda melanoleuca",
+          "lexicon": {
+            "habitat": "Bergwälder in Zentralchina",
+            "diet": "Pflanzenfresser (zu 99% Bambus)",
+            "wwf_status": "Gefährdet",
+            "description": "Der Große Panda ist das Wappentier des WWF und eines der bekanntesten bedrohten Tiere der Welt. Er verbringt den lieben langen Tag fast ausschließlich mit Fressen und Schlafen in den dichten Bambuswäldern Chinas.",
+            "image_main": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_panda_01",
+              "questionNumber": "1/5",
+              "biome": "ASIATISCHER BAMBUSWALD",
+              "challengeType": "LEIBSPEISE",
+              "questionText": "Welche Pflanze frisst der Große Panda am liebsten?",
+              "image": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Eukalyptus",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Gras",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Bambus",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Karotten",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "eco",
+                  "title": "Bambus pur",
+                  "desc": "Der Panda ist zwar eigentlich ein Bär, also ein Raubtier, aber er isst zu 99 Prozent nur harten Bambus."
+                },
+                {
+                  "icon": "monitor_weight",
+                  "title": "Berge an Futter",
+                  "desc": "Bambus hat wenig Nährstoffe. Darum muss ein Panda jeden Tag 10 bis 20 Kilogramm davon vertilgen."
+                },
+                {
+                  "icon": "schedule",
+                  "title": "Zeitfresser",
+                  "desc": "Um diese riesige Menge zu knabbern, sitzt der Panda bis zu 16 Stunden am Tag nur da und frisst!"
+                }
+              ]
+            },
+            {
+              "quest_id": "q_panda_02",
+              "questionNumber": "2/5",
+              "biome": "ASIATISCHER BAMBUSWALD",
+              "challengeType": "KÖRPERBAU",
+              "questionText": "Welchen schlauen Trick hat der Panda, um Bambusstäbe besser greifen zu können?",
+              "image": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Er wickelt seinen Schwanz darum",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Er hat einen verlängerten Handknochen, der wie ein sechster Finger (Pseudo-Daumen) wirkt",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Er benutzt seine Füße",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Er klebt ihn mit Spucke fest",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "pan_tool",
+                  "title": "Der Pseudo-Daumen",
+                  "desc": "Bären können normalerweise nichts fest greifen. Der Panda hat aber einen verlängerten Handwurzelknochen entwickelt, der wie ein Daumen funktioniert."
+                },
+                {
+                  "icon": "hardware",
+                  "title": "Fest im Griff",
+                  "desc": "Mit diesem Extra-Daumen kann er die glatten Bambusstäbe wie ein Mensch festhalten und die Blätter abziehen."
+                },
+                {
+                  "icon": "restaurant",
+                  "title": "Robuster Kiefer",
+                  "desc": "Er hat sehr starke Kiefermuskeln, um die holzigen Bambusrohre einfach wie Zwieback durchzubeißen."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_panda_03",
+              "questionNumber": "3/5",
+              "biome": "ASIATISCHER BAMBUSWALD",
+              "challengeType": "TAR-NUNG",
+              "questionText": "Warum sind Pandas schwarz-weiß gefärbt?",
+              "image": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Als perfekte Tarnung in verschneiten und schattigen Bergwäldern",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Sie haben sich angemalt",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Das Muster vertreibt Fliegen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Um Zebras nachzumachen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "visibility_off",
+                  "title": "Wintertarnung",
+                  "desc": "Forscher glauben, das Weiß tarnt sie im winterlichen Schnee, während die schwarzen Flecken wie dunkle Waldschatten wirken."
+                },
+                {
+                  "icon": "masks",
+                  "title": "Die Augenringe",
+                  "desc": "Die schwarzen Flecken um die Augen dienen wahrscheinlich dazu, dass sich Pandas untereinander besser erkennen und Feinde einschüchtern."
+                },
+                {
+                  "icon": "pets",
+                  "title": "Katzen-Augen",
+                  "desc": "Spannend: Pandas haben senkrechte Pupillen, genau wie Hauskatzen! So sehen sie im dämmerigen Wald besser."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_panda_04",
+              "questionNumber": "4/5",
+              "biome": "ASIATISCHER BAMBUSWALD",
+              "challengeType": "TIERISCHER ALLTAG",
+              "questionText": "Welche verrückten Geräusche macht ein Panda?",
+              "image": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Er brüllt laut wie ein Löwe",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Er schnurrt wie eine Katze",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Er meckert wie eine Ziege und bellt wie ein Hund",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Er trompetet wie ein Elefant",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "volume_up",
+                  "title": "Tierische Sounds",
+                  "desc": "Pandas brummen nicht nur. Zur Begrüßung meckern sie oft ähnlich wie Schafe oder Ziegen."
+                },
+                {
+                  "icon": "pets",
+                  "title": "Bellen",
+                  "desc": "Wenn sie wütend sind oder Feinde vertreiben wollen, können sie laut und schrill wie Hunde bellen."
+                },
+                {
+                  "icon": "directions_car",
+                  "title": "Hupen",
+                  "desc": "Fühlen sie sich unwohl oder sind gestresst, geben sie manchmal ein Geräusch von sich, das wie das Hupen eines Autos klingt."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_panda_05",
+              "questionNumber": "5/5",
+              "biome": "ASIATISCHER BAMBUSWALD",
+              "challengeType": "REKORD-BABYS",
+              "questionText": "Wie groß ist ein Panda-Baby direkt nach der Geburt?",
+              "image": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "So groß wie ein kleiner Hund",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "So groß wie ein Schulrucksack",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Winzig klein – es wiegt nur so viel wie eine Tafel Schokolade!",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Es ist schon 1 Meter lang",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "child_care",
+                  "title": "Mini-Bär",
+                  "desc": "Ein Panda-Neugeborenes wiegt nur ca. 100 bis 200 Gramm. Es ist rosa, blind und fast nackt."
+                },
+                {
+                  "icon": "monitor_weight",
+                  "title": "Riesige Mama",
+                  "desc": "Der Größenunterschied ist verrückt: Die Panda-Mama wiegt fast 1000-mal so viel wie ihr Baby (ca. 100 Kilogramm)."
+                },
+                {
+                  "icon": "volunteer_activism",
+                  "title": "Wertvoller Nachwuchs",
+                  "desc": "Da Pandas nur ganz selten und wenig Babys bekommen, freuen sich Naturschützer weltweit über jedes einzelne Jungtier, das überlebt."
                 }
               ]
             }

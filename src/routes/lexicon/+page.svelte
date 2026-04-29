@@ -16,6 +16,7 @@
 	let searchQuery = $state('');
 	let selectedBiome = $state('Alle');
 	let selectedStatus = $state('Alle');
+	let isFilterExpanded = $state(false); // NEU: State für das Ausklappmenü
 
 	// 4. Automatisch gefilterte Liste basierend auf den Eingaben
 	let filteredAnimals = $derived(
@@ -34,7 +35,7 @@
 </script>
 
 <svelte:head>
-	<title>Lenis Tierlexikon</title>
+	<title>Tierlexikon | Digital Biome</title>
 </svelte:head>
 
 <main class="pt-24 pb-32 px-4 sm:px-6 md:px-12 max-w-5xl mx-auto min-h-screen" in:fade>
@@ -46,43 +47,49 @@
 		</p>
 	</header>
 
-	<div class="sticky top-20 z-30 bg-background/90 backdrop-blur-xl py-4 border-b border-outline-variant/10 mb-8 flex flex-col gap-4">
+	<div class="sticky top-20 z-30 bg-background/90 backdrop-blur-xl py-3 border-b border-outline-variant/10 mb-8 transition-all">
 		
-		<div class="relative">
-			<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-on-surface-variant">search</span>
-			<input 
-				type="text" 
-				bind:value={searchQuery} 
-				placeholder="Suche..." 
-				class="w-full bg-surface-container-low border border-outline-variant/20 rounded-full py-3 pl-12 pr-12 md:pr-4 text-sm md:text-base text-on-surface placeholder:text-on-surface-variant/50 focus:outline-none focus:border-primary transition-colors"
-			/>
-			{#if searchQuery}
-				<button onclick={() => searchQuery = ''} class="absolute right-3 top-1/2 -translate-y-1/2 text-on-surface-variant hover:text-primary p-2">
-					<span class="material-symbols-outlined text-[20px]">close</span>
-				</button>
-			{/if}
+		<div class="flex items-center gap-3">
+			<div class="relative flex-1">
+				<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-on-surface-variant">search</span>
+				<input 
+					type="text" 
+					bind:value={searchQuery} 
+					placeholder="Suche..." 
+					class="w-full bg-surface-container-low border border-outline-variant/20 rounded-full py-3 pl-12 pr-10 text-sm md:text-base text-on-surface focus:outline-none focus:border-primary transition-colors" 
+				/>
+				{#if searchQuery}
+					<button onclick={() => searchQuery = ''} class="absolute right-3 top-1/2 -translate-y-1/2 text-on-surface-variant hover:text-primary p-2">
+						<span class="material-symbols-outlined text-[20px]">close</span>
+					</button>
+				{/if}
+			</div>
+			
+			<button 
+				onclick={() => isFilterExpanded = !isFilterExpanded} 
+				class="md:hidden p-3 rounded-full flex items-center justify-center transition-colors {isFilterExpanded ? 'bg-primary text-on-primary' : 'bg-surface-container border border-outline-variant/20 text-on-surface'}"
+			>
+				<span class="material-symbols-outlined">tune</span>
+			</button>
 		</div>
 
-		<div class="flex flex-col md:flex-row gap-4 justify-between items-start md:items-center w-full overflow-hidden md:overflow-visible">
+		<div class="{isFilterExpanded ? 'flex' : 'hidden'} md:flex pt-4 flex-col md:flex-row gap-4 justify-between items-start md:items-center w-full" transition:slide>
 			
-			<div class="flex overflow-x-auto hide-scrollbar gap-2 pb-2 w-full snap-x md:flex-wrap md:overflow-visible md:pb-0 md:w-auto">
+			<div class="flex overflow-x-auto hide-scrollbar gap-2 pb-2 w-full snap-x md:flex-wrap md:pb-0 md:w-auto">
 				{#each biomes as biome}
 					<button 
-						onclick={() => selectedBiome = biome}
-						class="shrink-0 snap-start whitespace-nowrap px-4 md:px-5 py-2 md:py-2.5 rounded-full font-bold text-sm md:text-base transition-colors active:scale-95 border
-						{selectedBiome === biome 
-							? 'bg-primary text-on-primary border-primary shadow-sm' 
-							: 'bg-surface-container border-outline-variant/15 text-on-surface hover:bg-surface-container-high'}"
+						onclick={() => selectedBiome = biome} 
+						class="shrink-0 snap-start whitespace-nowrap px-4 md:px-5 py-2 md:py-2.5 rounded-full font-bold text-sm md:text-base transition-colors active:scale-95 border {selectedBiome === biome ? 'bg-primary text-on-primary border-primary shadow-sm' : 'bg-surface-container border-outline-variant/15 text-on-surface hover:bg-surface-container-high'}"
 					>
 						{biome}
 					</button>
 				{/each}
 			</div>
-
+			
 			<div class="flex items-center gap-3 w-full md:w-auto shrink-0 mb-2 md:mb-0">
 				<span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest shrink-0">Status:</span>
 				<select 
-					bind:value={selectedStatus}
+					bind:value={selectedStatus} 
 					class="bg-surface-container border border-outline-variant/15 rounded-xl py-2 md:py-2.5 px-4 text-on-surface text-sm md:text-base font-medium focus:outline-none focus:border-primary appearance-none w-full md:min-w-[160px]"
 				>
 					{#each statuses as status}
@@ -90,6 +97,7 @@
 					{/each}
 				</select>
 			</div>
+			
 		</div>
 	</div>
 

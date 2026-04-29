@@ -1,5 +1,5 @@
 <script lang="ts">
-	// Importiere die globalen States (inkl. settingsState und playerState, die wir zuvor angelegt haben)
+	// Importiere die globalen States
 	import { quizState, playerState, settingsState, resetQuiz, resetSettings } from '$lib/state.svelte.ts';
 
 	// Lokaler State für Schalter, die nur auf dem Gerät/temporär relevant sind
@@ -49,24 +49,31 @@
 
 				<div class="flex flex-col gap-3">
 					<label class="text-sm font-bold text-on-surface flex items-center gap-2">
-						<span class="material-symbols-outlined text-tertiary">trending_up</span>
-						Schwierigkeit
+						<span class="material-symbols-outlined text-tertiary">palette</span>
+						App Farbdesign
 					</label>
-					<div class="grid grid-cols-2 gap-4">
+					<div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
 						<button 
-							onclick={() => settingsState.difficulty = 'Entdecker'}
-							class="py-3 px-4 rounded-xl border-2 font-bold transition-all {settingsState.difficulty === 'Entdecker' ? 'border-primary bg-primary/10 text-primary' : 'border-outline-variant/20 text-on-surface-variant hover:border-outline-variant/50'}"
+							onclick={() => settingsState.theme = 'default'} 
+							class="py-3 px-4 rounded-xl border-2 font-bold transition-all flex items-center justify-center gap-2 {settingsState.theme === 'default' ? 'border-[#95d4b3] bg-[#95d4b3]/10 text-[#95d4b3]' : 'border-outline-variant/20 text-on-surface-variant'}"
 						>
-							Entdecker
+							<div class="w-3 h-3 rounded-full bg-[#95d4b3]"></div> Wald (Standard)
 						</button>
 						<button 
-							onclick={() => settingsState.difficulty = 'Experte'}
-							class="py-3 px-4 rounded-xl border-2 font-bold transition-all {settingsState.difficulty === 'Experte' ? 'border-tertiary bg-tertiary/10 text-tertiary' : 'border-outline-variant/20 text-on-surface-variant hover:border-outline-variant/50'}"
+							onclick={() => settingsState.theme = 'ocean'} 
+							class="py-3 px-4 rounded-xl border-2 font-bold transition-all flex items-center justify-center gap-2 {settingsState.theme === 'ocean' ? 'border-[#82c4e6] bg-[#82c4e6]/10 text-[#82c4e6]' : 'border-outline-variant/20 text-on-surface-variant'}"
 						>
-							Experte
+							<div class="w-3 h-3 rounded-full bg-[#82c4e6]"></div> Ozean
+						</button>
+						<button 
+							onclick={() => settingsState.theme = 'savanna'} 
+							class="py-3 px-4 rounded-xl border-2 font-bold transition-all flex items-center justify-center gap-2 {settingsState.theme === 'savanna' ? 'border-[#e6b882] bg-[#e6b882]/10 text-[#e6b882]' : 'border-outline-variant/20 text-on-surface-variant'}"
+						>
+							<div class="w-3 h-3 rounded-full bg-[#e6b882]"></div> Savanne
 						</button>
 					</div>
 				</div>
+
 			</div>
 		</section>
 
@@ -119,12 +126,20 @@
 			<h3 class="text-primary font-label text-xs font-bold tracking-widest uppercase mb-4 pl-2">Profil & Daten</h3>
 			<div class="bg-surface-container-low rounded-2xl border border-outline-variant/10 overflow-hidden">
 				
-				<div class="p-4 flex items-center justify-between">
+				<div class="p-4 flex items-center justify-between border-b border-outline-variant/10">
 					<div class="flex items-center gap-3">
 						<span class="material-symbols-outlined text-on-surface-variant">monitoring</span>
 						<span class="font-medium text-on-surface">Gesammelte Gesamt-XP</span>
 					</div>
 					<span class="font-bold text-tertiary">{playerState.totalXp} XP</span>
+				</div>
+
+				<div class="p-4 flex items-center justify-between">
+					<div class="flex items-center gap-3">
+						<span class="material-symbols-outlined text-on-surface-variant">workspace_premium</span>
+						<span class="font-medium text-on-surface">Aktueller Rang</span>
+					</div>
+					<span class="font-bold text-primary">{playerState.level}</span>
 				</div>
 			</div>
 		</section>
@@ -144,7 +159,7 @@
 		</section>
 
 		<div class="text-center mt-8">
-			<span class="text-on-surface-variant text-xs font-label">Digital Biome v1.0.0</span>
+			<span class="text-on-surface-variant text-xs font-label uppercase tracking-widest">Digital Biome v1.0.0</span>
 		</div>
 	</div>
 </main>

@@ -1,24 +1,60 @@
+import { browser } from '$app/environment';
 import quizData from '$lib/data/quiz_database.json';
 
 // Wir berechnen automatisch die Gesamtzahl der Tiere aus deiner JSON-Datei
 const totalAnimals = quizData.biomes.reduce((sum, biome) => sum + biome.animals.length, 0);
 
-// SESSION-STATE: Für den aktuellen Quiz-Durchlauf
+// --- INITIALISIERUNG FÜR LOKALEN SPEICHER (Langzeitgedächtnis) ---
+
+// Standard-Werte für das Spielerprofil
+let initialPlayerState = {
+	totalXp: 0,
+	level: "Novize",
+	collectedSpecies: [] as string[],
+	totalSpecies: totalAnimals
+};
+
+// Standard-Werte für die Einstellungen
+let initialSettingsState = {
+	playerName: "Explorer",
+	theme: "default", // Unser neues Feld für die Farb-Themes
+	difficulty: "Entdecker",
+	soundEnabled: true
+};
+
+// Wenn die App im Browser läuft, laden wir die gespeicherten Daten
+if (browser) {
+	const storedPlayer = localStorage.getItem('playerState');
+	if (storedPlayer) {
+		initialPlayerState = { ...initialPlayerState, ...JSON.parse(storedPlayer) };
+		// Wichtig: Falls du neue Tiere in die JSON einfügst, aktualisieren wir hier die Maximalzahl!
+		initialPlayerState.totalSpecies = totalAnimals;
+	}
+	
+	const storedSettings = localStorage.getItem('settingsState');
+	if (storedSettings) {
+		initialSettingsState = { ...initialSettingsState, ...JSON.parse(storedSettings) };
+	}
+}
+
+// --- SVELTE 5 STATES ---
+
+// GLOBALER STATE: Für das Spielerprofil & das Lexikon
+export const playerState = $state(initialPlayerState);
+
+// EINSTELLUNGEN-STATE: Personalisierung der App
+export const settingsState = $state(initialSettingsState);
+
+// SESSION-STATE: Für den aktuellen Quiz-Durchlauf (wird NICHT für immer gespeichert)
 export const quizState = $state({
 	correctAnswers: 0,
 	totalQuestions: 0,
 	earnedSessionXp: 0
 });
 
-// GLOBALER STATE: Für das Spielerprofil & das Lexikon
-export const playerState = $state({
-	totalXp: 0,
-	level: "Novize",
-	collectedSpecies: [] as string[],
-	totalSpecies: totalAnimals
-});
-
 export const nextLevelXp = 1000; 
+
+// --- FUNKTIONEN ---
 
 // Setzt das aktuelle Quiz zurück
 export function resetQuiz(total: number) {
@@ -48,17 +84,10 @@ export function unlockAnimal(animalId: string) {
 	}
 }
 
-
-// EINSTELLUNGEN-STATE: Personalisierung der App
-export const settingsState = $state({
-	playerName: "Explorer",
-	difficulty: "Entdecker", // "Entdecker" oder "Experte"
-	soundEnabled: true
-});
-
 // Setzt alle Einstellungen auf die Standardwerte zurück
 export function resetSettings() {
 	settingsState.playerName = "Explorer";
+	settingsState.theme = "default";
 	settingsState.difficulty = "Entdecker";
 	settingsState.soundEnabled = true;
 }
