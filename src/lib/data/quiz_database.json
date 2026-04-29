@@ -6604,7 +6604,7 @@
       "id": "biome_freshwater",
       "name": "Süßwasser-Seen & Flüsse",
       "description": "Klare Flüsse und geheimnisvolle Seen, Heimat für viele faszinierende Wasserbewohner.",
-      "image": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1611976431475-3d7b40d3c422?q=80&w=1200&auto=format&fit=crop",
       "animals": [
         {
           "id": "animal_axolotl",
