@@ -70,7 +70,7 @@
               "biome": "SAVANNE",
               "challengeType": "KATZEN-RÄTSEL",
               "questionText": "Welche Besonderheit hat der Gepard gegenüber anderen Großkatzen?",
-              "image": "https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1516822487734-69ff4b9bf49d?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -116,7 +116,7 @@
               "biome": "SAVANNE",
               "challengeType": "KÖRPERBAU",
               "questionText": "Was ist das wichtigste 'Steuerruder' des Geparden beim Sprint?",
-              "image": "https://images.unsplash.com/photo-1534187886935-1e1236e856c3?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1516822487734-69ff4b9bf49d?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
