@@ -34,7 +34,7 @@
 </script>
 
 <svelte:head>
-	<title>Tierlexikon | Digital Biome</title>
+	<title>Lenis Tierlexikon</title>
 </svelte:head>
 
 <main class="pt-24 pb-32 px-4 sm:px-6 md:px-12 max-w-5xl mx-auto min-h-screen" in:fade>

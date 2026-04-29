@@ -22,7 +22,7 @@
 		<button onclick={toggleMenu} class="text-primary hover:bg-white/5 transition-colors p-2 rounded-full active:scale-95 duration-200 z-50">
 			<span class="material-symbols-outlined">{isMenuOpen ? 'close' : 'menu'}</span>
 		</button>
-		<h1 class="font-headline font-black text-primary tracking-tighter text-2xl relative z-50">Digital Biome</h1>
+		<h1 class="font-headline font-black text-primary tracking-tighter text-2xl relative z-50">Lenis Tierquiz</h1>
 	</div>
 	
 	<div class="flex items-center relative">
