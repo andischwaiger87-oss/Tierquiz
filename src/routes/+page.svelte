@@ -82,7 +82,7 @@
 			</div>
 			
 			<div class="w-full md:w-1/3 aspect-[2/1] md:aspect-square bg-surface-container-highest rounded-xl flex items-center justify-center p-4 md:p-6 border border-outline-variant/15 relative z-10 overflow-hidden">
-				<img alt="Chamäleon Auge" class="w-full h-full object-cover rounded-lg md:rounded-[1rem] rotate-0 md:rotate-3 opacity-80" src="https://images.unsplash.com/photo-1541414779316-d56599423097?q=80&w=600&auto=format&fit=crop" />
+				<img alt="Chamäleon Auge" class="w-full h-full object-cover rounded-lg md:rounded-[1rem] rotate-0 md:rotate-3 opacity-80" src="https://images.unsplash.com/photo-1541377607488-a4165ca4fb85?q=80&w=600&auto=format&fit=crop" />
 			</div>
 		</div>
 	</section>

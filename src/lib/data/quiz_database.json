@@ -24,7 +24,7 @@
               "biome": "SAVANNE",
               "challengeType": "TEMPO-CHALLENGE",
               "questionText": "Welches dieser Tiere ist das schnellste Landtier der Welt?",
-              "image": "https://images.unsplash.com/photo-1534187886935-1e1236e856c3?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1516822487734-69ff4b9bf49d?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -922,7 +922,7 @@
               "biome": "SAVANNE",
               "challengeType": "KÖRPERBAU",
               "questionText": "Woraus besteht das berühmte Horn eines Nashorns?",
-              "image": "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1535338454770-8be927b5a00b?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -968,7 +968,7 @@
               "biome": "SAVANNE",
               "challengeType": "SUPER-SINNE",
               "questionText": "Welcher Sinn ist bei Nashörnern NICHT besonders gut ausgeprägt?",
-              "image": "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1535338454770-8be927b5a00b?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -1014,7 +1014,7 @@
               "biome": "SAVANNE",
               "challengeType": "REKORD-TEMPO",
               "questionText": "Wie schnell kann ein Nashorn trotz seines massiven Körpers rennen?",
-              "image": "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1535338454770-8be927b5a00b?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -1226,7 +1226,7 @@
               "biome": "SAVANNE",
               "challengeType": "REKORD-TEMPO",
               "questionText": "Wie schnell kann der flugunfähige Strauß rennen?",
-              "image": "https://images.unsplash.com/photo-1556483942-a6c3f57add05?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1588508107117-227d4ab6b751?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -1272,7 +1272,7 @@
               "biome": "SAVANNE",
               "challengeType": "REKORD-EI",
               "questionText": "Einem Straußenei entspricht ungefähr, wie viele Hühnereier?",
-              "image": "https://images.unsplash.com/photo-1556483942-a6c3f57add05?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1588508107117-227d4ab6b751?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -1318,7 +1318,7 @@
               "biome": "SAVANNE",
               "challengeType": "MYTHOS-CHECK",
               "questionText": "Steckt der Strauß bei Gefahr wirklich den Kopf in den Sand?",
-              "image": "https://images.unsplash.com/photo-1556483942-a6c3f57add05?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1588508107117-227d4ab6b751?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -3568,7 +3568,7 @@
               "biome": "TIEFER WALD",
               "challengeType": "SUPER-SINNE",
               "questionText": "Wofür sind die schwarzen Haarpinsel an den Ohren des Luchses da?",
-              "image": "https://images.unsplash.com/photo-1502470659424-706f9d372e9a?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1526209356877-93300d250337?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -3614,7 +3614,7 @@
               "biome": "TIEFER WALD",
               "challengeType": "ÜBERLEBENS-TRICK",
               "questionText": "Warum hat der Luchs verhältnismäßig riesige und behaarte Pfoten?",
-              "image": "https://images.unsplash.com/photo-1550212002-3f14a6da7cde?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1526209356877-93300d250337?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -3660,7 +3660,7 @@
               "biome": "TIEFER WALD",
               "challengeType": "KÖRPERBAU",
               "questionText": "Woran erkennt man einen Eurasischen Luchs sofort, wenn man ihn von hinten sieht?",
-              "image": "https://images.unsplash.com/photo-1582236873323-9580cb18a4a0?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1526209356877-93300d250337?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -3706,7 +3706,7 @@
               "biome": "TIEFER WALD",
               "challengeType": "JAGD-TAKTIK",
               "questionText": "Wie jagt der Luchs seine Beute im Wald am liebsten?",
-              "image": "https://images.unsplash.com/photo-1502470659424-706f9d372e9a?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1526209356877-93300d250337?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -3752,7 +3752,7 @@
               "biome": "TIEFER WALD",
               "challengeType": "GEBISSPROFI",
               "questionText": "Warum hat der Luchs weniger Zähne als andere Raubtiere?",
-              "image": "https://images.unsplash.com/photo-1550212002-3f14a6da7cde?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1526209356877-93300d250337?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -3812,7 +3812,7 @@
               "biome": "TIEFER WALD",
               "challengeType": "DAS TIGER-MUSTER",
               "questionText": "Was ist das Besondere an den Streifen eines Tigers?",
-              "image": "https://images.unsplash.com/photo-1549471156-52c730a00c58?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -3858,7 +3858,7 @@
               "biome": "TIEFER WALD",
               "challengeType": "WASSER-RATTE",
               "questionText": "Welche Eigenschaft unterscheidet Tiger von den meisten anderen Katzen?",
-              "image": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -3904,7 +3904,7 @@
               "biome": "TIEFER WALD",
               "challengeType": "REKORD-JAGD",
               "questionText": "Welcher Tiger ist die größte und massivste Raubkatze der Welt?",
-              "image": "https://images.unsplash.com/photo-1549471156-52c730a00c58?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -3950,7 +3950,7 @@
               "biome": "TIEFER WALD",
               "challengeType": "SOZIALLEBEN",
               "questionText": "Wie leben Tiger normalerweise in freier Wildbahn?",
-              "image": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -3996,7 +3996,7 @@
               "biome": "TIEFER WALD",
               "challengeType": "HUNGER-SPIELE",
               "questionText": "Wie erfolgreich ist ein Tiger bei der Jagd?",
-              "image": "https://images.unsplash.com/photo-1549471156-52c730a00c58?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -4102,7 +4102,7 @@
               "biome": "TIEFER WALD",
               "challengeType": "AUSDAUER-CHALLENGE",
               "questionText": "Wie weit kann ein Wolf an einem einzigen Tag laufen?",
-              "image": "https://images.unsplash.com/photo-1564466809058-bf4114d55352?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1664115530316-533d64cd8b70?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -4148,7 +4148,7 @@
               "biome": "TIEFER WALD",
               "challengeType": "KOMMUNIKATION",
               "questionText": "Wozu heulen Wölfe hauptsächlich?",
-              "image": "https://images.unsplash.com/photo-1564466809058-bf4114d55352?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1664115530316-533d64cd8b70?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -4194,7 +4194,7 @@
               "biome": "TIEFER WALD",
               "challengeType": "ÖKO-ROLLE",
               "questionText": "Was zeigte das berühmte Yellowstone-Experiment nach Rückkehr der Wölfe?",
-              "image": "https://images.unsplash.com/photo-1564466809058-bf4114d55352?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1664115530316-533d64cd8b70?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -4240,7 +4240,7 @@
               "biome": "TIEFER WALD",
               "challengeType": "SUPER-SINNE",
               "questionText": "Wie gut ist der Geruchssinn eines Wolfes im Vergleich zum Menschen?",
-              "image": "https://images.unsplash.com/photo-1564466809058-bf4114d55352?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1664115530316-533d64cd8b70?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -4650,7 +4650,7 @@
               "biome": "TIEFER WALD",
               "challengeType": "KÖRPERBAU",
               "questionText": "Wie weit kann ein Uhu seinen Kopf drehen?",
-              "image": "https://images.unsplash.com/photo-1518715308788-3005759c61d7?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1707666136984-f4adbeeadf70?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -4696,7 +4696,7 @@
               "biome": "TIEFER WALD",
               "challengeType": "ÜBERLEBENS-TRICK",
               "questionText": "Wie gelingt es dem Uhu, lautlos zu fliegen?",
-              "image": "https://images.unsplash.com/photo-1518715308788-3005759c61d7?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1707666136984-f4adbeeadf70?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -4742,7 +4742,7 @@
               "biome": "TIEFER WALD",
               "challengeType": "SUPER-SINNE",
               "questionText": "Wie kann ein Uhu in völliger Dunkelheit Beute orten?",
-              "image": "https://images.unsplash.com/photo-1518715308788-3005759c61d7?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1707666136984-f4adbeeadf70?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -4802,7 +4802,7 @@
               "biome": "TIEFER WALD",
               "challengeType": "KÖRPERBAU",
               "questionText": "Wofür nutzt der Schneeleopard seinen fast ein Meter langen, dicken Schwanz?",
-              "image": "https://images.unsplash.com/photo-1559812497-cd0d9bf0dcd4?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1639841377321-b54eab2c8430?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -7619,7 +7619,7 @@
             "diet": "Insektenfresser (die meisten heimischen Arten)",
             "wwf_status": "Gefährdet (viele heimische Arten)",
             "description": "Fledermäuse sind echte Superhelden der Nacht und die einzigen Säugetiere der Welt, die richtig fliegen können. Obwohl sie im Dunkeln jagen, fliegen sie niemals gegen Bäume, denn sie sehen quasi mit den Ohren!",
-            "image_main": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1613298209752-5644a907c101?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -7628,7 +7628,7 @@
               "biome": "HEIMISCHER WALD",
               "challengeType": "SUPER-SINNE",
               "questionText": "Wie können Fledermäuse im Stockdunkeln Insekten fangen, ohne gegen Äste zu fliegen?",
-              "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1613298209752-5644a907c101?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -7675,7 +7675,7 @@
               "biome": "HEIMISCHER WALD",
               "challengeType": "KÖRPERBAU",
               "questionText": "Was ist das Besondere an den Flügeln der Fledermaus?",
-              "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1613298209752-5644a907c101?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -7722,7 +7722,7 @@
               "biome": "HEIMISCHER WALD",
               "challengeType": "TIERISCHER ALLTAG",
               "questionText": "Wie verbringen Fledermäuse den Tag, wenn sie schlafen?",
-              "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1613298209752-5644a907c101?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -7769,7 +7769,7 @@
               "biome": "HEIMISCHER WALD",
               "challengeType": "REKORD-JAGD",
               "questionText": "Wie viel frisst eine winzige Zwergfledermaus in einer einzigen Nacht?",
-              "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1613298209752-5644a907c101?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -7816,7 +7816,7 @@
               "biome": "HEIMISCHER WALD",
               "challengeType": "WINTER-ZEIT",
               "questionText": "Was machen unsere heimischen Fledermäuse im kalten Winter?",
-              "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1613298209752-5644a907c101?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
