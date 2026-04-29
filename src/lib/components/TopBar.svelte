@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { fade, fly } from 'svelte/transition';
+	import { settingsState } from '$lib/state.svelte.ts'; // <-- WICHTIG: Dieser Import hat gefehlt!
 
 	// State für unsere Overlays
 	let isMenuOpen = $state(false);
@@ -26,7 +27,7 @@
 	
 	<div class="flex items-center relative">
 		<button onclick={toggleProfile} class="w-10 h-10 rounded-full bg-surface-container-high overflow-hidden border-2 transition-colors duration-200 z-50 {isProfileOpen ? 'border-primary' : 'border-outline-variant/15 hover:border-primary/50'}">
-			<img alt="Nutzerprofil" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?q=80&w=150&auto=format&fit=crop" />
+			<img alt="Nutzerprofil" class="w-full h-full object-cover" src="/avatar.webp" />
 		</button>
 		
 		{#if isProfileOpen}
@@ -35,7 +36,7 @@
 				class="absolute top-14 right-0 w-64 bg-surface-container-low rounded-2xl border border-outline-variant/15 p-4 shadow-[0px_20px_40px_rgba(0,0,0,0.4)] backdrop-blur-xl"
 			>
 				<div class="text-center mb-4 pb-4 border-b border-outline-variant/15">
-					<h3 class="font-bold text-on-surface">Explorer</h3>
+					<h3 class="font-bold text-on-surface">{settingsState.playerName}</h3>
 					<span class="text-primary text-xs font-label uppercase tracking-widest">Rang: Novize</span>
 				</div>
 				<a href="/settings" onclick={toggleProfile} class="w-full flex items-center gap-3 text-on-surface-variant hover:text-primary p-2 rounded-lg hover:bg-surface-container transition-colors mb-1">

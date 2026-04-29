@@ -47,3 +47,18 @@ export function unlockAnimal(animalId: string) {
 		playerState.collectedSpecies.push(animalId);
 	}
 }
+
+
+// EINSTELLUNGEN-STATE: Personalisierung der App
+export const settingsState = $state({
+	playerName: "Explorer",
+	difficulty: "Entdecker", // "Entdecker" oder "Experte"
+	soundEnabled: true
+});
+
+// Setzt alle Einstellungen auf die Standardwerte zurück
+export function resetSettings() {
+	settingsState.playerName = "Explorer";
+	settingsState.difficulty = "Entdecker";
+	settingsState.soundEnabled = true;
+}

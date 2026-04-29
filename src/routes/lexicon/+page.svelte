@@ -39,9 +39,9 @@
 
 <main class="pt-24 pb-32 px-4 sm:px-6 md:px-12 max-w-5xl mx-auto min-h-screen" in:fade>
 	
-	<header class="mb-10">
+	<header class="mb-8 md:mb-10">
 		<h1 class="text-4xl md:text-5xl font-headline font-black text-on-surface tracking-tight mb-3">Das Tierlexikon</h1>
-		<p class="text-on-surface-variant text-lg max-w-2xl">
+		<p class="text-on-surface-variant text-base md:text-lg max-w-2xl">
 			Entdecke die faszinierendsten Lebewesen unseres Planeten. Nutze die Suche und Filter, um bestimmte Arten schnell zu finden.
 		</p>
 	</header>
@@ -53,37 +53,37 @@
 			<input 
 				type="text" 
 				bind:value={searchQuery} 
-				placeholder="Suche nach Name, Art oder Beschreibung..." 
-				class="w-full bg-surface-container-low border border-outline-variant/20 rounded-full py-3 pl-12 pr-4 text-on-surface placeholder:text-on-surface-variant/50 focus:outline-none focus:border-primary transition-colors"
+				placeholder="Suche..." 
+				class="w-full bg-surface-container-low border border-outline-variant/20 rounded-full py-3 pl-12 pr-12 md:pr-4 text-sm md:text-base text-on-surface placeholder:text-on-surface-variant/50 focus:outline-none focus:border-primary transition-colors"
 			/>
 			{#if searchQuery}
-				<button onclick={() => searchQuery = ''} class="absolute right-4 top-1/2 -translate-y-1/2 text-on-surface-variant hover:text-primary">
-					<span class="material-symbols-outlined">close</span>
+				<button onclick={() => searchQuery = ''} class="absolute right-3 top-1/2 -translate-y-1/2 text-on-surface-variant hover:text-primary p-2">
+					<span class="material-symbols-outlined text-[20px]">close</span>
 				</button>
 			{/if}
 		</div>
 
-		<div class="flex flex-col md:flex-row gap-4 justify-between items-start md:items-center">
+		<div class="flex flex-col md:flex-row gap-4 justify-between items-start md:items-center w-full overflow-hidden md:overflow-visible">
 			
-			<div class="flex flex-wrap gap-2">
+			<div class="flex overflow-x-auto hide-scrollbar gap-2 pb-2 w-full snap-x md:flex-wrap md:overflow-visible md:pb-0 md:w-auto">
 				{#each biomes as biome}
 					<button 
 						onclick={() => selectedBiome = biome}
-						class="px-4 py-2 rounded-full font-bold text-sm transition-colors active:scale-95
+						class="shrink-0 snap-start whitespace-nowrap px-4 md:px-5 py-2 md:py-2.5 rounded-full font-bold text-sm md:text-base transition-colors active:scale-95 border
 						{selectedBiome === biome 
-							? 'bg-primary text-on-primary' 
-							: 'bg-surface-container border border-outline-variant/15 text-on-surface-variant hover:bg-surface-container-high'}"
+							? 'bg-primary text-on-primary border-primary shadow-sm' 
+							: 'bg-surface-container border-outline-variant/15 text-on-surface hover:bg-surface-container-high'}"
 					>
 						{biome}
 					</button>
 				{/each}
 			</div>
 
-			<div class="flex items-center gap-3 w-full md:w-auto">
-				<span class="text-sm font-bold text-on-surface-variant uppercase tracking-widest shrink-0">Status:</span>
+			<div class="flex items-center gap-3 w-full md:w-auto shrink-0 mb-2 md:mb-0">
+				<span class="text-xs font-bold text-on-surface-variant uppercase tracking-widest shrink-0">Status:</span>
 				<select 
 					bind:value={selectedStatus}
-					class="bg-surface-container border border-outline-variant/15 rounded-xl py-2 px-4 text-on-surface text-sm font-medium focus:outline-none focus:border-primary appearance-none w-full md:w-48"
+					class="bg-surface-container border border-outline-variant/15 rounded-xl py-2 md:py-2.5 px-4 text-on-surface text-sm md:text-base font-medium focus:outline-none focus:border-primary appearance-none w-full md:min-w-[160px]"
 				>
 					{#each statuses as status}
 						<option value={status}>{status}</option>
@@ -97,7 +97,7 @@
 		<span>Zeige {filteredAnimals.length} Ergebnis{filteredAnimals.length !== 1 ? 'se' : ''}</span>
 	</div>
 
-	<div class="flex flex-col gap-8">
+	<div class="flex flex-col gap-6 md:gap-8">
 		{#if filteredAnimals.length === 0}
 			<div class="text-center py-20 bg-surface-container-low rounded-3xl border border-outline-variant/10" in:fade>
 				<span class="material-symbols-outlined text-6xl text-outline mb-4">search_off</span>

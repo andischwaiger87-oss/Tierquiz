@@ -1,16 +1,17 @@
 <script lang="ts">
-	import { quizState, resetQuiz } from '$lib/state.svelte.ts';
+	// Importiere die globalen States (inkl. settingsState und playerState, die wir zuvor angelegt haben)
+	import { quizState, playerState, settingsState, resetQuiz, resetSettings } from '$lib/state.svelte.ts';
 
-	// Lokaler State für die Schalter (Toggles)
-	let soundEnabled = $state(true);
+	// Lokaler State für Schalter, die nur auf dem Gerät/temporär relevant sind
 	let notificationsEnabled = $state(false);
 	let hapticFeedback = $state(true);
 
-	// Funktion zum Zurücksetzen des Fortschritts
+	// Funktion zum Zurücksetzen des Fortschritts UND der Einstellungen
 	function handleResetProgress() {
-		if (confirm("Bist du sicher? Dein gesamter Biom-Fortschritt und alle gesammelten XP werden gelöscht!")) {
+		if (confirm("Bist du sicher? Dein gesamter Biom-Fortschritt, alle gesammelten XP und deine Einstellungen werden gelöscht!")) {
 			resetQuiz(0);
-			alert("Dein Fortschritt wurde erfolgreich zurückgesetzt.");
+			resetSettings();
+			alert("Dein Fortschritt und deine Einstellungen wurden erfolgreich zurückgesetzt.");
 		}
 	}
 </script>
@@ -23,10 +24,52 @@
 			<span class="font-bold text-sm">Zurück</span>
 		</button>
 		<h1 class="text-4xl font-extrabold tracking-tight text-on-surface">Einstellungen</h1>
+		<p class="text-on-surface-variant mt-2">Personalisiere dein Forschungs-Abenteuer.</p>
 	</div>
 
 	<div class="flex flex-col gap-8">
 		
+		<section>
+			<h3 class="text-primary font-label text-xs font-bold tracking-widest uppercase mb-4 pl-2">Personalisierung</h3>
+			<div class="bg-surface-container-low rounded-2xl border border-outline-variant/10 overflow-hidden p-6 flex flex-col gap-6">
+				
+				<div class="flex flex-col gap-3">
+					<label for="playerName" class="text-sm font-bold text-on-surface flex items-center gap-2">
+						<span class="material-symbols-outlined text-primary">badge</span>
+						Dein Forscher-Name
+					</label>
+					<input 
+						id="playerName"
+						type="text" 
+						bind:value={settingsState.playerName}
+						class="bg-surface-container border border-outline-variant/20 rounded-xl py-3 px-4 text-on-surface focus:outline-none focus:border-primary transition-colors w-full"
+						placeholder="Gib deinen Namen ein..."
+					/>
+				</div>
+
+				<div class="flex flex-col gap-3">
+					<label class="text-sm font-bold text-on-surface flex items-center gap-2">
+						<span class="material-symbols-outlined text-tertiary">trending_up</span>
+						Schwierigkeit
+					</label>
+					<div class="grid grid-cols-2 gap-4">
+						<button 
+							onclick={() => settingsState.difficulty = 'Entdecker'}
+							class="py-3 px-4 rounded-xl border-2 font-bold transition-all {settingsState.difficulty === 'Entdecker' ? 'border-primary bg-primary/10 text-primary' : 'border-outline-variant/20 text-on-surface-variant hover:border-outline-variant/50'}"
+						>
+							Entdecker
+						</button>
+						<button 
+							onclick={() => settingsState.difficulty = 'Experte'}
+							class="py-3 px-4 rounded-xl border-2 font-bold transition-all {settingsState.difficulty === 'Experte' ? 'border-tertiary bg-tertiary/10 text-tertiary' : 'border-outline-variant/20 text-on-surface-variant hover:border-outline-variant/50'}"
+						>
+							Experte
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<section>
 			<h3 class="text-primary font-label text-xs font-bold tracking-widest uppercase mb-4 pl-2">App Erlebnis</h3>
 			<div class="bg-surface-container-low rounded-2xl border border-outline-variant/10 overflow-hidden">
@@ -37,10 +80,10 @@
 						<span class="font-medium text-on-surface">Umgebungs-Sounds</span>
 					</div>
 					<button 
-						onclick={() => soundEnabled = !soundEnabled}
-						class="w-12 h-6 rounded-full relative transition-colors duration-300 {soundEnabled ? 'bg-primary' : 'bg-surface-container-highest'}"
+						onclick={() => settingsState.soundEnabled = !settingsState.soundEnabled}
+						class="w-12 h-6 rounded-full relative transition-colors duration-300 {settingsState.soundEnabled ? 'bg-primary' : 'bg-surface-container-highest'}"
 					>
-						<div class="w-5 h-5 bg-background rounded-full absolute top-0.5 transition-all duration-300 shadow-sm {soundEnabled ? 'left-6' : 'left-0.5'}"></div>
+						<div class="w-5 h-5 bg-background rounded-full absolute top-0.5 transition-all duration-300 shadow-sm {settingsState.soundEnabled ? 'left-6' : 'left-0.5'}"></div>
 					</button>
 				</div>
 
@@ -76,20 +119,12 @@
 			<h3 class="text-primary font-label text-xs font-bold tracking-widest uppercase mb-4 pl-2">Profil & Daten</h3>
 			<div class="bg-surface-container-low rounded-2xl border border-outline-variant/10 overflow-hidden">
 				
-				<button class="w-full flex items-center justify-between p-4 hover:bg-surface-container transition-colors border-b border-outline-variant/10">
-					<div class="flex items-center gap-3">
-						<span class="material-symbols-outlined text-on-surface-variant">person</span>
-						<span class="font-medium text-on-surface">Profil bearbeiten</span>
-					</div>
-					<span class="material-symbols-outlined text-on-surface-variant text-sm">chevron_right</span>
-				</button>
-				
 				<div class="p-4 flex items-center justify-between">
 					<div class="flex items-center gap-3">
 						<span class="material-symbols-outlined text-on-surface-variant">monitoring</span>
-						<span class="font-medium text-on-surface">Gesammelte XP</span>
+						<span class="font-medium text-on-surface">Gesammelte Gesamt-XP</span>
 					</div>
-					<span class="font-bold text-tertiary">{$quizState.earnedXp} XP</span>
+					<span class="font-bold text-tertiary">{playerState.totalXp} XP</span>
 				</div>
 			</div>
 		</section>
@@ -97,7 +132,7 @@
 		<section>
 			<h3 class="text-error font-label text-xs font-bold tracking-widest uppercase mb-4 pl-2">Gefahrenzone</h3>
 			<div class="bg-surface-container-low rounded-2xl border border-error/20 overflow-hidden p-4">
-				<p class="text-sm text-on-surface-variant mb-4">Möchtest du die App neu starten? Alle Lexikon-Einträge und Abzeichen werden gesperrt.</p>
+				<p class="text-sm text-on-surface-variant mb-4">Möchtest du die App neu starten? Alle Lexikon-Einträge, gesammelten XP und deine Einstellungen werden gelöscht.</p>
 				<button 
 					onclick={handleResetProgress}
 					class="w-full bg-error-container text-on-error-container py-3 rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-error hover:text-on-error transition-colors"
