@@ -52,12 +52,12 @@
 						<span class="material-symbols-outlined text-tertiary">palette</span>
 						App Farbdesign
 					</label>
-					<div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+					<div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
 						<button 
 							onclick={() => settingsState.theme = 'default'} 
 							class="py-3 px-4 rounded-xl border-2 font-bold transition-all flex items-center justify-center gap-2 {settingsState.theme === 'default' ? 'border-[#95d4b3] bg-[#95d4b3]/10 text-[#95d4b3]' : 'border-outline-variant/20 text-on-surface-variant'}"
 						>
-							<div class="w-3 h-3 rounded-full bg-[#95d4b3]"></div> Wald (Standard)
+							<div class="w-3 h-3 rounded-full bg-[#95d4b3]"></div> Wald
 						</button>
 						<button 
 							onclick={() => settingsState.theme = 'ocean'} 
@@ -70,6 +70,24 @@
 							class="py-3 px-4 rounded-xl border-2 font-bold transition-all flex items-center justify-center gap-2 {settingsState.theme === 'savanna' ? 'border-[#e6b882] bg-[#e6b882]/10 text-[#e6b882]' : 'border-outline-variant/20 text-on-surface-variant'}"
 						>
 							<div class="w-3 h-3 rounded-full bg-[#e6b882]"></div> Savanne
+						</button>
+						<button 
+							onclick={() => settingsState.theme = 'polar'} 
+							class="py-3 px-4 rounded-xl border-2 font-bold transition-all flex items-center justify-center gap-2 {settingsState.theme === 'polar' ? 'border-[#bce4f0] bg-[#bce4f0]/10 text-[#bce4f0]' : 'border-outline-variant/20 text-on-surface-variant'}"
+						>
+							<div class="w-3 h-3 rounded-full bg-[#bce4f0]"></div> Polar
+						</button>
+						<button 
+							onclick={() => settingsState.theme = 'desert'} 
+							class="py-3 px-4 rounded-xl border-2 font-bold transition-all flex items-center justify-center gap-2 {settingsState.theme === 'desert' ? 'border-[#ffb74d] bg-[#ffb74d]/10 text-[#ffb74d]' : 'border-outline-variant/20 text-on-surface-variant'}"
+						>
+							<div class="w-3 h-3 rounded-full bg-[#ffb74d]"></div> Wüste
+						</button>
+						<button 
+							onclick={() => settingsState.theme = 'mystic'} 
+							class="py-3 px-4 rounded-xl border-2 font-bold transition-all flex items-center justify-center gap-2 {settingsState.theme === 'mystic' ? 'border-[#b39ddb] bg-[#b39ddb]/10 text-[#b39ddb]' : 'border-outline-variant/20 text-on-surface-variant'}"
+						>
+							<div class="w-3 h-3 rounded-full bg-[#b39ddb]"></div> Mystik
 						</button>
 					</div>
 				</div>

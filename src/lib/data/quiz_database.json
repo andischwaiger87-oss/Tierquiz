@@ -1370,7 +1370,7 @@
             "diet": "Pflanzenfresser (hauptsächlich Gräser)",
             "wwf_status": "Gefährdet",
             "description": "Obwohl es so gemütlich aussieht, ist das Flusspferd eines der gefährlichsten und stärksten Tiere Afrikas. Es verbringt den ganzen Tag im Wasser, um keinen Sonnenbrand zu bekommen, und geht erst nachts an Land, um Gras zu fressen. Wusstest du, dass Flusspferde gar nicht schwimmen können?",
-            "image_main": "https://images.unsplash.com/photo-1549557685-64f331d279fb?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1499842340257-55ccb7a02645?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -1378,7 +1378,7 @@
               "biome": "SAVANNE",
               "challengeType": "WASSER-RÄTSEL",
               "questionText": "Wie bewegen sich Flusspferde im tiefen Wasser fort?",
-              "image": "https://images.unsplash.com/photo-1549557685-64f331d279fb?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1499842340257-55ccb7a02645?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -1424,7 +1424,7 @@
               "biome": "SAVANNE",
               "challengeType": "KÖRPERBAU",
               "questionText": "Welche verrückte Eigenschaft hat der Schweiß eines Flusspferdes?",
-              "image": "https://images.unsplash.com/photo-1549557685-64f331d279fb?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1499842340257-55ccb7a02645?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -1470,7 +1470,7 @@
               "biome": "SAVANNE",
               "challengeType": "REKORD-TEMPO",
               "questionText": "Wie schnell kann ein bis zu 3 Tonnen schweres Flusspferd an Land rennen?",
-              "image": "https://images.unsplash.com/photo-1549557685-64f331d279fb?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1499842340257-55ccb7a02645?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -1516,7 +1516,7 @@
               "biome": "SAVANNE",
               "challengeType": "STAMMBAUM",
               "questionText": "Wer sind die engsten heute noch lebenden Verwandten der Flusspferde?",
-              "image": "https://images.unsplash.com/photo-1549557685-64f331d279fb?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1499842340257-55ccb7a02645?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -1562,7 +1562,7 @@
               "biome": "SAVANNE",
               "challengeType": "KIEFER-POWER",
               "questionText": "Wie weit kann ein Flusspferd sein riesiges Maul aufreißen?",
-              "image": "https://images.unsplash.com/photo-1549557685-64f331d279fb?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1499842340257-55ccb7a02645?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -1614,7 +1614,7 @@
             "diet": "Aasfresser",
             "wwf_status": "Stark gefährdet (viele Arten)",
             "description": "Geier sehen vielleicht nicht aus wie kuschelige Haustiere, aber sie sind wahre Superhelden der Natur! Als 'Gesundheitspolizei' der Savanne fressen sie tote Tiere, bevor diese gefährliche Krankheiten verbreiten können. Dank ihrer extrem starken Magensäure werden sie dabei selbst nie krank.",
-            "image_main": "https://images.unsplash.com/photo-1542152648-52fb16bf72b4?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1586491804026-2fcd12a64c14?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -1623,7 +1623,7 @@
               "biome": "SAVANNE",
               "challengeType": "SUPER-MAGEN",
               "questionText": "Warum werden Geier nicht krank, wenn sie altes, vergammeltes Fleisch fressen?",
-              "image": "https://images.unsplash.com/photo-1542152648-52fb16bf72b4?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1586491804026-2fcd12a64c14?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -1670,7 +1670,7 @@
               "biome": "SAVANNE",
               "challengeType": "KÖRPERBAU",
               "questionText": "Warum haben die meisten Geier einen nackten Kopf ohne Federn?",
-              "image": "https://images.unsplash.com/photo-1542152648-52fb16bf72b4?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1586491804026-2fcd12a64c14?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -1717,7 +1717,7 @@
               "biome": "SAVANNE",
               "challengeType": "WERKZEUG",
               "questionText": "Wie öffnet der clevere 'Schmutzgeier' die harten Eier von Straußen?",
-              "image": "https://images.unsplash.com/photo-1542152648-52fb16bf72b4?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1586491804026-2fcd12a64c14?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -1764,7 +1764,7 @@
               "biome": "SAVANNE",
               "challengeType": "SUPER-SINNE",
               "questionText": "Wie finden die Geier in Afrika ihr Futter aus riesiger Höhe?",
-              "image": "https://images.unsplash.com/photo-1542152648-52fb16bf72b4?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1586491804026-2fcd12a64c14?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -1811,7 +1811,7 @@
               "biome": "SAVANNE",
               "challengeType": "GEFAHR",
               "questionText": "Warum sind Geier heute leider oft bedroht?",
-              "image": "https://images.unsplash.com/photo-1542152648-52fb16bf72b4?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1586491804026-2fcd12a64c14?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -2115,7 +2115,7 @@
             "diet": "Fleischfresser (hauptsächlich Riesenkalmare)",
             "wwf_status": "Gefährdet",
             "description": "Der Pottwal ist das größte bezahnte Raubtier der Erde. Sein Kopf ist gigantisch und macht ein Drittel seiner gesamten Körperlänge aus. In der absoluten Finsternis der Tiefsee liefert er sich epische Kämpfe mit riesigen Tintenfischen. Außerdem hält er einen Rekord für das schwerste Gehirn aller Lebewesen!",
-            "image_main": "https://images.unsplash.com/photo-1533596547631-5079a40590a9?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1563974628468-3680f5750af2?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -2123,7 +2123,7 @@
               "biome": "OZEANISCHE TIEFE",
               "challengeType": "REKORD-GEHIRN",
               "questionText": "Wie schwer ist das Gehirn eines ausgewachsenen Pottwals?",
-              "image": "https://images.unsplash.com/photo-1533596547631-5079a40590a9?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1563974628468-3680f5750af2?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -2169,7 +2169,7 @@
               "biome": "OZEANISCHE TIEFE",
               "challengeType": "REKORD-TAUCHER",
               "questionText": "Wie tief kann ein Pottwal auf der Jagd nach Nahrung tauchen?",
-              "image": "https://images.unsplash.com/photo-1533596547631-5079a40590a9?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1563974628468-3680f5750af2?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -2215,7 +2215,7 @@
               "biome": "OZEANISCHE TIEFE",
               "challengeType": "EPISCHE KÄMPFE",
               "questionText": "Was ist die absolute Lieblingsspeise des Pottwals in der Tiefsee?",
-              "image": "https://images.unsplash.com/photo-1533596547631-5079a40590a9?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1563974628468-3680f5750af2?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -2261,7 +2261,7 @@
               "biome": "OZEANISCHE TIEFE",
               "challengeType": "SUPER-SINNE",
               "questionText": "Woraus besteht das 'Spermaceti', die dicke Flüssigkeit im Kopf des Pottwals?",
-              "image": "https://images.unsplash.com/photo-1533596547631-5079a40590a9?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1563974628468-3680f5750af2?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -2307,7 +2307,7 @@
               "biome": "OZEANISCHE TIEFE",
               "challengeType": "TIERISCHER ALLTAG",
               "questionText": "Wie sieht es aus, wenn eine Gruppe Pottwale tief und fest schläft?",
-              "image": "https://images.unsplash.com/photo-1533596547631-5079a40590a9?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1563974628468-3680f5750af2?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -3059,7 +3059,7 @@
             "diet": "Fleischfresser (Fische, Robben, Haie, sogar andere Wale)",
             "wwf_status": "Unzureichende Datenlage",
             "description": "Der Orca ist eigentlich gar kein Wal, sondern die größte Delfinart der Welt! Er ist ein absolutes Super-Gehirn der Meere: Orcas haben eine eigene Sprache, geben ihr Wissen an ihre Kinder weiter und jagen in perfekt organisierten Teams. Durch ihre markante schwarz-weiße Färbung sind sie unverwechselbar.",
-            "image_main": "https://images.unsplash.com/photo-1572074384138-0b6159ba31a6?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1721750887731-a0c76043092d?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -3067,7 +3067,7 @@
               "biome": "OZEANISCHE TIEFE",
               "challengeType": "STAMMBAUM",
               "questionText": "Zu welcher Tierfamilie gehört der Orca (Schwertwal) in Wirklichkeit?",
-              "image": "https://images.unsplash.com/photo-1572074384138-0b6159ba31a6?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1721750887731-a0c76043092d?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -3113,7 +3113,7 @@
               "biome": "OZEANISCHE TIEFE",
               "challengeType": "TEAM-JAGD",
               "questionText": "Wie fangen Orcas in der Antarktis Robben, die sich auf einer Eisscholle ausruhen?",
-              "image": "https://images.unsplash.com/photo-1572074384138-0b6159ba31a6?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1721750887731-a0c76043092d?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -3159,7 +3159,7 @@
               "biome": "OZEANISCHE TIEFE",
               "challengeType": "SUPER-SINNE",
               "questionText": "Warum können Orcas (genau wie andere Delfine) im Wasser perfekt in kompletter Dunkelheit jagen?",
-              "image": "https://images.unsplash.com/photo-1572074384138-0b6159ba31a6?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1721750887731-a0c76043092d?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -3205,7 +3205,7 @@
               "biome": "OZEANISCHE TIEFE",
               "challengeType": "KÖRPERBAU",
               "questionText": "Welches Körperteil des männlichen Orcas ist im Tierreich besonders rekordverdächtig?",
-              "image": "https://images.unsplash.com/photo-1572074384138-0b6159ba31a6?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1721750887731-a0c76043092d?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -3251,7 +3251,7 @@
               "biome": "OZEANISCHE TIEFE",
               "challengeType": "FAMILIEN-LEBEN",
               "questionText": "Wer ist der absolute Chef (Anführer) in einer Orca-Familie?",
-              "image": "https://images.unsplash.com/photo-1572074384138-0b6159ba31a6?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1721750887731-a0c76043092d?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -3303,7 +3303,7 @@
             "diet": "Fleischfresser (Plankton, kleine Fische)",
             "wwf_status": "Nicht gefährdet",
             "description": "Quallen gehören zu den ältesten Lebewesen der Welt! Sie schwammen schon durch die Meere, lange bevor es überhaupt Dinosaurier gab. Faszinierend ist, dass sie weder ein Herz noch ein Gehirn besitzen und zu fast 100% nur aus Wasser bestehen. Manche von ihnen leuchten sogar magisch im Dunkeln!",
-            "image_main": "https://images.unsplash.com/photo-1510250604240-5e830e227038?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1508311603478-ce574376c3cf?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -3312,7 +3312,7 @@
               "biome": "OZEANISCHE TIEFE",
               "challengeType": "KÖRPERBAU",
               "questionText": "Welche Organe fehlen einer Qualle komplett?",
-              "image": "https://images.unsplash.com/photo-1510250604240-5e830e227038?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1508311603478-ce574376c3cf?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -3359,7 +3359,7 @@
               "biome": "OZEANISCHE TIEFE",
               "challengeType": "REKORD-JAGD",
               "questionText": "Welchen unglaublichen Trick beherrscht die Turritopsis-Qualle?",
-              "image": "https://images.unsplash.com/photo-1510250604240-5e830e227038?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1508311603478-ce574376c3cf?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -3406,7 +3406,7 @@
               "biome": "OZEANISCHE TIEFE",
               "challengeType": "SUPER-WAFFE",
               "questionText": "Wie jagt die Qualle ihre Beute, obwohl sie so langsam ist?",
-              "image": "https://images.unsplash.com/photo-1510250604240-5e830e227038?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1508311603478-ce574376c3cf?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -3453,7 +3453,7 @@
               "biome": "OZEANISCHE TIEFE",
               "challengeType": "LICHT-SHOW",
               "questionText": "Warum leuchten einige Quallen tief im Meer so wunderschön?",
-              "image": "https://images.unsplash.com/photo-1510250604240-5e830e227038?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1508311603478-ce574376c3cf?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -3500,7 +3500,7 @@
               "biome": "OZEANISCHE TIEFE",
               "challengeType": "TIERISCHER ALLTAG",
               "questionText": "Wie bewegen sich Quallen im Meer meistens fort?",
-              "image": "https://images.unsplash.com/photo-1510250604240-5e830e227038?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1508311603478-ce574376c3cf?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -4794,7 +4794,7 @@
             "diet": "Fleischfresser (z.B. Blauschafe, Steinböcke, Murmeltiere)",
             "wwf_status": "Gefährdet",
             "description": "Der 'Geist der Berge' ist extrem scheu und perfekt an die Kälte angepasst. Sein außergewöhnlich langer und buschiger Schwanz dient ihm nicht nur als Balancierstange bei gewagten Sprüngen über tiefe Schluchten, sondern auch als dicker Schal, den er sich beim Schlafen um das Gesicht wickelt.",
-            "image_main": "https://images.unsplash.com/photo-1560662241-11b3d047321e?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1639841377321-b54eab2c8430?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -5851,7 +5851,7 @@
       "id": "biome_rainforest",
       "name": "Tropischer Regenwald",
       "description": "Die grüne Lunge der Erde, voller dichter Baumkronen und unglaublicher Artenvielfalt.",
-      "image": "https://images.unsplash.com/photo-1518182170546-076616fdcd81?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1602298674761-700e96568f5f?q=80&w=1200&auto=format&fit=crop",
       "animals": [
         {
           "id": "animal_sloth",
@@ -5862,7 +5862,7 @@
             "diet": "Pflanzenfresser (fast ausschließlich Blätter)",
             "wwf_status": "Nicht gefährdet",
             "description": "Das Faultier ist das langsamste Säugetier der Welt. Es verbringt fast sein ganzes Leben kopfüber in den Bäumen hängend. Weil es sich so selten bewegt, wachsen in seinem Fell sogar kleine Algen, die ihm eine grünliche Tarnfarbe verleihen. Wenn es aber ins Wasser fällt, zeigt es ein völlig anderes Gesicht!",
-            "image_main": "https://images.unsplash.com/photo-1517036224168-1e43e26fb1da?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1604165645922-eb8fdc7d84ee?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -5870,7 +5870,7 @@
               "biome": "TROPISCHER REGENWALD",
               "challengeType": "ENERGIE-SPARER",
               "questionText": "Warum bewegt sich ein Faultier so unglaublich langsam?",
-              "image": "https://images.unsplash.com/photo-1517036224168-1e43e26fb1da?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1604165645922-eb8fdc7d84ee?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -5916,7 +5916,7 @@
               "biome": "TROPISCHER REGENWALD",
               "challengeType": "TAR-NUNG",
               "questionText": "Warum schimmert das Fell vieler Faultiere leicht grünlich?",
-              "image": "https://images.unsplash.com/photo-1517036224168-1e43e26fb1da?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1604165645922-eb8fdc7d84ee?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -5962,7 +5962,7 @@
               "biome": "TROPISCHER REGENWALD",
               "challengeType": "TIERISCHER ALLTAG",
               "questionText": "Wie oft verlässt das Faultier seinen sicheren Baum, um auf dem Boden aufs Klo zu gehen?",
-              "image": "https://images.unsplash.com/photo-1517036224168-1e43e26fb1da?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1604165645922-eb8fdc7d84ee?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -6008,7 +6008,7 @@
               "biome": "TROPISCHER REGENWALD",
               "challengeType": "KÖRPERBAU",
               "questionText": "Wie schläft ein Faultier, ohne von den Ästen zu fallen?",
-              "image": "https://images.unsplash.com/photo-1517036224168-1e43e26fb1da?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1604165645922-eb8fdc7d84ee?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -6054,7 +6054,7 @@
               "biome": "TROPISCHER REGENWALD",
               "challengeType": "ÜBERRASCHUNG",
               "questionText": "Was passiert, wenn ein Faultier versehentlich aus dem Baum in einen tiefen Fluss fällt?",
-              "image": "https://images.unsplash.com/photo-1517036224168-1e43e26fb1da?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1604165645922-eb8fdc7d84ee?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -6106,7 +6106,7 @@
             "diet": "Insektenfresser",
             "wwf_status": "Viele Arten gefährdet",
             "description": "Das Chamäleon sieht aus wie ein kleiner, bunter Mini-Drache. Diese besonderen Echsen verbringen ihr ganzes Leben in den Bäumen. Mit ihren unabhängig voneinander beweglichen Augen und der blitzschnellen Zunge sind sie perfekte, aber geduldige Jäger.",
-            "image_main": "https://images.unsplash.com/photo-1542106725-d9134a66a157?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1656428379377-98039ab9695a?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -6115,7 +6115,7 @@
               "biome": "TROPISCHER REGENWALD",
               "challengeType": "SUPER-SINNE",
               "questionText": "Was ist das Unglaubliche an den Augen eines Chamäleons?",
-              "image": "https://images.unsplash.com/photo-1542106725-d9134a66a157?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1656428379377-98039ab9695a?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -6162,7 +6162,7 @@
               "biome": "TROPISCHER REGENWALD",
               "challengeType": "JAGD-TAKTIK",
               "questionText": "Wie fängt das Chamäleon eine Fliege?",
-              "image": "https://images.unsplash.com/photo-1542106725-d9134a66a157?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1656428379377-98039ab9695a?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -6209,7 +6209,7 @@
               "biome": "TROPISCHER REGENWALD",
               "challengeType": "FARB-WECHSEL",
               "questionText": "Warum wechseln Chamäleons WIRKLICH ihre Farbe?",
-              "image": "https://images.unsplash.com/photo-1542106725-d9134a66a157?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1656428379377-98039ab9695a?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -6256,7 +6256,7 @@
               "biome": "TROPISCHER REGENWALD",
               "challengeType": "TAR-NUNG",
               "questionText": "Wie bewegt sich ein Chamäleon auf dem Baum, um von Raubvögeln nicht entdeckt zu werden?",
-              "image": "https://images.unsplash.com/photo-1542106725-d9134a66a157?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1656428379377-98039ab9695a?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -6303,7 +6303,7 @@
               "biome": "TROPISCHER REGENWALD",
               "challengeType": "HEITMAT",
               "questionText": "Wo auf der Welt leben fast die Hälfte aller bekannten Chamäleon-Arten?",
-              "image": "https://images.unsplash.com/photo-1542106725-d9134a66a157?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1656428379377-98039ab9695a?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -6363,7 +6363,7 @@
             "diet": "Allesfresser (Insekten, kleine Nagetiere, Wurzeln, Früchte)",
             "wwf_status": "Nicht gefährdet",
             "description": "Der Fennek ist die allerkleinste Hundeart der Welt – er ist kleiner als eine Hauskatze! Dafür hat er im Verhältnis zum Körper die größten Ohren aller Hunde. Mit diesen Radar-Ohren hört er Skorpione im Sand rascheln und kühlt gleichzeitig sein Blut in der brütend heißen Wüstensonne.",
-            "image_main": "https://images.unsplash.com/photo-1518331568285-1d017b9b1be0?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1569247625012-49e746e882e1?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -6371,7 +6371,7 @@
               "biome": "TROCKENE WÜSTE",
               "challengeType": "SUPER-SINNE",
               "questionText": "Wofür braucht der winzige Fennek seine gigantisch großen Ohren?",
-              "image": "https://images.unsplash.com/photo-1518331568285-1d017b9b1be0?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1569247625012-49e746e882e1?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -6417,7 +6417,7 @@
               "biome": "TROCKENE WÜSTE",
               "challengeType": "ÜBERLEBENS-TRICK",
               "questionText": "Wie überlebt der Fennek in der Sahara, obwohl es dort fast keine Wasserquellen gibt?",
-              "image": "https://images.unsplash.com/photo-1518331568285-1d017b9b1be0?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1569247625012-49e746e882e1?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -6463,7 +6463,7 @@
               "biome": "TROCKENE WÜSTE",
               "challengeType": "KÖRPERBAU",
               "questionText": "Warum verbrennt sich der Fennek nicht die Füße am glühend heißen Wüstensand?",
-              "image": "https://images.unsplash.com/photo-1518331568285-1d017b9b1be0?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1569247625012-49e746e882e1?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -6509,7 +6509,7 @@
               "biome": "TROCKENE WÜSTE",
               "challengeType": "ARCHITEKTUR",
               "questionText": "Was machen Fenneks den ganzen heißen Tag über?",
-              "image": "https://images.unsplash.com/photo-1518331568285-1d017b9b1be0?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1569247625012-49e746e882e1?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -6555,7 +6555,7 @@
               "biome": "TROCKENE WÜSTE",
               "challengeType": "HUNDE-REKORD",
               "questionText": "Welchen absoluten Rekord hält der Fennek innerhalb der großen Hunde-Familie (Caniden)?",
-              "image": "https://images.unsplash.com/photo-1518331568285-1d017b9b1be0?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1569247625012-49e746e882e1?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -6615,7 +6615,7 @@
             "diet": "Fleischfresser (Insekten, Würmer, kleine Fische)",
             "wwf_status": "Vom Aussterben bedroht",
             "description": "Der Axolotl ist der 'Peter Pan' unter den Tieren, denn er wird niemals richtig erwachsen. Anstatt wie ein Frosch an Land zu gehen, behält er sein Leben lang seine lustigen Kiemen-Büschel am Kopf und bleibt im Wasser. Er hat außerdem eine unglaubliche Superkraft: Er kann verlorene Körperteile einfach nachwachsen lassen!",
-            "image_main": "https://images.unsplash.com/photo-1620050865842-83b63200b3e5?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1712874364529-2d17f6111bb1?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -6624,7 +6624,7 @@
               "biome": "SÜSSWASSER",
               "challengeType": "SUPERKRAFT",
               "questionText": "Welche magische Superkraft besitzt der Axolotl?",
-              "image": "https://images.unsplash.com/photo-1620050865842-83b63200b3e5?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1712874364529-2d17f6111bb1?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -6671,7 +6671,7 @@
               "biome": "SÜSSWASSER",
               "challengeType": "KÖRPERBAU",
               "questionText": "Warum sieht es so aus, als hätte der Axolotl kleine Bäumchen am Kopf?",
-              "image": "https://images.unsplash.com/photo-1620050865842-83b63200b3e5?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1712874364529-2d17f6111bb1?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -6718,7 +6718,7 @@
               "biome": "SÜSSWASSER",
               "challengeType": "HEIMAT",
               "questionText": "An welchem einzigen Ort auf der Welt kommt der Axolotl in freier Wildbahn vor?",
-              "image": "https://images.unsplash.com/photo-1620050865842-83b63200b3e5?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1712874364529-2d17f6111bb1?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -6765,7 +6765,7 @@
               "biome": "SÜSSWASSER",
               "challengeType": "LEGENDE",
               "questionText": "Was bedeutet der Name 'Axolotl' in der alten Sprache der Azteken?",
-              "image": "https://images.unsplash.com/photo-1620050865842-83b63200b3e5?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1712874364529-2d17f6111bb1?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -6812,7 +6812,7 @@
               "biome": "SÜSSWASSER",
               "challengeType": "JAGD-TAKTIK",
               "questionText": "Wie fängt der Axolotl am liebsten seine Beute?",
-              "image": "https://images.unsplash.com/photo-1620050865842-83b63200b3e5?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1712874364529-2d17f6111bb1?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -6872,7 +6872,7 @@
             "diet": "Pflanzenfresser (Gräser, Kräuter, Blätter, Triebe)",
             "wwf_status": "Nicht gefährdet (aber Lebensraum zerschnitten)",
             "description": "Der Rothirsch wird oft ehrfürchtig der 'König des Waldes' genannt. Er ist das größte wild lebende Tier in unseren heimischen Wäldern. Wenn ein ausgewachsener Hirsch im Herbst lautstark durch den Wald 'röhrt', klingt das wie das Brüllen eines Löwen!",
-            "image_main": "https://images.unsplash.com/photo-1542129161-0731fa1a1151?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1570302262350-a29171477406?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -6881,7 +6881,7 @@
               "biome": "HEIMISCHER WALD",
               "challengeType": "KÖRPERBAU",
               "questionText": "Woraus besteht das mächtige Geweih des männlichen Rothirsches?",
-              "image": "https://images.unsplash.com/photo-1542129161-0731fa1a1151?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1570302262350-a29171477406?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -6928,7 +6928,7 @@
               "biome": "HEIMISCHER WALD",
               "challengeType": "FAMILIE",
               "questionText": "Wie nennt man die weiblichen Hirsche?",
-              "image": "https://images.unsplash.com/photo-1542129161-0731fa1a1151?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1570302262350-a29171477406?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -6975,7 +6975,7 @@
               "biome": "HEIMISCHER WALD",
               "challengeType": "SUPER-SINNE",
               "questionText": "Wozu dient der weiße Fleck am Hinterteil ('Spiegel') der Rothirsche?",
-              "image": "https://images.unsplash.com/photo-1542129161-0731fa1a1151?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1570302262350-a29171477406?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -7022,7 +7022,7 @@
               "biome": "HEIMISCHER WALD",
               "challengeType": "TIERISCHER ALLTAG",
               "questionText": "Was passiert mit männlichen Rothirschen während der Paarungszeit ('Brunft') im Herbst?",
-              "image": "https://images.unsplash.com/photo-1542129161-0731fa1a1151?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1570302262350-a29171477406?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -7069,7 +7069,7 @@
               "biome": "HEIMISCHER WALD",
               "challengeType": "TIERSCHUTZ",
               "questionText": "Wie helfen NABU und WWF den Hirschen, wenn Autobahnen durch ihren Wald gebaut werden?",
-              "image": "https://images.unsplash.com/photo-1542129161-0731fa1a1151?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1570302262350-a29171477406?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -7121,7 +7121,7 @@
             "diet": "Allesfresser (Eicheln, Wurzeln, Insekten, Aas)",
             "wwf_status": "Nicht gefährdet",
             "description": "Wildschweine sind die wilden, klugen und extrem starken Vorfahren unserer Hausschweine. Mit ihrer kräftigen Schnauze wühlen sie den Waldboden wie kleine Pflüge um und helfen so als die 'Gärtner des Waldes' sogar dabei, dass neue Bäume wachsen können.",
-            "image_main": "https://images.unsplash.com/photo-1500331002958-37d45e69baf4?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1721509615486-d0e496d50e9c?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -7130,7 +7130,7 @@
               "biome": "HEIMISCHER WALD",
               "challengeType": "FAMILIE",
               "questionText": "Wer ist der Boss in einer Wildschwein-Familie (Rotte)?",
-              "image": "https://images.unsplash.com/photo-1500331002958-37d45e69baf4?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1721509615486-d0e496d50e9c?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -7177,7 +7177,7 @@
               "biome": "HEIMISCHER WALD",
               "challengeType": "TAR-NUNG",
               "questionText": "Wie sehen kleine Wildschweinbabys aus?",
-              "image": "https://images.unsplash.com/photo-1500331002958-37d45e69baf4?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1721509615486-d0e496d50e9c?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -7224,7 +7224,7 @@
               "biome": "HEIMISCHER WALD",
               "challengeType": "WELLNESS",
               "questionText": "Warum wälzen sich Wildschweine extrem gerne tief im nassen Schlamm?",
-              "image": "https://images.unsplash.com/photo-1500331002958-37d45e69baf4?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1721509615486-d0e496d50e9c?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -7271,7 +7271,7 @@
               "biome": "HEIMISCHER WALD",
               "challengeType": "SUPER-SINNE",
               "questionText": "Welcher Sinn ist beim Wildschwein fast so gut wie bei einem Spürhund?",
-              "image": "https://images.unsplash.com/photo-1500331002958-37d45e69baf4?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1721509615486-d0e496d50e9c?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -7318,7 +7318,7 @@
               "biome": "HEIMISCHER WALD",
               "challengeType": "TIERISCHER ALLTAG",
               "questionText": "Warum nennt man Wildschweine oft die 'Gärtner des Waldes'?",
-              "image": "https://images.unsplash.com/photo-1500331002958-37d45e69baf4?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1721509615486-d0e496d50e9c?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -7370,7 +7370,7 @@
             "diet": "Allesfresser (Regenwürmer, Beeren, Insekten, Wurzeln)",
             "wwf_status": "Nicht gefährdet",
             "description": "Der Dachs wird oft liebevoll 'Grimbart' genannt, weil er durch seine markanten schwarzen Gesichtsstreifen ein wenig grimmig wirkt. Er ist eigentlich der größte heimische Vertreter der Marder-Familie. Er ist ein unglaublicher Architekt und gräbt gewaltige 'Burgen' unter der Erde, die zum Teil hunderte von Jahren alt sind!",
-            "image_main": "https://images.unsplash.com/photo-1555541679-e3144a159f8c?q=80&w=800&auto=format&fit=crop"
+            "image_main": "https://images.unsplash.com/photo-1590126974110-d8cb66eadbc7?q=80&w=800&auto=format&fit=crop"
           },
           "quests": [
             {
@@ -7379,7 +7379,7 @@
               "biome": "HEIMISCHER WALD",
               "challengeType": "ARCHITEKTUR",
               "questionText": "Welche Meisterwerke baut der Dachs unter der Erde?",
-              "image": "https://images.unsplash.com/photo-1555541679-e3144a159f8c?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1590126974110-d8cb66eadbc7?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -7426,7 +7426,7 @@
               "biome": "HEIMISCHER WALD",
               "challengeType": "KÖRPERBAU",
               "questionText": "Woran erkennt man einen Dachs sofort, wenn man sein Gesicht sieht?",
-              "image": "https://images.unsplash.com/photo-1555541679-e3144a159f8c?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1590126974110-d8cb66eadbc7?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -7473,7 +7473,7 @@
               "biome": "HEIMISCHER WALD",
               "challengeType": "WINTER-ZEIT",
               "questionText": "Wie verbringt der Dachs den eiskalten Winter?",
-              "image": "https://images.unsplash.com/photo-1555541679-e3144a159f8c?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1590126974110-d8cb66eadbc7?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -7520,7 +7520,7 @@
               "biome": "HEIMISCHER WALD",
               "challengeType": "LEIBSPEISE",
               "questionText": "Was frisst der Dachs am allerliebsten, wenn er nachts umherstreift?",
-              "image": "https://images.unsplash.com/photo-1555541679-e3144a159f8c?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1590126974110-d8cb66eadbc7?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -7567,7 +7567,7 @@
               "biome": "HEIMISCHER WALD",
               "challengeType": "TIERISCHER ALLTAG",
               "questionText": "Warum gilt der Dachs als eines der saubersten Tiere im Wald?",
-              "image": "https://images.unsplash.com/photo-1555541679-e3144a159f8c?q=80&w=800&auto=format&fit=crop",
+              "image": "https://images.unsplash.com/photo-1590126974110-d8cb66eadbc7?q=80&w=800&auto=format&fit=crop",
               "options": [
                 {
                   "id": "A",
@@ -7865,7 +7865,7 @@
       "id": "biome_bamboo_forest",
       "name": "Asiatischer Bambuswald",
       "description": "Dichte Bambuswälder im Hochland von China.",
-      "image": "https://images.unsplash.com/photo-1533036972036-edb0e78c8fb6?q=80&w=1200&auto=format&fit=crop",
+      "image": "https://images.unsplash.com/photo-1532920161727-344adb090f7f?q=80&w=1200&auto=format&fit=crop",
       "animals": [
         {
           "id": "animal_giant_panda",
