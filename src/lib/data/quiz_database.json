@@ -1604,6 +1604,255 @@
               ]
             }
           ]
+        },
+        {
+          "id": "animal_vulture",
+          "name": "Geier (Altweltgeier)",
+          "scientific_name": "Aegypiinae",
+          "lexicon": {
+            "habitat": "Savannen, Steppen und Gebirge in Afrika, Asien und Europa",
+            "diet": "Aasfresser",
+            "wwf_status": "Stark gefährdet (viele Arten)",
+            "description": "Geier sehen vielleicht nicht aus wie kuschelige Haustiere, aber sie sind wahre Superhelden der Natur! Als 'Gesundheitspolizei' der Savanne fressen sie tote Tiere, bevor diese gefährliche Krankheiten verbreiten können. Dank ihrer extrem starken Magensäure werden sie dabei selbst nie krank.",
+            "image_main": "https://images.unsplash.com/photo-1542152648-52fb16bf72b4?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_vulture_01",
+              "questionNumber": "1/5",
+              "biome": "SAVANNE",
+              "challengeType": "SUPER-MAGEN",
+              "questionText": "Warum werden Geier nicht krank, wenn sie altes, vergammeltes Fleisch fressen?",
+              "image": "https://images.unsplash.com/photo-1542152648-52fb16bf72b4?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie waschen das Fleisch zuerst",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Ihre Magensäure ist extrem stark und tötet alle Bakterien ab",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Sie spucken die Bakterien aus",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sie fressen Kräuter als Medizin",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "science",
+                  "title": "Säure wie Batterie",
+                  "desc": "Die Magensäure eines Geiers ist fast so stark wie Batteriesäure. Sogar tödliche Krankheiten wie Milzbrand oder Tollwut werden darin zerstört."
+                },
+                {
+                  "icon": "health_and_safety",
+                  "title": "Gesundheitspolizei",
+                  "desc": "Ohne Geier würden sich gefährliche Seuchen extrem schnell in der Wildnis ausbreiten."
+                },
+                {
+                  "icon": "hardware",
+                  "title": "Knochenknacker",
+                  "desc": "Besonders der Bartgeier kann sogar massive Knochen verdauen, wenn das Fleisch schon komplett weg ist!"
+                }
+              ]
+            },
+            {
+              "quest_id": "q_vulture_02",
+              "questionNumber": "2/5",
+              "biome": "SAVANNE",
+              "challengeType": "KÖRPERBAU",
+              "questionText": "Warum haben die meisten Geier einen nackten Kopf ohne Federn?",
+              "image": "https://images.unsplash.com/photo-1542152648-52fb16bf72b4?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Damit sie beim tiefen Stecken des Kopfes in Kadaver sauber bleiben",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Es macht sie windschnittiger",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Sie wurden so geboren, weil sie sich die Haare abgerissen haben",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Um Raubtiere zu erschrecken",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "cleaning_services",
+                  "title": "Hygiene-Trick",
+                  "desc": "Wenn ein Geier in einem toten Tier wühlt, würden normale Federn total verkleben. Ein kahler Kopf ist viel leichter sauber zu halten!"
+                },
+                {
+                  "icon": "wb_sunny",
+                  "title": "Sonnendesinfektion",
+                  "desc": "Die starke afrikanische Sonne brennt direkt auf den nackten Kopf und tötet so ganz natürlich die restlichen Bakterien ab."
+                },
+                {
+                  "icon": "thermostat",
+                  "title": "Temperatur-Regler",
+                  "desc": "Ein federnloser Kopf hilft den Tieren außerdem, überschüssige Hitze aus dem Körper abzuleiten."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_vulture_03",
+              "questionNumber": "3/5",
+              "biome": "SAVANNE",
+              "challengeType": "WERKZEUG",
+              "questionText": "Wie öffnet der clevere 'Schmutzgeier' die harten Eier von Straußen?",
+              "image": "https://images.unsplash.com/photo-1542152648-52fb16bf72b4?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Er setzt sich darauf",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Er wirft sie einen Berg hinunter",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Er nimmt kleine Steine in den Schnabel und wirft sie auf das Ei",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Er rollt sie in ein Feuer",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "construction",
+                  "title": "Tierische Werkzeuge",
+                  "desc": "Nur ganz wenige Vögel benutzen Werkzeuge. Der Schmutzgeier nutzt zielgerichtet Steine, um das dicke Ei zu knacken."
+                },
+                {
+                  "icon": "egg",
+                  "title": "Leckere Mahlzeit",
+                  "desc": "Ein einziges Straußenei entspricht der Menge von 24 normalen Hühnereiern – ein echtes Festmahl für den Geier!"
+                },
+                {
+                  "icon": "psychology",
+                  "title": "Angeboren oder gelernt?",
+                  "desc": "Forscher haben herausgefunden, dass diese Vögel das Steinewerfen instinktiv machen, aber mit der Zeit immer besser zielen."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_vulture_04",
+              "questionNumber": "4/5",
+              "biome": "SAVANNE",
+              "challengeType": "SUPER-SINNE",
+              "questionText": "Wie finden die Geier in Afrika ihr Futter aus riesiger Höhe?",
+              "image": "https://images.unsplash.com/photo-1542152648-52fb16bf72b4?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Mit extrem scharfen Augen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Mit ihrem guten Gehör",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Sie riechen es über Kilometer",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sie spüren Vibrationen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "visibility",
+                  "title": "Adleraugen",
+                  "desc": "Die meisten Altweltgeier in Afrika haben einen super Sehsinn. Sie kreisen kilometerhoch und scannen den Boden ab."
+                },
+                {
+                  "icon": "groups",
+                  "title": "Kettenreaktion",
+                  "desc": "Wenn ein Geier vom Himmel herab in Richtung Beute stürzt, sehen das sofort die Nachbargeier und folgen ihm im Sturzflug."
+                },
+                {
+                  "icon": "air",
+                  "title": "Winde nutzen",
+                  "desc": "Um stundenlang in der Luft zu kreisen, nutzen sie warme Aufwinde (Thermik) und sparen sich das anstrengende Flügelschlagen."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_vulture_05",
+              "questionNumber": "5/5",
+              "biome": "SAVANNE",
+              "challengeType": "GEFAHR",
+              "questionText": "Warum sind Geier heute leider oft bedroht?",
+              "image": "https://images.unsplash.com/photo-1542152648-52fb16bf72b4?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Weil sie zu wenig fliegen können",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Durch giftige Köder und Tiermedikamente",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Löwen fressen alle Geier",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Ihnen ist zu kalt",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "warning",
+                  "title": "Gefährliche Medizin",
+                  "desc": "Ein bestimmtes Medikament, das Kühen oft gegeben wurde (Diclofenac), ist für Geier hochgiftig, wenn sie tote Rinder fressen."
+                },
+                {
+                  "icon": "gavel",
+                  "title": "Vergiftete Köder",
+                  "desc": "Manchmal legen Wilderer giftiges Fleisch aus, damit Geier nicht am Himmel kreisen und so Wildhüter auf sie aufmerksam machen."
+                },
+                {
+                  "icon": "volunteer_activism",
+                  "title": "Tierschutz",
+                  "desc": "NABU und WWF setzen sich stark dafür ein, dass Gifte verboten werden und Schutzzonen für diese wichtigen Vögel entstehen."
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3040,6 +3289,255 @@
                   "icon": "translate",
                   "title": "Eigener Dialekt",
                   "desc": "Jede Familie spricht ihren eigenen 'Dialekt' aus Pfeif- und Klicklauten, den andere Orcas nicht nutzen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animal_jellyfish",
+          "name": "Qualle",
+          "scientific_name": "Scyphozoa",
+          "lexicon": {
+            "habitat": "Ozeane weltweit, von der Arktis bis in die Tropen",
+            "diet": "Fleischfresser (Plankton, kleine Fische)",
+            "wwf_status": "Nicht gefährdet",
+            "description": "Quallen gehören zu den ältesten Lebewesen der Welt! Sie schwammen schon durch die Meere, lange bevor es überhaupt Dinosaurier gab. Faszinierend ist, dass sie weder ein Herz noch ein Gehirn besitzen und zu fast 100% nur aus Wasser bestehen. Manche von ihnen leuchten sogar magisch im Dunkeln!",
+            "image_main": "https://images.unsplash.com/photo-1510250604240-5e830e227038?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_jellyfish_01",
+              "questionNumber": "1/5",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "KÖRPERBAU",
+              "questionText": "Welche Organe fehlen einer Qualle komplett?",
+              "image": "https://images.unsplash.com/photo-1510250604240-5e830e227038?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Magen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Augen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Herz, Gehirn und Knochen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Tentakel",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "psychology",
+                  "title": "Leben ohne Kopf",
+                  "desc": "Quallen steuern alles über ein ganz einfaches Nervennetzwerk, das in ihrem ganzen Körper verteilt ist – völlig ohne echtes Gehirn!"
+                },
+                {
+                  "icon": "water_drop",
+                  "title": "Wandelndes Wasser",
+                  "desc": "Ihr Körper besteht zu erstaunlichen 95 bis 98 Prozent aus purem Wasser. Ein Mensch besteht 'nur' zu rund 60 Prozent aus Wasser."
+                },
+                {
+                  "icon": "healing",
+                  "title": "Ohne rotes Blut",
+                  "desc": "Da sie kein Herz haben, pumpen sie auch kein Blut. Sie nehmen Sauerstoff direkt über ihre Außenhaut aus dem Meerwasser auf."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_jellyfish_02",
+              "questionNumber": "2/5",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "REKORD-JAGD",
+              "questionText": "Welchen unglaublichen Trick beherrscht die Turritopsis-Qualle?",
+              "image": "https://images.unsplash.com/photo-1510250604240-5e830e227038?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie kann 100 km/h schnell schwimmen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sie kann sich in einen Delfin verwandeln",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Sie kann ihr Leben umdrehen und wieder zum Baby werden",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Sie überlebt ohne Wasser",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "child_care",
+                  "title": "Die 'unsterbliche' Qualle",
+                  "desc": "Wenn sie verletzt ist oder hungert, verwandelt sie ihre erwachsenen Zellen einfach zurück in ein Baby-Stadium (Polyp)."
+                },
+                {
+                  "icon": "loop",
+                  "title": "Immer wieder neu",
+                  "desc": "Theoretisch kann sie diesen Vorgang endlos wiederholen und stirbt somit nie an Altersschwäche!"
+                },
+                {
+                  "icon": "science",
+                  "title": "Rätsel für Forscher",
+                  "desc": "Wissenschaftler studieren diesen Vorgang sehr genau, um vielleicht etwas für die Erhaltung der menschlichen Zellen zu lernen."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_jellyfish_03",
+              "questionNumber": "3/5",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "SUPER-WAFFE",
+              "questionText": "Wie jagt die Qualle ihre Beute, obwohl sie so langsam ist?",
+              "image": "https://images.unsplash.com/photo-1510250604240-5e830e227038?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie wirft Steine",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sie fängt Beute mit tausenden winzigen Gift-Harpunen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Sie erstickt sie durch Umarmung",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sie pustet Wasserblasen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "hardware",
+                  "title": "Mini-Harpunen",
+                  "desc": "Die Tentakel sind mit sogenannten Nesselkapseln übersät. Berührt ein Fisch sie, schießen winzige, aufgerollte Harpunen mit Gift heraus."
+                },
+                {
+                  "icon": "warning",
+                  "title": "Extrem schnell",
+                  "desc": "Das Abfeuern dieser Nesselkapseln gehört zu den schnellsten Bewegungen im gesamten Tierreich – es dauert nur wenige Mikrosekunden!"
+                },
+                {
+                  "icon": "restaurant",
+                  "title": "Gute Verdauung",
+                  "desc": "Die gelähmte Beute wird durch die Tentakel langsam in den Mund geschoben, der sich in der Mitte des 'Regenschirms' befindet."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_jellyfish_04",
+              "questionNumber": "4/5",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "LICHT-SHOW",
+              "questionText": "Warum leuchten einige Quallen tief im Meer so wunderschön?",
+              "image": "https://images.unsplash.com/photo-1510250604240-5e830e227038?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Um Beute anzulocken oder Feinde zu erschrecken",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Weil sie Sonnenlicht gespeichert haben",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Sie haben Batterien verschluckt",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Damit sie sich im Dunkeln beim Schwimmen nicht stoßen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "lightbulb",
+                  "title": "Chemisches Licht",
+                  "desc": "Diesen Trick nennt man Biolumineszenz. Die Qualle mischt Chemikalien in ihrem Körper, die dann blau oder grün aufleuchten."
+                },
+                {
+                  "icon": "security",
+                  "title": "Hilferuf per Licht",
+                  "desc": "Manche Arten blitzen wild auf, wenn sie angegriffen werden. Das soll größere Raubtiere anlocken, die dann den Angreifer der Qualle fressen!"
+                },
+                {
+                  "icon": "science",
+                  "title": "Medizin-Durchbruch",
+                  "desc": "Das leuchtende Protein von Quallen nutzen Forscher heute im Labor. Dafür gab es sogar 2008 den Chemie-Nobelpreis!"
+                }
+              ]
+            },
+            {
+              "quest_id": "q_jellyfish_05",
+              "questionNumber": "5/5",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "TIERISCHER ALLTAG",
+              "questionText": "Wie bewegen sich Quallen im Meer meistens fort?",
+              "image": "https://images.unsplash.com/photo-1510250604240-5e830e227038?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Mit kleinen Flossen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sie laufen am Boden",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Sie pumpen ihren Schirm rhythmisch zusammen und lassen sich treiben",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Sie springen aus dem Wasser",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "waves",
+                  "title": "Elegantes Pulsieren",
+                  "desc": "Die Qualle zieht ihre Glocke zusammen, presst so Wasser aus der Öffnung und drückt sich dadurch nach oben und vorne."
+                },
+                {
+                  "icon": "sailing",
+                  "title": "Drifter",
+                  "desc": "Trotz dieser Schwimmbewegung sind sie oft zu schwach, um gegen Strömungen anzukommen. Sie lassen sich meist weit durchs Meer treiben."
+                },
+                {
+                  "icon": "eco",
+                  "title": "Ökosystem-Gewinner",
+                  "desc": "Da sie so genügsam sind, profitieren sie oft davon, wenn Menschen das Meer aufwärmen – es gibt immer mehr riesige Quallen-Schwärme."
                 }
               ]
             }
@@ -5342,6 +5840,767 @@
                       ]
                     }
                   ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biome_rainforest",
+      "name": "Tropischer Regenwald",
+      "description": "Die grüne Lunge der Erde, voller dichter Baumkronen und unglaublicher Artenvielfalt.",
+      "image": "https://images.unsplash.com/photo-1518182170546-076616fdcd81?q=80&w=1200&auto=format&fit=crop",
+      "animals": [
+        {
+          "id": "animal_sloth",
+          "name": "Dreifinger-Faultier",
+          "scientific_name": "Bradypus variegatus",
+          "lexicon": {
+            "habitat": "Tropische Regenwälder in Mittel- und Südamerika",
+            "diet": "Pflanzenfresser (fast ausschließlich Blätter)",
+            "wwf_status": "Nicht gefährdet",
+            "description": "Das Faultier ist das langsamste Säugetier der Welt. Es verbringt fast sein ganzes Leben kopfüber in den Bäumen hängend. Weil es sich so selten bewegt, wachsen in seinem Fell sogar kleine Algen, die ihm eine grünliche Tarnfarbe verleihen. Wenn es aber ins Wasser fällt, zeigt es ein völlig anderes Gesicht!",
+            "image_main": "https://images.unsplash.com/photo-1517036224168-1e43e26fb1da?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_sloth_01",
+              "biome": "TROPISCHER REGENWALD",
+              "challengeType": "ENERGIE-SPARER",
+              "questionText": "Warum bewegt sich ein Faultier so unglaublich langsam?",
+              "image": "https://images.unsplash.com/photo-1517036224168-1e43e26fb1da?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Seine Knochen sind zu schwer",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Die Blätter, die es frisst, liefern extrem wenig Energie",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Es schläft beim Klettern",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Es hat Angst, herunterzufallen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "eco",
+                  "title": "Diät-Essen",
+                  "desc": "Blätter enthalten so wenig Nährstoffe und Kalorien, dass das Faultier absolut jede Bewegung sparen muss."
+                },
+                {
+                  "icon": "hourglass_bottom",
+                  "title": "Mega-Verdauung",
+                  "desc": "Sein Magen ist riesig! Es dauert oft bis zu einem ganzen Monat, um eine einzige Mahlzeit komplett zu verdauen."
+                },
+                {
+                  "icon": "thermostat",
+                  "title": "Schwankende Temperatur",
+                  "desc": "Faultiere können ihre Körpertemperatur kaum selbst regeln. Sie sonnen sich morgens wie Echsen, um warm zu werden."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_sloth_02",
+              "biome": "TROPISCHER REGENWALD",
+              "challengeType": "TAR-NUNG",
+              "questionText": "Warum schimmert das Fell vieler Faultiere leicht grünlich?",
+              "image": "https://images.unsplash.com/photo-1517036224168-1e43e26fb1da?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie reiben sich mit zerquetschten Blättern ein",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sie schwitzen grüne Farbe aus",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "In ihrem Fell wachsen echte Algen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Es ist eine optische Täuschung durch die Sonne",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "bug_report",
+                  "title": "Wandelndes Ökosystem",
+                  "desc": "Das Fell ist voll von Rissen, in denen sich Regenwasser sammelt. Perfekt für Algen, kleine Motten und Käfer."
+                },
+                {
+                  "icon": "visibility_off",
+                  "title": "Perfekte Tarnung",
+                  "desc": "Der grüne Schimmer der Algen hilft dem Faultier, zwischen den Blättern unsichtbar für Harpyien (Greifvögel) und Jaguare zu sein."
+                },
+                {
+                  "icon": "restaurant",
+                  "title": "Notfall-Snack",
+                  "desc": "Forscher glauben, dass Faultiere diese Algen manchmal sogar ablecken, um zusätzliche Nährstoffe zu bekommen."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_sloth_03",
+              "biome": "TROPISCHER REGENWALD",
+              "challengeType": "TIERISCHER ALLTAG",
+              "questionText": "Wie oft verlässt das Faultier seinen sicheren Baum, um auf dem Boden aufs Klo zu gehen?",
+              "image": "https://images.unsplash.com/photo-1517036224168-1e43e26fb1da?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Jeden Morgen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Es lässt es einfach von oben fallen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Nur etwa einmal in der Woche",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Einmal im Jahr",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "warning",
+                  "title": "Lebensgefahr",
+                  "desc": "Der Weg zum Boden ist der gefährlichste Moment im Leben eines Faultiers, da es dort Raubtieren schutzlos ausgeliefert ist."
+                },
+                {
+                  "icon": "monitor_weight",
+                  "title": "Gewaltige Erleichterung",
+                  "desc": "Wenn es dann endlich aufs Klo geht, verliert es bis zu einem Drittel seines gesamten Körpergewichts auf einmal!"
+                },
+                {
+                  "icon": "volunteer_activism",
+                  "title": "Dünger für den Baum",
+                  "desc": "Es gräbt ein Loch am Fuß SEINES Baumes und düngt ihn damit – als Dank für die Nahrung."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_sloth_04",
+              "biome": "TROPISCHER REGENWALD",
+              "challengeType": "KÖRPERBAU",
+              "questionText": "Wie schläft ein Faultier, ohne von den Ästen zu fallen?",
+              "image": "https://images.unsplash.com/photo-1517036224168-1e43e26fb1da?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Es bindet sich mit dem Schwanz fest",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Es schläft auf dem Boden",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Seine Krallen rasten wie Kleiderhaken ein",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Es fällt oft, tut sich aber nicht weh",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "hardware",
+                  "title": "Eingebaute Haken",
+                  "desc": "Die bis zu 10 cm langen Krallen funktionieren wie Fleischerhaken. Zum Hängen braucht das Faultier absolut keine Muskelkraft."
+                },
+                {
+                  "icon": "favorite",
+                  "title": "Festgetackert",
+                  "desc": "Der Griff ist so fest, dass Faultiere manchmal sogar nach ihrem Tod noch eine Zeit lang kopfüber im Baum hängen bleiben."
+                },
+                {
+                  "icon": "flip",
+                  "title": "Organe gesichert",
+                  "desc": "Ihre Organe (wie Magen und Leber) sind an den Rippen festgewachsen, damit sie beim Kopfüberhängen nicht auf die Lunge drücken."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_sloth_05",
+              "biome": "TROPISCHER REGENWALD",
+              "challengeType": "ÜBERRASCHUNG",
+              "questionText": "Was passiert, wenn ein Faultier versehentlich aus dem Baum in einen tiefen Fluss fällt?",
+              "image": "https://images.unsplash.com/photo-1517036224168-1e43e26fb1da?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Es ertrinkt sofort",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Es sinkt auf den Grund und läuft",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Es ist ein erstaunlich guter und schneller Schwimmer",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Es ruft nach Hilfe",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "pool",
+                  "title": "Brustschwimmer",
+                  "desc": "Überraschung! Im Wasser bewegen sich Faultiere fast dreimal so schnell wie an Land. Sie schwimmen eine Art Brustschwimmen."
+                },
+                {
+                  "icon": "air",
+                  "title": "Luft-Ballon",
+                  "desc": "Ihr riesiger, gasgefüllter Magen wirkt wie ein natürlicher Schwimmflügel und hält sie mühelos über Wasser."
+                },
+                {
+                  "icon": "timer",
+                  "title": "Langer Atem",
+                  "desc": "Sie können beim Schwimmen ihren Herzschlag verlangsamen und bis zu 40 Minuten unter Wasser die Luft anhalten."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biome_desert",
+      "name": "Trockene Wüste",
+      "description": "Die endlosen Sanddünen der Sahara, wo Hitze am Tag und Kälte in der Nacht herrschen.",
+      "image": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?q=80&w=1200&auto=format&fit=crop",
+      "animals": [
+        {
+          "id": "animal_fennec",
+          "name": "Fennek (Wüstenfuchs)",
+          "scientific_name": "Vulpes zerda",
+          "lexicon": {
+            "habitat": "Sandwüsten Nordafrikas (vor allem in der Sahara)",
+            "diet": "Allesfresser (Insekten, kleine Nagetiere, Wurzeln, Früchte)",
+            "wwf_status": "Nicht gefährdet",
+            "description": "Der Fennek ist die allerkleinste Hundeart der Welt – er ist kleiner als eine Hauskatze! Dafür hat er im Verhältnis zum Körper die größten Ohren aller Hunde. Mit diesen Radar-Ohren hört er Skorpione im Sand rascheln und kühlt gleichzeitig sein Blut in der brütend heißen Wüstensonne.",
+            "image_main": "https://images.unsplash.com/photo-1518331568285-1d017b9b1be0?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_fennec_01",
+              "biome": "TROCKENE WÜSTE",
+              "challengeType": "SUPER-SINNE",
+              "questionText": "Wofür braucht der winzige Fennek seine gigantisch großen Ohren?",
+              "image": "https://images.unsplash.com/photo-1518331568285-1d017b9b1be0?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Nur um besser zu hören",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Zum Hören UND als Klimaanlage, um Hitze abzugeben",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Um Feinde durch Größe einzuschüchtern",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Um beim Rennen zu steuern",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "thermostat",
+                  "title": "Tierischer Kühler",
+                  "desc": "Die 15 cm langen Ohren sind stark durchblutet. Der heiße Wüstenwind kühlt das Blut in den Ohren wie bei einer Klimaanlage ab."
+                },
+                {
+                  "icon": "radar",
+                  "title": "Radarstation",
+                  "desc": "Das Gehör ist so fein, dass der Fennek Insekten oder Echsen hört, die sich unter der Sandoberfläche eingegraben haben."
+                },
+                {
+                  "icon": "scale",
+                  "title": "Ohr-Rekord",
+                  "desc": "Die Ohren sind rund ein Fünftel so lang wie der ganze Körper. Bei uns Menschen entspräche das Ohren so groß wie Schulhefte!"
+                }
+              ]
+            },
+            {
+              "quest_id": "q_fennec_02",
+              "biome": "TROCKENE WÜSTE",
+              "challengeType": "ÜBERLEBENS-TRICK",
+              "questionText": "Wie überlebt der Fennek in der Sahara, obwohl es dort fast keine Wasserquellen gibt?",
+              "image": "https://images.unsplash.com/photo-1518331568285-1d017b9b1be0?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Er speichert Wasser im Buckel",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Er trinkt nie und bekommt alles Wasser aus seiner Nahrung",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Er fängt morgens Tau mit den Ohren auf",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Er gräbt metertiefe Brunnen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "water_drop",
+                  "title": "Wasser aus dem Essen",
+                  "desc": "Fenneks müssen eigentlich nie flüssiges Wasser trinken. Sie bekommen genug Feuchtigkeit aus Blättern, Wurzeln und Beutetieren."
+                },
+                {
+                  "icon": "opacity",
+                  "title": "Nieren auf Sparflamme",
+                  "desc": "Ihre Nieren sind so gut an die Wüste angepasst, dass sie extrem wenig Wasser bei der Urin-Produktion verschwenden."
+                },
+                {
+                  "icon": "ac_unit",
+                  "title": "Nachtaktiv",
+                  "desc": "Um nicht in der Sonne zu schwitzen (was Wasser kosten würde), sind sie fast ausschließlich in der kühleren Nacht aktiv."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_fennec_03",
+              "biome": "TROCKENE WÜSTE",
+              "challengeType": "KÖRPERBAU",
+              "questionText": "Warum verbrennt sich der Fennek nicht die Füße am glühend heißen Wüstensand?",
+              "image": "https://images.unsplash.com/photo-1518331568285-1d017b9b1be0?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Er rennt einfach extrem schnell",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Er hat dicke Hornhaut unter den Pfoten",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Seine Fußsohlen sind komplett mit dickem Fell bedeckt",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Er bewegt sich nur im Schatten",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "pets",
+                  "title": "Eingebaute Socken",
+                  "desc": "Im Gegensatz zu unseren Hunden haben Fenneks dichte, lange Haare unter den Fußsohlen, die sie vor Verbrennungen schützen."
+                },
+                {
+                  "icon": "snowshoeing",
+                  "title": "Schneeschuh-Prinzip",
+                  "desc": "Das Fell an den Pfoten vergrößert die Trittfläche. So sinken sie im lockeren, weichen Dünensand nicht so tief ein."
+                },
+                {
+                  "icon": "volume_off",
+                  "title": "Leisetreter",
+                  "desc": "Die Haare dämpfen außerdem jeden Schritt – so können sie sich in der lautlosen Wüste geräuschlos an Beute anschleichen."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_fennec_04",
+              "biome": "TROCKENE WÜSTE",
+              "challengeType": "ARCHITEKTUR",
+              "questionText": "Was machen Fenneks den ganzen heißen Tag über?",
+              "image": "https://images.unsplash.com/photo-1518331568285-1d017b9b1be0?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie verstecken sich tief in selbst gegrabenen, kühlen Tunneln",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Sie legen sich in einen Fluss",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Sie suchen sich einen kleinen Busch als Schirm",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sie jagen ununterbrochen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "construction",
+                  "title": "Unterirdische Villen",
+                  "desc": "Sie sind fantastische Gräber und bauen Tunnelnetzwerke, die bis zu 10 Meter lang sind und mehrere Eingänge haben."
+                },
+                {
+                  "icon": "family_restroom",
+                  "title": "Familien-WG",
+                  "desc": "Oft werden mehrere dieser Tunnelsysteme miteinander verbunden, sodass ganze Familienverbände unterirdisch zusammenleben."
+                },
+                {
+                  "icon": "thermostat",
+                  "title": "Natürliche Kühlung",
+                  "desc": "Egal wie heiß es draußen wird, im Inneren der tiefen Höhlen herrschen angenehme und gleichmäßige Temperaturen."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_fennec_05",
+              "biome": "TROCKENE WÜSTE",
+              "challengeType": "HUNDE-REKORD",
+              "questionText": "Welchen absoluten Rekord hält der Fennek innerhalb der großen Hunde-Familie (Caniden)?",
+              "image": "https://images.unsplash.com/photo-1518331568285-1d017b9b1be0?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Er ist die am längsten lebende Hundeart",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Er ist die kleinste aller Hundearten der Welt",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Er rennt schneller als ein Windhund",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Er hat die schärfsten Zähne",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "scale",
+                  "title": "Federgewicht",
+                  "desc": "Ein ausgewachsener Fennek wiegt nur zwischen 1 und 1,5 Kilogramm – weniger als ein normaler Chihuahua!"
+                },
+                {
+                  "icon": "straighten",
+                  "title": "Mini-Körper",
+                  "desc": "Die Schulterhöhe beträgt gerade mal 20 Zentimeter. Man könnte ihn bequem in zwei Händen halten."
+                },
+                {
+                  "icon": "sports_martial_arts",
+                  "title": "Trotzdem Raubtier",
+                  "desc": "Trotz ihrer Größe sind sie unglaublich flink und können aus dem Stand bis zu 60 Zentimeter hoch in die Luft springen, um Beute zu fangen."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biome_freshwater",
+      "name": "Süßwasser-Seen & Flüsse",
+      "description": "Klare Flüsse und geheimnisvolle Seen, Heimat für viele faszinierende Wasserbewohner.",
+      "image": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?q=80&w=1200&auto=format&fit=crop",
+      "animals": [
+        {
+          "id": "animal_axolotl",
+          "name": "Axolotl",
+          "scientific_name": "Ambystoma mexicanum",
+          "lexicon": {
+            "habitat": "Xochimilco-See in Mexiko (Süßwasser)",
+            "diet": "Fleischfresser (Insekten, Würmer, kleine Fische)",
+            "wwf_status": "Vom Aussterben bedroht",
+            "description": "Der Axolotl ist der 'Peter Pan' unter den Tieren, denn er wird niemals richtig erwachsen. Anstatt wie ein Frosch an Land zu gehen, behält er sein Leben lang seine lustigen Kiemen-Büschel am Kopf und bleibt im Wasser. Er hat außerdem eine unglaubliche Superkraft: Er kann verlorene Körperteile einfach nachwachsen lassen!",
+            "image_main": "https://images.unsplash.com/photo-1620050865842-83b63200b3e5?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_axolotl_01",
+              "questionNumber": "1/5",
+              "biome": "SÜSSWASSER",
+              "challengeType": "SUPERKRAFT",
+              "questionText": "Welche magische Superkraft besitzt der Axolotl?",
+              "image": "https://images.unsplash.com/photo-1620050865842-83b63200b3e5?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Er kann sich unsichtbar machen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Er lässt verlorene Körperteile perfekt nachwachsen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Er kann Feuer spucken",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Er kann ohne Wasser fliegen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "healing",
+                  "title": "Meister der Heilung",
+                  "desc": "Egal ob ein Bein, ein Stück Schwanz oder sogar ein Teil des Herzens – der Axolotl baut es einfach komplett neu auf!"
+                },
+                {
+                  "icon": "science",
+                  "title": "Medizin-Wunder",
+                  "desc": "Forscher auf der ganzen Welt studieren ihn, um herauszufinden, ob auch Menschen eines Tages Wunden so perfekt heilen könnten."
+                },
+                {
+                  "icon": "timer",
+                  "title": "Keine Narben",
+                  "desc": "Nach ein paar Wochen sieht der nachgewachsene Körperteil wieder genau wie vorher aus, ganz ohne Narben!"
+                }
+              ]
+            },
+            {
+              "quest_id": "q_axolotl_02",
+              "questionNumber": "2/5",
+              "biome": "SÜSSWASSER",
+              "challengeType": "KÖRPERBAU",
+              "questionText": "Warum sieht es so aus, als hätte der Axolotl kleine Bäumchen am Kopf?",
+              "image": "https://images.unsplash.com/photo-1620050865842-83b63200b3e5?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Das ist Moos zur Tarnung",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Es sind seine Außenkiemen zum Atmen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Das sind spezielle Ohren",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Es ist eine Krone",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "air",
+                  "title": "Atmen unter Wasser",
+                  "desc": "Diese federartigen Büschel sind Kiemen, durch die er Sauerstoff direkt aus dem Wasser filtert."
+                },
+                {
+                  "icon": "water_drop",
+                  "title": "Für immer Baby",
+                  "desc": "Andere Salamander verlieren ihre Kiemen, wenn sie erwachsen werden. Der Axolotl behält sie sein ganzes Leben lang!"
+                },
+                {
+                  "icon": "favorite",
+                  "title": "Gut durchblutet",
+                  "desc": "Die Kiemen sind oft rosa oder rot, weil man das Blut direkt durch die feinen Häutchen fließen sehen kann."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_axolotl_03",
+              "questionNumber": "3/5",
+              "biome": "SÜSSWASSER",
+              "challengeType": "HEIMAT",
+              "questionText": "An welchem einzigen Ort auf der Welt kommt der Axolotl in freier Wildbahn vor?",
+              "image": "https://images.unsplash.com/photo-1620050865842-83b63200b3e5?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Im Amazonas",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "In den Schweizer Alpen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Im Xochimilco-See in Mexiko",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Im Rhein",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "travel_explore",
+                  "title": "Stark begrenzter Ort",
+                  "desc": "Sie leben ausschließlich in einem bestimmten Seensystem in der Nähe von Mexiko-Stadt."
+                },
+                {
+                  "icon": "warning",
+                  "title": "In großer Gefahr",
+                  "desc": "Da die Stadt wächst und das Wasser verschmutzt, sind wilde Axolotl leider vom Aussterben bedroht."
+                },
+                {
+                  "icon": "pets",
+                  "title": "Falsche Fische",
+                  "desc": "Ausgesetzte Fische, die eigentlich nicht in den See gehören, fressen oft die Babys der Axolotl."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_axolotl_04",
+              "questionNumber": "4/5",
+              "biome": "SÜSSWASSER",
+              "challengeType": "LEGENDE",
+              "questionText": "Was bedeutet der Name 'Axolotl' in der alten Sprache der Azteken?",
+              "image": "https://images.unsplash.com/photo-1620050865842-83b63200b3e5?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Glücklicher Fisch",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Wassermonster",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Langsamer Schwimmer",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Kleiner Drache",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "auto_stories",
+                  "title": "Alte Legenden",
+                  "desc": "Die Azteken glaubten, ein Gott namens Xolotl habe sich in das Tier verwandelt, um sich zu verstecken."
+                },
+                {
+                  "icon": "pets",
+                  "title": "Wasserhund",
+                  "desc": "Oft wird das Wort auch als 'Wasserhund' übersetzt, weil 'atl' für Wasser und 'xolotl' für Hund steht."
+                },
+                {
+                  "icon": "sentiment_satisfied_alt",
+                  "title": "Das ewige Lächeln",
+                  "desc": "Auch wenn er 'Monster' heißt, sieht der Axolotl durch sein breites Maul immer so aus, als würde er freundlich lächeln."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_axolotl_05",
+              "questionNumber": "5/5",
+              "biome": "SÜSSWASSER",
+              "challengeType": "JAGD-TAKTIK",
+              "questionText": "Wie fängt der Axolotl am liebsten seine Beute?",
+              "image": "https://images.unsplash.com/photo-1620050865842-83b63200b3e5?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Er jagt sie rennend am Strand",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Er beißt kräftig zu",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Er reißt das Maul auf und saugt sie wie ein Staubsauger ein",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Er fängt Insekten mit der Zunge wie ein Chamäleon",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "restaurant",
+                  "title": "Staubsauger-Mund",
+                  "desc": "Der Axolotl schnappt plötzlich nach Luft und Wasser, sodass ein Unterdruck entsteht, der die Beute einsaugt."
+                },
+                {
+                  "icon": "bug_report",
+                  "title": "Kleiner Snack",
+                  "desc": "Zu seinen Leibspeisen gehören Insekten, kleine Würmer und Krebstierchen."
+                },
+                {
+                  "icon": "visibility_off",
+                  "title": "Kein Kauer",
+                  "desc": "Er hat kleine, stumpfe Zähne, mit denen er Beute nur festhält, aber nicht kauen kann. Er schluckt alles im Ganzen!"
                 }
               ]
             }
