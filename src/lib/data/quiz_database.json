@@ -1360,6 +1360,250 @@
               ]
             }
           ]
+        },
+        {
+          "id": "animal_hippo",
+          "name": "Flusspferd (Nilpferd)",
+          "scientific_name": "Hippopotamus amphibius",
+          "lexicon": {
+            "habitat": "Flüsse, Seen und Sümpfe im Afrika südlich der Sahara",
+            "diet": "Pflanzenfresser (hauptsächlich Gräser)",
+            "wwf_status": "Gefährdet",
+            "description": "Obwohl es so gemütlich aussieht, ist das Flusspferd eines der gefährlichsten und stärksten Tiere Afrikas. Es verbringt den ganzen Tag im Wasser, um keinen Sonnenbrand zu bekommen, und geht erst nachts an Land, um Gras zu fressen. Wusstest du, dass Flusspferde gar nicht schwimmen können?",
+            "image_main": "https://images.unsplash.com/photo-1549557685-64f331d279fb?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_hippo_01",
+              "biome": "SAVANNE",
+              "challengeType": "WASSER-RÄTSEL",
+              "questionText": "Wie bewegen sich Flusspferde im tiefen Wasser fort?",
+              "image": "https://images.unsplash.com/photo-1549557685-64f331d279fb?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie schwimmen im Hunde-Paddel-Stil",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sie lassen sich nur treiben",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Sie laufen und hüpfen auf dem Grund des Flusses",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Sie nutzen ihren Schwanz als Propeller",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "directions_walk",
+                  "title": "Zu schwer zum Schwimmen",
+                  "desc": "Flusspferde sind so massiv und ihre Knochen so schwer, dass sie nicht richtig schwimmen können. Sie sinken einfach zu Boden."
+                },
+                {
+                  "icon": "scuba_diving",
+                  "title": "Unterwasser-Jogger",
+                  "desc": "Um vorwärtszukommen, laufen oder galoppieren sie in Zeitlupe über den Flussgrund – fast wie Astronauten auf dem Mond."
+                },
+                {
+                  "icon": "timer",
+                  "title": "Langer Atem",
+                  "desc": "Sie können bis zu 5 Minuten komplett unter Wasser bleiben, bevor sie zum Atmen wieder auftauchen müssen."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_hippo_02",
+              "biome": "SAVANNE",
+              "challengeType": "KÖRPERBAU",
+              "questionText": "Welche verrückte Eigenschaft hat der Schweiß eines Flusspferdes?",
+              "image": "https://images.unsplash.com/photo-1549557685-64f331d279fb?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Er ist leuchtend blau",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Er ist rötlich und wirkt wie eine Sonnencreme",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Er riecht nach Erdbeeren",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Er gefriert sofort",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "wb_sunny",
+                  "title": "Blutschweiß?",
+                  "desc": "Der Schweiß sieht rot aus, weshalb man früher dachte, sie schwitzen Blut. Es ist aber ein spezielles Sekret."
+                },
+                {
+                  "icon": "healing",
+                  "title": "Eingebaute Apotheke",
+                  "desc": "Dieser rote Schleim schützt die empfindliche Haut nicht nur vor Sonnenbrand, sondern wirkt auch als Pflaster gegen Bakterien."
+                },
+                {
+                  "icon": "water_drop",
+                  "title": "Trockene Gefahr",
+                  "desc": "Ohne Wasser trocknet die Haut eines Flusspferdes sehr schnell aus und reißt auf. Deshalb verlassen sie das Wasser fast nur nachts."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_hippo_03",
+              "biome": "SAVANNE",
+              "challengeType": "REKORD-TEMPO",
+              "questionText": "Wie schnell kann ein bis zu 3 Tonnen schweres Flusspferd an Land rennen?",
+              "image": "https://images.unsplash.com/photo-1549557685-64f331d279fb?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Maximal 10 km/h",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Bis zu 30 km/h (schneller als viele Menschen)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Über 60 km/h",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sie rennen nie an Land",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "speed",
+                  "title": "Sprint-Monster",
+                  "desc": "Trotz ihrer kurzen Beine und des riesigen Bauchs erreichen sie über kurze Strecken bis zu 30 km/h."
+                },
+                {
+                  "icon": "warning",
+                  "title": "Kein Kuscheltier",
+                  "desc": "Aufgrund ihrer Geschwindigkeit und ihres aggressiven Verhaltens gelten sie als die gefährlichsten Großtiere Afrikas."
+                },
+                {
+                  "icon": "nightlight",
+                  "title": "Nächtliche Wanderung",
+                  "desc": "Auf der Suche nach Gras laufen sie nachts oft bis zu 10 Kilometer weit über das trockene Land."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_hippo_04",
+              "biome": "SAVANNE",
+              "challengeType": "STAMMBAUM",
+              "questionText": "Wer sind die engsten heute noch lebenden Verwandten der Flusspferde?",
+              "image": "https://images.unsplash.com/photo-1549557685-64f331d279fb?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Schweine",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Nashörner",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Wale und Delfine",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Elefanten",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "waves",
+                  "title": "Meeres-Brüder",
+                  "desc": "DNA-Tests haben gezeigt, dass Flusspferde am engsten mit Walen und Delfinen verwandt sind!"
+                },
+                {
+                  "icon": "timeline",
+                  "title": "Uralte Spaltung",
+                  "desc": "Ihre gemeinsamen Vorfahren lebten vor etwa 55 Millionen Jahren. Die eine Gruppe ging ins Meer, die andere blieb an Land."
+                },
+                {
+                  "icon": "child_care",
+                  "title": "Unterwasser-Baby",
+                  "desc": "Genau wie Wale bringen Flusspferde ihre Babys unter Wasser zur Welt, und die Kleinen können sogar unter Wasser Milch trinken."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_hippo_05",
+              "biome": "SAVANNE",
+              "challengeType": "KIEFER-POWER",
+              "questionText": "Wie weit kann ein Flusspferd sein riesiges Maul aufreißen?",
+              "image": "https://images.unsplash.com/photo-1549557685-64f331d279fb?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Etwa 50 Grad",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Rund 90 Grad",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Bis zu 150 Grad (fast ein gerader Winkel)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Sie können es gar nicht weit öffnen",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "hardware",
+                  "title": "Riesige Scharniere",
+                  "desc": "Ein Flusspferd kann sein Maul bis zu 150 Grad weit aufsperren – das ist eine Öffnung von fast 1,2 Metern!"
+                },
+                {
+                  "icon": "bolt",
+                  "title": "Gefährliche Zähne",
+                  "desc": "Im Unterkiefer sitzen Eckzähne, die bis zu 50 Zentimeter lang werden können. Sie dienen nicht zum Essen, sondern nur zum Kämpfen."
+                },
+                {
+                  "icon": "fitness_center",
+                  "title": "Beißkraft",
+                  "desc": "Obwohl sie Pflanzenfresser sind, haben sie eine der stärksten Beißkräfte im Tierreich – stark genug, um ein kleines Boot zu zerbeißen."
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1608,6 +1852,250 @@
                   "icon": "straighten",
                   "title": "Riesiges Baby",
                   "desc": "Schon bei der Geburt ist das Kalb 6 bis 7 Meter lang und wiegt bis zu 3 Tonnen."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animal_sperm_whale",
+          "name": "Pottwal",
+          "scientific_name": "Physeter macrocephalus",
+          "lexicon": {
+            "habitat": "Alle Ozeane weltweit, taucht bis in die extremsten Tiefen ab",
+            "diet": "Fleischfresser (hauptsächlich Riesenkalmare)",
+            "wwf_status": "Gefährdet",
+            "description": "Der Pottwal ist das größte bezahnte Raubtier der Erde. Sein Kopf ist gigantisch und macht ein Drittel seiner gesamten Körperlänge aus. In der absoluten Finsternis der Tiefsee liefert er sich epische Kämpfe mit riesigen Tintenfischen. Außerdem hält er einen Rekord für das schwerste Gehirn aller Lebewesen!",
+            "image_main": "https://images.unsplash.com/photo-1533596547631-5079a40590a9?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_spermwhale_01",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "REKORD-GEHIRN",
+              "questionText": "Wie schwer ist das Gehirn eines ausgewachsenen Pottwals?",
+              "image": "https://images.unsplash.com/photo-1533596547631-5079a40590a9?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Etwa 1,5 kg (wie beim Menschen)",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Rund 3 kg",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Etwa 8 bis 9 Kilogramm",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Pottwale haben kein Gehirn",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "psychology",
+                  "title": "Absoluter Weltrekord",
+                  "desc": "Der Pottwal hat das größte und schwerste Gehirn, das jemals bei einem Tier auf der Erde existiert hat (bis zu 9 kg)."
+                },
+                {
+                  "icon": "memory",
+                  "title": "Schlaue Riesen",
+                  "desc": "Dieses große Gehirn hilft ihnen bei der komplexen Echoortung und Kommunikation in ihren sozialen Gruppen."
+                },
+                {
+                  "icon": "straighten",
+                  "title": "Gigantischer Kopf",
+                  "desc": "Der Kopf eines Männchens kann bis zu 6 Meter lang sein – so lang wie ein ganzer Lieferwagen."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_spermwhale_02",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "REKORD-TAUCHER",
+              "questionText": "Wie tief kann ein Pottwal auf der Jagd nach Nahrung tauchen?",
+              "image": "https://images.unsplash.com/photo-1533596547631-5079a40590a9?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Höchstens 200 Meter",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Etwa 500 Meter",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Bis zu 3.000 Meter tief",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Er schwimmt nur an der Oberfläche",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "scuba_diving",
+                  "title": "In die Finsternis",
+                  "desc": "Pottwale gehören zu den extremsten Tauchern der Welt und erreichen Tiefen von bis zu 3 Kilometern."
+                },
+                {
+                  "icon": "timer",
+                  "title": "Lange Luft anhalten",
+                  "desc": "Bei so einem tiefen Tauchgang können sie bis zu 90 Minuten unter Wasser bleiben, ohne zu atmen."
+                },
+                {
+                  "icon": "compress",
+                  "title": "Faltbare Lungen",
+                  "desc": "Damit der immense Wasserdruck sie nicht zerquetscht, fallen ihre Lungen beim Tauchen einfach in sich zusammen!"
+                }
+              ]
+            },
+            {
+              "quest_id": "q_spermwhale_03",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "EPISCHE KÄMPFE",
+              "questionText": "Was ist die absolute Lieblingsspeise des Pottwals in der Tiefsee?",
+              "image": "https://images.unsplash.com/photo-1533596547631-5079a40590a9?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Weiße Haie",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Winziger Krill",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Riesenkalmare (riesige Tintenfische)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Seetang",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "restaurant",
+                  "title": "Tiefsee-Snack",
+                  "desc": "Sie jagen tief im Ozean nach Riesenkalmaren, die selbst über 10 Meter lang werden können."
+                },
+                {
+                  "icon": "sports_martial_arts",
+                  "title": "Spuren des Kampfes",
+                  "desc": "Viele ältere Pottwale haben kreisrunde Narben auf der Haut – das sind Abdrücke von den scharfen Saugnäpfen der Tintenfische."
+                },
+                {
+                  "icon": "hardware",
+                  "title": "Zähne nur unten",
+                  "desc": "Interessanterweise hat der Pottwal nur Zähne im schmalen Unterkiefer. Im Oberkiefer hat er nur Löcher, in die die Zähne genau hineinpassen."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_spermwhale_04",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "SUPER-SINNE",
+              "questionText": "Woraus besteht das 'Spermaceti', die dicke Flüssigkeit im Kopf des Pottwals?",
+              "image": "https://images.unsplash.com/photo-1533596547631-5079a40590a9?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Aus gefrorenem Eis",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Aus reinem Meerwasser",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Aus einer Art Wachs / Öl",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Aus Knochenmark",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "water_drop",
+                  "title": "Walrat",
+                  "desc": "Im riesigen Kopf befinden sich bis zu 2.000 Liter eines speziellen Wachses (Spermaceti oder Walrat)."
+                },
+                {
+                  "icon": "graphic_eq",
+                  "title": "Klick-Verstärker",
+                  "desc": "Dieses Öl wirkt wie eine Linse und bündelt die Klicklaute des Wals für die lauteste Echoortung im ganzen Tierreich."
+                },
+                {
+                  "icon": "ac_unit",
+                  "title": "Temperatur-Trick",
+                  "desc": "Wenn der Wal kaltes Wasser in die Nase zieht, wird das Wachs hart und schwer – das zieht ihn wie ein Gewicht in die Tiefe!"
+                }
+              ]
+            },
+            {
+              "quest_id": "q_spermwhale_05",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "TIERISCHER ALLTAG",
+              "questionText": "Wie sieht es aus, wenn eine Gruppe Pottwale tief und fest schläft?",
+              "image": "https://images.unsplash.com/photo-1533596547631-5079a40590a9?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie legen sich auf den Meeresgrund",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sie stehen regungslos senkrecht (vertikal) im Wasser",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Sie rollen sich wie ein Ball zusammen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sie schlafen auf dem Rücken treibend",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "bedtime",
+                  "title": "Schlafende Säulen",
+                  "desc": "Pottwale treiben beim Schlafen wie gigantische Säulen aufrecht im Wasser, meist mit der Nase nach oben."
+                },
+                {
+                  "icon": "schedule",
+                  "title": "Power-Nap",
+                  "desc": "Diese tiefen Schlafphasen dauern nur etwa 10 bis 15 Minuten. In dieser Zeit reagieren sie auf fast gar nichts."
+                },
+                {
+                  "icon": "group",
+                  "title": "Gemeinsam ruhen",
+                  "desc": "Meistens tun sie das im Chor: Eine ganze Gruppe von Walen 'steht' dann still nebeneinander im weiten Ozean."
                 }
               ]
             }
@@ -2308,6 +2796,250 @@
                   "icon": "eco",
                   "title": "Meeresgärtner",
                   "desc": "Durch das Abweiden von Seegrasfeldern halten sie diese gesund – ein Schlüsselrolle fürs Ökosystem."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "animal_orca",
+          "name": "Orca (Schwertwal)",
+          "scientific_name": "Orcinus orca",
+          "lexicon": {
+            "habitat": "Weltweit in fast allen Meeren, von der Arktis bis in die Tropen",
+            "diet": "Fleischfresser (Fische, Robben, Haie, sogar andere Wale)",
+            "wwf_status": "Unzureichende Datenlage",
+            "description": "Der Orca ist eigentlich gar kein Wal, sondern die größte Delfinart der Welt! Er ist ein absolutes Super-Gehirn der Meere: Orcas haben eine eigene Sprache, geben ihr Wissen an ihre Kinder weiter und jagen in perfekt organisierten Teams. Durch ihre markante schwarz-weiße Färbung sind sie unverwechselbar.",
+            "image_main": "https://images.unsplash.com/photo-1572074384138-0b6159ba31a6?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_orca_01",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "STAMMBAUM",
+              "questionText": "Zu welcher Tierfamilie gehört der Orca (Schwertwal) in Wirklichkeit?",
+              "image": "https://images.unsplash.com/photo-1572074384138-0b6159ba31a6?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Zu den Blauwalen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Zu den Haien",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Zu den Delfinen",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Zu den Robben",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "waves",
+                  "title": "Größter Delfin",
+                  "desc": "Orcas sind die größte Art aus der Familie der Delfine. Männchen werden bis zu 9 Meter lang."
+                },
+                {
+                  "icon": "pets",
+                  "title": "Zahnwale",
+                  "desc": "Wie alle Delfine gehören sie zur Unterordnung der Zahnwale – sie haben bis zu 56 riesige Zähne."
+                },
+                {
+                  "icon": "speed",
+                  "title": "Meeres-Sprinter",
+                  "desc": "Dank ihres stromlinienförmigen Körpers schwimmen sie bis zu 56 km/h schnell."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_orca_02",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "TEAM-JAGD",
+              "questionText": "Wie fangen Orcas in der Antarktis Robben, die sich auf einer Eisscholle ausruhen?",
+              "image": "https://images.unsplash.com/photo-1572074384138-0b6159ba31a6?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie springen auf die Eisscholle",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sie singen sie in den Schlaf",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Sie erzeugen gemeinsam eine riesige Welle, die die Robbe ins Wasser spült",
+                  "isCorrect": true
+                },
+                {
+                  "id": "D",
+                  "text": "Sie beißen das Eis kaputt",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "water",
+                  "title": "Wellen-Taktik",
+                  "desc": "Mehrere Orcas schwimmen nebeneinander auf die Scholle zu und erzeugen eine perfekte Welle."
+                },
+                {
+                  "icon": "school",
+                  "title": "Wissen wird vererbt",
+                  "desc": "Diese Taktik ist nicht angeboren! Die Mütter bringen diesen Trick ihren Kindern jahrelang bei."
+                },
+                {
+                  "icon": "restaurant",
+                  "title": "Wählerische Esser",
+                  "desc": "Jede Orca-Familie hat ihr eigenes Lieblingsessen. Manche fressen nur Fisch, andere nur Säugetiere."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_orca_03",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "SUPER-SINNE",
+              "questionText": "Warum können Orcas (genau wie andere Delfine) im Wasser perfekt in kompletter Dunkelheit jagen?",
+              "image": "https://images.unsplash.com/photo-1572074384138-0b6159ba31a6?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Sie haben Taschenlampen-Augen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Sie nutzen Echoortung (Sonar) durch Klick-Laute",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Sie riechen die Fische",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Sie tasten den Boden mit den Flossen ab",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "graphic_eq",
+                  "title": "Klick-Radar",
+                  "desc": "Sie senden Klickgeräusche aus. Wenn der Schall auf einen Fisch trifft, wirft er ein Echo zurück."
+                },
+                {
+                  "icon": "face",
+                  "title": "Die 'Melone'",
+                  "desc": "Das Fettpolster auf ihrer Stirn (Melone) bündelt die Schallwellen wie die Linse einer Taschenlampe."
+                },
+                {
+                  "icon": "hearing",
+                  "title": "Ohren im Kiefer",
+                  "desc": "Das Echo fangen sie nicht mit Ohrmuscheln, sondern mit ihrem Unterkieferknochen auf!"
+                }
+              ]
+            },
+            {
+              "quest_id": "q_orca_04",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "KÖRPERBAU",
+              "questionText": "Welches Körperteil des männlichen Orcas ist im Tierreich besonders rekordverdächtig?",
+              "image": "https://images.unsplash.com/photo-1572074384138-0b6159ba31a6?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Die Rückenflosse (Finne)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "B",
+                  "text": "Die Augen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "C",
+                  "text": "Der Bauchnabel",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Die Zunge",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "straighten",
+                  "title": "Riesiges Segel",
+                  "desc": "Die Rückenflosse (Finne) der Männchen ragt steil nach oben und kann unfassbare 1,8 bis 2 Meter hoch werden."
+                },
+                {
+                  "icon": "thermostat",
+                  "title": "Eingebaute Klimaanlage",
+                  "desc": "Die Finne hat keine Knochen. Sie hilft dem Orca, überschüssige Körperwärme an das Wasser abzugeben."
+                },
+                {
+                  "icon": "fingerprint",
+                  "title": "Unverwechselbar",
+                  "desc": "Form und Kratzer der Rückenflosse sind bei jedem Orca einzigartig, wie unser Fingerabdruck."
+                }
+              ]
+            },
+            {
+              "quest_id": "q_orca_05",
+              "biome": "OZEANISCHE TIEFE",
+              "challengeType": "FAMILIEN-LEBEN",
+              "questionText": "Wer ist der absolute Chef (Anführer) in einer Orca-Familie?",
+              "image": "https://images.unsplash.com/photo-1572074384138-0b6159ba31a6?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Das stärkste Männchen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Das älteste Weibchen (die Matriarchin)",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Das jüngste Baby",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Es gibt keinen Anführer",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "diversity_3",
+                  "title": "Oma ist der Boss",
+                  "desc": "Orcas leben matriarchalisch. Eine erfahrene Großmutter führt die Familie zu den besten Jagdgründen."
+                },
+                {
+                  "icon": "home",
+                  "title": "Mama-Kinder",
+                  "desc": "Söhne und Töchter bleiben oft ihr ganzes Leben lang bei ihrer Mutter in derselben Gruppe."
+                },
+                {
+                  "icon": "translate",
+                  "title": "Eigener Dialekt",
+                  "desc": "Jede Familie spricht ihren eigenen 'Dialekt' aus Pfeif- und Klicklauten, den andere Orcas nicht nutzen."
                 }
               ]
             }
@@ -3555,51 +4287,1067 @@
             }
           ]
         },
-{
-  "id": "animal_snow_leopard",
-  "name": "Schneeleopard",
-  "scientific_name": "Panthera uncia",
-  "lexicon": {
-    "habitat": "Hochgebirge in Zentralasien (Himalaja, Karakorum, Altai)",
-    "diet": "Fleischfresser (z.B. Blauschafe, Steinböcke, Murmeltiere)",
-    "wwf_status": "Gefährdet",
-    "description": "Der 'Geist der Berge' ist extrem scheu und perfekt an die Kälte angepasst. Sein außergewöhnlich langer und buschiger Schwanz dient ihm nicht nur als Balancierstange bei gewagten Sprüngen über tiefe Schluchten, sondern auch als dicker Schal, den er sich beim Schlafen um das Gesicht wickelt.",
-    "image_main": "https://images.unsplash.com/photo-1560662241-11b3d047321e?q=80&w=800&auto=format&fit=crop"
-  },
-  "quests": [
-    {
-      "quest_id": "q_snowleopard_01",
-      "biome": "TIEFER WALD",
-      "challengeType": "KÖRPERBAU",
-      "questionText": "Wofür nutzt der Schneeleopard seinen fast ein Meter langen, dicken Schwanz?",
-      "image": "https://images.unsplash.com/photo-1559812497-cd0d9bf0dcd4?q=80&w=800&auto=format&fit=crop",
-      "options": [
-        { "id": "A", "text": "Um Beute zu betäuben", "isCorrect": false },
-        { "id": "B", "text": "Als Balance beim Springen und als wärmenden Schal", "isCorrect": true },
-        { "id": "C", "text": "Um im Schnee Spuren zu verwischen", "isCorrect": false },
-        { "id": "D", "text": "Er hat gar keinen langen Schwanz", "isCorrect": false }
-      ],
-      "facts": [
         {
-          "icon": "ac_unit",
-          "title": "Eingebauter Schal",
-          "desc": "Beim Schlafen in eisiger Kälte wickelt sich der Schneeleopard seinen dichten Schwanz um die Nase, um die Atemluft vorzuwärmen."
-        },
-        {
-          "icon": "balance",
-          "title": "Steuerruder",
-          "desc": "Bei bis zu 15 Meter weiten Sprüngen über Klippen hält der Schwanz den Körper perfekt in der Waage."
-        },
-        {
-          "icon": "volume_off",
-          "title": "Die stille Katze",
-          "desc": "Im Gegensatz zu Löwen oder Tigern kann der Schneeleopard nicht brüllen, da ihm ein spezielles Polster im Kehlkopf fehlt."
+          "id": "animal_snow_leopard",
+          "name": "Schneeleopard",
+          "scientific_name": "Panthera uncia",
+          "lexicon": {
+            "habitat": "Hochgebirge in Zentralasien (Himalaja, Karakorum, Altai)",
+            "diet": "Fleischfresser (z.B. Blauschafe, Steinböcke, Murmeltiere)",
+            "wwf_status": "Gefährdet",
+            "description": "Der 'Geist der Berge' ist extrem scheu und perfekt an die Kälte angepasst. Sein außergewöhnlich langer und buschiger Schwanz dient ihm nicht nur als Balancierstange bei gewagten Sprüngen über tiefe Schluchten, sondern auch als dicker Schal, den er sich beim Schlafen um das Gesicht wickelt.",
+            "image_main": "https://images.unsplash.com/photo-1560662241-11b3d047321e?q=80&w=800&auto=format&fit=crop"
+          },
+          "quests": [
+            {
+              "quest_id": "q_snowleopard_01",
+              "biome": "TIEFER WALD",
+              "challengeType": "KÖRPERBAU",
+              "questionText": "Wofür nutzt der Schneeleopard seinen fast ein Meter langen, dicken Schwanz?",
+              "image": "https://images.unsplash.com/photo-1559812497-cd0d9bf0dcd4?q=80&w=800&auto=format&fit=crop",
+              "options": [
+                {
+                  "id": "A",
+                  "text": "Um Beute zu betäuben",
+                  "isCorrect": false
+                },
+                {
+                  "id": "B",
+                  "text": "Als Balance beim Springen und als wärmenden Schal",
+                  "isCorrect": true
+                },
+                {
+                  "id": "C",
+                  "text": "Um im Schnee Spuren zu verwischen",
+                  "isCorrect": false
+                },
+                {
+                  "id": "D",
+                  "text": "Er hat gar keinen langen Schwanz",
+                  "isCorrect": false
+                }
+              ],
+              "facts": [
+                {
+                  "icon": "ac_unit",
+                  "title": "Eingebauter Schal",
+                  "desc": "Beim Schlafen in eisiger Kälte wickelt sich der Schneeleopard seinen dichten Schwanz um die Nase, um die Atemluft vorzuwärmen."
+                },
+                {
+                  "icon": "balance",
+                  "title": "Steuerruder",
+                  "desc": "Bei bis zu 15 Meter weiten Sprüngen über Klippen hält der Schwanz den Körper perfekt in der Waage."
+                },
+                {
+                  "icon": "volume_off",
+                  "title": "Die stille Katze",
+                  "desc": "Im Gegensatz zu Löwen oder Tigern kann der Schneeleopard nicht brüllen, da ihm ein spezielles Polster im Kehlkopf fehlt."
+                }
+              ]
+            },
+            {
+              "id": "biome_polar",
+              "name": "Eisige Polarregionen",
+              "description": "Die extremsten und kältesten Regionen der Erde an Nord- und Südpol.",
+              "image": "https://images.unsplash.com/photo-1517783980751-24876b5f4f0e?q=80&w=1200&auto=format&fit=crop",
+              "animals": [
+                {
+                  "id": "animal_emperor_penguin",
+                  "name": "Kaiserpinguin",
+                  "scientific_name": "Aptenodytes forsteri",
+                  "lexicon": {
+                    "habitat": "Ausschließlich das Packeis der Antarktis (Südpol)",
+                    "diet": "Fleischfresser (Fische, Krill, Tintenfische)",
+                    "wwf_status": "Potenziell gefährdet",
+                    "description": "Der Kaiserpinguin ist der größte Pinguin der Erde und der unangefochtene Meister der Kälte. Während alle anderen Tiere vor dem brutalen antarktischen Winter fliehen, marschiert er tief ins Eis, um genau dort seine Babys großzuziehen. Sein Gefieder ist so dicht, dass absolut kein Eiswasser an seine Haut kommt.",
+                    "image_main": "https://images.unsplash.com/photo-1517783980751-24876b5f4f0e?q=80&w=800&auto=format&fit=crop"
+                  },
+                  "quests": [
+                    {
+                      "quest_id": "q_penguin_01",
+                      "biome": "EISIGE POLARREGIONEN",
+                      "challengeType": "BRUT-PFLEGE",
+                      "questionText": "Wer brütet beim Kaiserpinguin mitten im dunkelsten Winter das Ei aus?",
+                      "image": "https://images.unsplash.com/photo-1517783980751-24876b5f4f0e?q=80&w=800&auto=format&fit=crop",
+                      "options": [
+                        {
+                          "id": "A",
+                          "text": "Nur die Mama",
+                          "isCorrect": false
+                        },
+                        {
+                          "id": "B",
+                          "text": "Sie bauen ein warmes Nest aus Steinen",
+                          "isCorrect": false
+                        },
+                        {
+                          "id": "C",
+                          "text": "Nur der Papa balanciert es auf den Füßen",
+                          "isCorrect": true
+                        },
+                        {
+                          "id": "D",
+                          "text": "Sie lassen es in der Sonne liegen",
+                          "isCorrect": false
+                        }
+                      ],
+                      "facts": [
+                        {
+                          "icon": "male",
+                          "title": "Super-Papa",
+                          "desc": "Das Männchen brütet das Ei über 60 Tage lang ganz alleine aus, während die Mutter im Meer jagen geht."
+                        },
+                        {
+                          "icon": "snowshoeing",
+                          "title": "Fuß-Heizung",
+                          "desc": "Das Ei liegt nicht auf dem Eis, sondern auf den Füßen des Papas, bedeckt von einer dicken, warmen Bauchfalte."
+                        },
+                        {
+                          "icon": "ac_unit",
+                          "title": "Männer-WG",
+                          "desc": "Bei bis zu -60°C und orkanartigem Wind drängen sich hunderte Papas in einem riesigen Pulk zusammen, um sich gegenseitig zu wärmen."
+                        }
+                      ]
+                    },
+                    {
+                      "quest_id": "q_penguin_02",
+                      "biome": "EISIGE POLARREGIONEN",
+                      "challengeType": "REKORD-TAUCHER",
+                      "questionText": "Wie tief kann ein Kaiserpinguin auf der Jagd nach Fisch tauchen?",
+                      "image": "https://images.unsplash.com/photo-1517783980751-24876b5f4f0e?q=80&w=800&auto=format&fit=crop",
+                      "options": [
+                        {
+                          "id": "A",
+                          "text": "Etwa 50 Meter",
+                          "isCorrect": false
+                        },
+                        {
+                          "id": "B",
+                          "text": "Rund 150 Meter",
+                          "isCorrect": false
+                        },
+                        {
+                          "id": "C",
+                          "text": "Über 500 Meter tief",
+                          "isCorrect": true
+                        },
+                        {
+                          "id": "D",
+                          "text": "Er schwimmt nur an der Oberfläche",
+                          "isCorrect": false
+                        }
+                      ],
+                      "facts": [
+                        {
+                          "icon": "scuba_diving",
+                          "title": "Tiefsee-Vogel",
+                          "desc": "Kaiserpinguine halten den Rekord unter allen Vögeln: Sie tauchen über 500 Meter tief in die Dunkelheit hinab."
+                        },
+                        {
+                          "icon": "timer",
+                          "title": "Langer Atem",
+                          "desc": "Sie können mit nur einem Atemzug bis zu 22 Minuten lang unter Wasser bleiben."
+                        },
+                        {
+                          "icon": "favorite",
+                          "title": "Herz auf Sparflamme",
+                          "desc": "Beim Tauchen senken sie ihren Herzschlag auf unglaubliche 15 bis 20 Schläge pro Minute, um Sauerstoff zu sparen."
+                        }
+                      ]
+                    },
+                    {
+                      "quest_id": "q_penguin_03",
+                      "biome": "EISIGE POLARREGIONEN",
+                      "challengeType": "KÖRPERBAU",
+                      "questionText": "Was schützt den Kaiserpinguin davor, im eiskalten Ozean sofort zu erfrieren?",
+                      "image": "https://images.unsplash.com/photo-1517783980751-24876b5f4f0e?q=80&w=800&auto=format&fit=crop",
+                      "options": [
+                        {
+                          "id": "A",
+                          "text": "Er hat Schuppen statt Federn",
+                          "isCorrect": false
+                        },
+                        {
+                          "id": "B",
+                          "text": "Ein dicker Fettpanzer auf der Haut",
+                          "isCorrect": false
+                        },
+                        {
+                          "id": "C",
+                          "text": "Das dichteste Federkleid aller Vögel und eine Speckschicht",
+                          "isCorrect": true
+                        },
+                        {
+                          "id": "D",
+                          "text": "Er reibt sich mit Algen ein",
+                          "isCorrect": false
+                        }
+                      ],
+                      "facts": [
+                        {
+                          "icon": "layers",
+                          "title": "Eingebauter Neoprenanzug",
+                          "desc": "Kein Vogel hat so dichte Federn wie er. Sie überlappen sich perfekt und schließen wie Ziegelsteine ab."
+                        },
+                        {
+                          "icon": "water_drop",
+                          "title": "Wasserdicht",
+                          "desc": "Die Pinguine reiben ihre Federn regelmäßig mit einem speziellen Öl aus einer Drüse am Schwanz ein."
+                        },
+                        {
+                          "icon": "fitness_center",
+                          "title": "Dicker Speck",
+                          "desc": "Unter der Haut schützt sie eine bis zu 3 Zentimeter dicke Fettschicht (Blubber) vor dem Auskühlen."
+                        }
+                      ]
+                    },
+                    {
+                      "quest_id": "q_penguin_04",
+                      "biome": "EISIGE POLARREGIONEN",
+                      "challengeType": "VOGEL-RÄTSEL",
+                      "questionText": "Warum können Pinguine eigentlich nicht fliegen?",
+                      "image": "https://images.unsplash.com/photo-1517783980751-24876b5f4f0e?q=80&w=800&auto=format&fit=crop",
+                      "options": [
+                        {
+                          "id": "A",
+                          "text": "Sie sind zu faul dazu",
+                          "isCorrect": false
+                        },
+                        {
+                          "id": "B",
+                          "text": "Ihre Flügel haben sich zu starren Flossen entwickelt",
+                          "isCorrect": true
+                        },
+                        {
+                          "id": "C",
+                          "text": "Es gibt keine Thermik (Aufwinde) im Eis",
+                          "isCorrect": false
+                        },
+                        {
+                          "id": "D",
+                          "text": "Ihre Federn sind zu lang",
+                          "isCorrect": false
+                        }
+                      ],
+                      "facts": [
+                        {
+                          "icon": "pool",
+                          "title": "Fliegen unter Wasser",
+                          "desc": "Ihre Flügel sind kurz, flach und knochenhart wie Paddel. Sie 'fliegen' quasi durch das dichte Wasser."
+                        },
+                        {
+                          "icon": "monitor_weight",
+                          "title": "Schwere Knochen",
+                          "desc": "Normale Vögel haben hohle, leichte Knochen zum Fliegen. Pinguine haben massive Knochen, damit sie leichter tauchen können."
+                        },
+                        {
+                          "icon": "speed",
+                          "title": "Raketen-Start",
+                          "desc": "Um Räubern (wie Leopardenrobben) auszuweichen, können sie unter Wasser extrem beschleunigen und wie Torpedos aus dem Wasser aufs Eis schießen."
+                        }
+                      ]
+                    },
+                    {
+                      "quest_id": "q_penguin_05",
+                      "biome": "EISIGE POLARREGIONEN",
+                      "challengeType": "SUPER-SINNE",
+                      "questionText": "Wie findet die Pinguin-Mutter ihren Partner mit dem Baby unter zehntausenden identisch aussehenden Pinguinen wieder?",
+                      "image": "https://images.unsplash.com/photo-1517783980751-24876b5f4f0e?q=80&w=800&auto=format&fit=crop",
+                      "options": [
+                        {
+                          "id": "A",
+                          "text": "Die Väter stehen immer genau an derselben Stelle",
+                          "isCorrect": false
+                        },
+                        {
+                          "id": "B",
+                          "text": "Sie schnüffelt jeden einzelnen ab",
+                          "isCorrect": false
+                        },
+                        {
+                          "id": "C",
+                          "text": "Ausschließlich über einen einzigartigen Ruf (Gesang)",
+                          "isCorrect": true
+                        },
+                        {
+                          "id": "D",
+                          "text": "Sie warten, bis alle anderen weg sind",
+                          "isCorrect": false
+                        }
+                      ],
+                      "facts": [
+                        {
+                          "icon": "record_voice_over",
+                          "title": "Gesangs-Code",
+                          "desc": "Obwohl das Geschrei in der Kolonie ohrenbetäubend ist, erkennt die Mutter den individuellen Ruf ihres Partners auf den Ton genau."
+                        },
+                        {
+                          "icon": "favorite",
+                          "title": "Lange Trennung",
+                          "desc": "Sie findet ihn nach über zwei Monaten im Meer wieder – und übergibt dann den ersten Fischbrei für das Küken."
+                        },
+                        {
+                          "icon": "groups",
+                          "title": "Riesige Kindergärten",
+                          "desc": "Sobald die Küken größer sind, stehen sie in sogenannten 'Crèches' (Kindergärten) zusammen, während beide Eltern jagen."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "animal_polar_bear",
+                  "name": "Eisbär",
+                  "scientific_name": "Ursus maritimus",
+                  "lexicon": {
+                    "habitat": "Arktische Regionen rund um den Nordpol",
+                    "diet": "Fleischfresser (hauptsächlich Robben)",
+                    "wwf_status": "Gefährdet",
+                    "description": "Der Eisbär ist das größte an Land lebende Raubtier der Erde. Wusstest du, dass seine Haut unter dem dichten Fell eigentlich pechschwarz ist? Das hilft ihm, die Wärme der Sonne perfekt zu speichern. Obwohl er an Land lebt, verbringt er so viel Zeit im Wasser, dass er offiziell als Meeressäugetier gilt.",
+                    "image_main": "https://images.unsplash.com/photo-1589656966895-2f33e7653819?q=80&w=800&auto=format&fit=crop"
+                  },
+                  "quests": [
+                    {
+                      "quest_id": "q_polar_bear_01",
+                      "biome": "EISIGE POLARREGIONEN",
+                      "challengeType": "REKORD-JÄGER",
+                      "questionText": "Welche Farbe hat die Haut eines Eisbären unter seinem dicken Fell?",
+                      "image": "https://images.unsplash.com/photo-1589656966895-2f33e7653819?q=80&w=800&auto=format&fit=crop",
+                      "options": [
+                        {
+                          "id": "A",
+                          "text": "Rosa",
+                          "isCorrect": false
+                        },
+                        {
+                          "id": "B",
+                          "text": "Weiß",
+                          "isCorrect": false
+                        },
+                        {
+                          "id": "C",
+                          "text": "Schwarz",
+                          "isCorrect": true
+                        },
+                        {
+                          "id": "D",
+                          "text": "Blau",
+                          "isCorrect": false
+                        }
+                      ],
+                      "facts": [
+                        {
+                          "icon": "thermostat",
+                          "title": "Wärmespeicher",
+                          "desc": "Die schwarze Haut absorbiert das Sonnenlicht besonders effizient, um den Körper in der Kälte warm zu halten."
+                        },
+                        {
+                          "icon": "visibility",
+                          "title": "Optische Täuschung",
+                          "desc": "Das Fell ist eigentlich gar nicht weiß, sondern farblos und hohl – es reflektiert nur das Licht der Umgebung."
+                        },
+                        {
+                          "icon": "ac_unit",
+                          "title": "Kälteschutz",
+                          "desc": "Zusammen mit einer 10 cm dicken Fettschicht isoliert das Fell so gut, dass Eisbären auf Infrarotkameras fast unsichtbar sind."
+                        }
+                      ]
+                    },
+                    {
+                      "quest_id": "q_polar_bear_02",
+                      "biome": "EISIGE POLARREGIONEN",
+                      "challengeType": "SUPER-SINNE",
+                      "questionText": "Wie weit kann ein Eisbär eine Robbe ungefähr riechen?",
+                      "image": "https://images.unsplash.com/photo-1589656966895-2f33e7653819?q=80&w=800&auto=format&fit=crop",
+                      "options": [
+                        {
+                          "id": "A",
+                          "text": "Maximal 10 Meter",
+                          "isCorrect": false
+                        },
+                        {
+                          "id": "B",
+                          "text": "Etwa 100 Meter",
+                          "isCorrect": false
+                        },
+                        {
+                          "id": "C",
+                          "text": "Über 30 Kilometer weit",
+                          "isCorrect": true
+                        },
+                        {
+                          "id": "D",
+                          "text": "Eisbären können kaum riechen",
+                          "isCorrect": false
+                        }
+                      ],
+                      "facts": [
+                        {
+                          "icon": "wind_power",
+                          "title": "Super-Nase",
+                          "desc": "Der Geruchssinn ist ihr wichtigstes Werkzeug. Sie riechen Beute sogar durch eine ein Meter dicke Eisschicht!"
+                        },
+                        {
+                          "icon": "radar",
+                          "title": "Zick-Zack-Suche",
+                          "desc": "Wenn sie einen Geruch aufnehmen, laufen sie oft im Zick-Zack gegen den Wind, um die Quelle genau zu orten."
+                        },
+                        {
+                          "icon": "restaurant",
+                          "title": "Aas-Finder",
+                          "desc": "Sie erschnüffeln gestrandete Walkadaver aus gigantischen Entfernungen, um sich an dem Fett satt zu fressen."
+                        }
+                      ]
+                    },
+                    {
+                      "quest_id": "q_polar_bear_03",
+                      "biome": "EISIGE POLARREGIONEN",
+                      "challengeType": "JAGD-TAKTIK",
+                      "questionText": "Wie jagt der Eisbär am häufigsten seine absolute Lieblingsbeute (Ringelrobben)?",
+                      "image": "https://images.unsplash.com/photo-1589656966895-2f33e7653819?q=80&w=800&auto=format&fit=crop",
+                      "options": [
+                        {
+                          "id": "A",
+                          "text": "Er jagt sie im offenen Ozean",
+                          "isCorrect": false
+                        },
+                        {
+                          "id": "B",
+                          "text": "Er wartet stundenlang regungslos an einem Atemloch im Eis",
+                          "isCorrect": true
+                        },
+                        {
+                          "id": "C",
+                          "text": "Er bewirft sie mit großen Eisblöcken",
+                          "isCorrect": false
+                        },
+                        {
+                          "id": "D",
+                          "text": "Er gräbt Fallen in den Schnee",
+                          "isCorrect": false
+                        }
+                      ],
+                      "facts": [
+                        {
+                          "icon": "hourglass_empty",
+                          "title": "Geduldsspiel",
+                          "desc": "Robben müssen durch Löcher im Eis atmen. Der Eisbär wartet oft stundenlang völlig still an so einem Loch."
+                        },
+                        {
+                          "icon": "bolt",
+                          "title": "Blitzschnell",
+                          "desc": "Wenn die Robbe auftaucht, packt er sie mit einem einzigen, extrem schnellen Prankenhieb."
+                        },
+                        {
+                          "icon": "visibility_off",
+                          "title": "Schwarze Nase",
+                          "desc": "Manchmal halten sich Eisbären beim Anschleichen angeblich die schwarze Nase zu, um im weißen Schnee unsichtbar zu bleiben."
+                        }
+                      ]
+                    },
+                    {
+                      "quest_id": "q_polar_bear_04",
+                      "biome": "EISIGE POLARREGIONEN",
+                      "challengeType": "WASSER-RATTE",
+                      "questionText": "Was ist das Besondere an Eisbären, wenn sie im Wasser schwimmen?",
+                      "image": "https://images.unsplash.com/photo-1589656966895-2f33e7653819?q=80&w=800&auto=format&fit=crop",
+                      "options": [
+                        {
+                          "id": "A",
+                          "text": "Sie paddeln nur mit den Vorderpfoten",
+                          "isCorrect": true
+                        },
+                        {
+                          "id": "B",
+                          "text": "Sie können unter Wasser atmen",
+                          "isCorrect": false
+                        },
+                        {
+                          "id": "C",
+                          "text": "Sie schwimmen immer auf dem Rücken",
+                          "isCorrect": false
+                        },
+                        {
+                          "id": "D",
+                          "text": "Sie hassen Wasser und schwimmen nie",
+                          "isCorrect": false
+                        }
+                      ],
+                      "facts": [
+                        {
+                          "icon": "pool",
+                          "title": "Vorderantrieb",
+                          "desc": "Eisbären nutzen ihre riesigen Vorderpfoten (bis zu 30 cm breit) wie Ruder, die Hinterbeine schleppen sie nur nach."
+                        },
+                        {
+                          "icon": "directions_boat",
+                          "title": "Ausdauer-Wunder",
+                          "desc": "Sie sind unglaublich gute Schwimmer und können tagelang am Stück schwimmen, um neue Eisflächen zu erreichen."
+                        },
+                        {
+                          "icon": "water_drop",
+                          "title": "Wasser-Abweiser",
+                          "desc": "Nach dem Schwimmen schütteln sie sich wie Hunde. Da ihr Fell wasserabweisend ist, sind sie sofort wieder fast trocken."
+                        }
+                      ]
+                    },
+                    {
+                      "quest_id": "q_polar_bear_05",
+                      "biome": "EISIGE POLARREGIONEN",
+                      "challengeType": "WINTER-SCHLAF",
+                      "questionText": "Welche Eisbären halten im Winter eine mehrmonatige Winterruhe in einer Schneehöhle?",
+                      "image": "https://images.unsplash.com/photo-1589656966895-2f33e7653819?q=80&w=800&auto=format&fit=crop",
+                      "options": [
+                        {
+                          "id": "A",
+                          "text": "Alle Eisbären",
+                          "isCorrect": false
+                        },
+                        {
+                          "id": "B",
+                          "text": "Nur die ältesten Bären",
+                          "isCorrect": false
+                        },
+                        {
+                          "id": "C",
+                          "text": "Nur trächtige Weibchen (werdende Mütter)",
+                          "isCorrect": true
+                        },
+                        {
+                          "id": "D",
+                          "text": "Gar keine, sie jagen den ganzen Winter",
+                          "isCorrect": false
+                        }
+                      ],
+                      "facts": [
+                        {
+                          "icon": "child_care",
+                          "title": "Mama-Höhle",
+                          "desc": "Nur Weibchen, die Babys erwarten, graben sich in eine Schneehöhle ein und fasten dort bis zu 8 Monate lang."
+                        },
+                        {
+                          "icon": "baby_changing_station",
+                          "title": "Winzige Babys",
+                          "desc": "Die Babys werden mitten im Winter in der Höhle geboren. Sie sind blind, zahnlos und winzig – sie wiegen nicht mal 1 Kilo!"
+                        },
+                        {
+                          "icon": "ac_unit",
+                          "title": "Männer auf der Jagd",
+                          "desc": "Männchen und Weibchen ohne Nachwuchs bleiben den ganzen dunklen Polarwinter über aktiv und jagen auf dem Eis."
+                        }
+                      ]
+                    },
+                    {
+                      "id": "biome_wetlands",
+                      "name": "Australische Feuchtgebiete",
+                      "description": "Die wasserreichen Landschaften Australiens – Heimat für eines der seltsamsten Wesen der Welt.",
+                      "image": "https://images.unsplash.com/photo-1543160271-9c882046462c?q=80&w=1200&auto=format&fit=crop",
+                      "animals": [
+                        {
+                          "id": "animal_platypus",
+                          "name": "Schnabeltier",
+                          "scientific_name": "Ornithorhynchus anatinus",
+                          "lexicon": {
+                            "habitat": "Süßwassersysteme im Osten Australiens und Tasmaniens",
+                            "diet": "Fleischfresser (Insektenlarven, Krebstiere, Würmer)",
+                            "wwf_status": "Potenziell gefährdet",
+                            "description": "Das Schnabeltier ist eines der rätselhaftesten Tiere der Welt. Es sieht aus wie eine Mischung aus Ente, Biber und Otter. Als eines der wenigen Säugetiere legt es Eier, säugt seine Jungen aber trotzdem mit Milch. Wusstest du, dass es sogar giftig sein kann?",
+                            "image_main": "https://images.unsplash.com/photo-1591122606557-f6551b80f75a?q=80&w=800&auto=format&fit=crop"
+                          },
+                          "quests": [
+                            {
+                              "quest_id": "q_platypus_01",
+                              "biome": "FEUCHTGEBIETE",
+                              "challengeType": "SUPER-SINNE",
+                              "questionText": "Wie findet das Schnabeltier unter Wasser seine Beute, wenn es Augen und Ohren komplett geschlossen hält?",
+                              "image": "https://images.unsplash.com/photo-1591122606557-f6551b80f75a?q=80&w=800&auto=format&fit=crop",
+                              "options": [
+                                {
+                                  "id": "A",
+                                  "text": "Durch Echoortung wie Delfine",
+                                  "isCorrect": false
+                                },
+                                {
+                                  "id": "B",
+                                  "text": "Über elektrische Signale mit dem Schnabel",
+                                  "isCorrect": true
+                                },
+                                {
+                                  "id": "C",
+                                  "text": "Mit einem extremen Geruchssinn",
+                                  "isCorrect": false
+                                },
+                                {
+                                  "id": "D",
+                                  "text": "Es tastet blind mit dem Schwanz",
+                                  "isCorrect": false
+                                }
+                              ],
+                              "facts": [
+                                {
+                                  "icon": "electric_bolt",
+                                  "title": "Elektrosensorik",
+                                  "desc": "Der Schnabel besitzt tausende Rezeptoren, die elektrische Impulse von Muskelbewegungen der Beutetiere wahrnehmen."
+                                },
+                                {
+                                  "icon": "visibility_off",
+                                  "title": "Blind auf Jagd",
+                                  "desc": "Da es beim Tauchen Augen, Ohren und Nase schließt, verlässt es sich komplett auf diesen 'sechsten Sinn'."
+                                },
+                                {
+                                  "icon": "egg",
+                                  "title": "Eierlegendes Säugetier",
+                                  "desc": "Es gehört zur Gruppe der Kloakentiere – die einzigen Säugetiere der Erde, die Eier legen."
+                                }
+                              ]
+                            },
+                            {
+                              "quest_id": "q_platypus_02",
+                              "biome": "FEUCHTGEBIETE",
+                              "challengeType": "GEFÄHRLICHE WAFFEN",
+                              "questionText": "Welche gefährliche Waffe besitzt ein männliches Schnabeltier?",
+                              "image": "https://images.unsplash.com/photo-1591122606557-f6551b80f75a?q=80&w=800&auto=format&fit=crop",
+                              "options": [
+                                {
+                                  "id": "A",
+                                  "text": "Eine giftige Spucke",
+                                  "isCorrect": false
+                                },
+                                {
+                                  "id": "B",
+                                  "text": "Giftige Sporne an den Hinterbeinen",
+                                  "isCorrect": true
+                                },
+                                {
+                                  "id": "C",
+                                  "text": "Einen Stachel am Biberschwanz",
+                                  "isCorrect": false
+                                },
+                                {
+                                  "id": "D",
+                                  "text": "Messerscharfe Reißzähne",
+                                  "isCorrect": false
+                                }
+                              ],
+                              "facts": [
+                                {
+                                  "icon": "warning",
+                                  "title": "Säugetier mit Gift",
+                                  "desc": "Das Männchen hat etwa 1,5 Zentimeter lange, hohle Sporne an den Hinterbeinen, die mit einer Giftdrüse verbunden sind."
+                                },
+                                {
+                                  "icon": "sports_martial_arts",
+                                  "title": "Rivalenkampf",
+                                  "desc": "Sie setzen das Gift hauptsächlich zur Paarungszeit ein, um gegen andere Männchen zu kämpfen."
+                                },
+                                {
+                                  "icon": "medical_services",
+                                  "title": "Schmerzhaft",
+                                  "desc": "Für Menschen ist das Gift nicht tödlich, verursacht aber extrem starke, wochenlang anhaltende Schmerzen."
+                                }
+                              ]
+                            },
+                            {
+                              "quest_id": "q_platypus_03",
+                              "biome": "FEUCHTGEBIETE",
+                              "challengeType": "KÖRPER-RÄTSEL",
+                              "questionText": "Welches lebenswichtige Organ fehlt dem Schnabeltier komplett?",
+                              "image": "https://images.unsplash.com/photo-1591122606557-f6551b80f75a?q=80&w=800&auto=format&fit=crop",
+                              "options": [
+                                {
+                                  "id": "A",
+                                  "text": "Das Herz",
+                                  "isCorrect": false
+                                },
+                                {
+                                  "id": "B",
+                                  "text": "Das Gehirn",
+                                  "isCorrect": false
+                                },
+                                {
+                                  "id": "C",
+                                  "text": "Der Magen",
+                                  "isCorrect": true
+                                },
+                                {
+                                  "id": "D",
+                                  "text": "Die Lunge",
+                                  "isCorrect": false
+                                }
+                              ],
+                              "facts": [
+                                {
+                                  "icon": "no_meals",
+                                  "title": "Kein Magen",
+                                  "desc": "Die Speiseröhre des Schnabeltiers ist direkt mit dem Darm verbunden. Ein Magenbeutel fehlt komplett."
+                                },
+                                {
+                                  "icon": "hardware",
+                                  "title": "Zahnlos",
+                                  "desc": "Sie haben keine Zähne! Sie sammeln mit ihrer Beute kleine Steinchen auf, um das Fressen im Kiefer zu zermahlen."
+                                },
+                                {
+                                  "icon": "restaurant",
+                                  "title": "Daueresser",
+                                  "desc": "Weil sie keinen Magen zum Speichern haben, müssen sie täglich bis zu 20 % ihres eigenen Körpergewichts fressen."
+                                }
+                              ]
+                            },
+                            {
+                              "quest_id": "q_platypus_04",
+                              "biome": "FEUCHTGEBIETE",
+                              "challengeType": "MAMA-TRICKS",
+                              "questionText": "Wie trinken die Babys des Schnabeltiers die Milch ihrer Mutter?",
+                              "image": "https://images.unsplash.com/photo-1591122606557-f6551b80f75a?q=80&w=800&auto=format&fit=crop",
+                              "options": [
+                                {
+                                  "id": "A",
+                                  "text": "Die Mutter schwitzt die Milch aus der Haut",
+                                  "isCorrect": true
+                                },
+                                {
+                                  "id": "B",
+                                  "text": "Ganz normal an Zitzen",
+                                  "isCorrect": false
+                                },
+                                {
+                                  "id": "C",
+                                  "text": "Die Mutter spuckt die Milch in den Schnabel",
+                                  "isCorrect": false
+                                },
+                                {
+                                  "id": "D",
+                                  "text": "Schnabeltiere trinken gar keine Milch",
+                                  "isCorrect": false
+                                }
+                              ],
+                              "facts": [
+                                {
+                                  "icon": "water_drop",
+                                  "title": "Milch-Schweiß",
+                                  "desc": "Schnabeltiere haben keine Zitzen. Die Milch sickert einfach durch spezielle Poren in der Haut auf das Bauchfell."
+                                },
+                                {
+                                  "icon": "child_care",
+                                  "title": "Schlürfen statt saugen",
+                                  "desc": "Die Babys saugen nicht, sondern lecken und schlürfen die Milchtropfen direkt aus dem nassen Fell der Mutter."
+                                },
+                                {
+                                  "icon": "home",
+                                  "title": "Langes Nest-Leben",
+                                  "desc": "Die Jungen bleiben nach dem Schlüpfen aus dem Ei noch bis zu vier Monate im geschützten Erdbau."
+                                }
+                              ]
+                            },
+                            {
+                              "quest_id": "q_platypus_05",
+                              "biome": "FEUCHTGEBIETE",
+                              "challengeType": "VERRÜCKTE WISSENSCHAFT",
+                              "questionText": "Was passiert, wenn man ein Schnabeltier im Dunkeln mit einer Schwarzlicht-Lampe (UV-Licht) anstrahlt?",
+                              "image": "https://images.unsplash.com/photo-1591122606557-f6551b80f75a?q=80&w=800&auto=format&fit=crop",
+                              "options": [
+                                {
+                                  "id": "A",
+                                  "text": "Es wird komplett unsichtbar",
+                                  "isCorrect": false
+                                },
+                                {
+                                  "id": "B",
+                                  "text": "Sein Fell leuchtet grell grünlich-blau",
+                                  "isCorrect": true
+                                },
+                                {
+                                  "id": "C",
+                                  "text": "Es fängt an laut zu singen",
+                                  "isCorrect": false
+                                },
+                                {
+                                  "id": "D",
+                                  "text": "Der Schnabel fällt ab",
+                                  "isCorrect": false
+                                }
+                              ],
+                              "facts": [
+                                {
+                                  "icon": "lightbulb",
+                                  "title": "Biofluoreszenz",
+                                  "desc": "Forscher haben vor Kurzem entdeckt, dass das braune Fell des Schnabeltiers unter UV-Licht magisch leuchtet."
+                                },
+                                {
+                                  "icon": "science",
+                                  "title": "Forschungs-Rätsel",
+                                  "desc": "Warum das so ist, weiß bisher niemand genau. Es könnte eine Tarnung vor nachtaktiven Raubtieren sein."
+                                },
+                                {
+                                  "icon": "pets",
+                                  "title": "Nicht die Einzigen",
+                                  "desc": "Dieses faszinierende Leuchten gibt es auch bei anderen Tieren wie Skorpionen oder Polargleithörnchen."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "biome_rainforest",
+                      "name": "Tropischer Regenwald",
+                      "description": "Die grüne Lunge der Erde, voller dichter Baumkronen und unglaublicher Artenvielfalt.",
+                      "image": "https://images.unsplash.com/photo-1518182170546-076616fdcd81?q=80&w=1200&auto=format&fit=crop",
+                      "animals": [
+                        {
+                          "id": "animal_sloth",
+                          "name": "Dreifinger-Faultier",
+                          "scientific_name": "Bradypus variegatus",
+                          "lexicon": {
+                            "habitat": "Tropische Regenwälder in Mittel- und Südamerika",
+                            "diet": "Pflanzenfresser (fast ausschließlich Blätter)",
+                            "wwf_status": "Nicht gefährdet",
+                            "description": "Das Faultier ist das langsamste Säugetier der Welt. Es verbringt fast sein ganzes Leben kopfüber in den Bäumen hängend. Weil es sich so selten bewegt, wachsen in seinem Fell sogar kleine Algen, die ihm eine grünliche Tarnfarbe verleihen. Wenn es aber ins Wasser fällt, zeigt es ein völlig anderes Gesicht!",
+                            "image_main": "https://images.unsplash.com/photo-1517036224168-1e43e26fb1da?q=80&w=800&auto=format&fit=crop"
+                          },
+                          "quests": [
+                            {
+                              "quest_id": "q_sloth_01",
+                              "biome": "TROPISCHER REGENWALD",
+                              "challengeType": "ENERGIE-SPARER",
+                              "questionText": "Warum bewegt sich ein Faultier so unglaublich langsam?",
+                              "image": "https://images.unsplash.com/photo-1517036224168-1e43e26fb1da?q=80&w=800&auto=format&fit=crop",
+                              "options": [
+                                {
+                                  "id": "A",
+                                  "text": "Seine Knochen sind zu schwer",
+                                  "isCorrect": false
+                                },
+                                {
+                                  "id": "B",
+                                  "text": "Die Blätter, die es frisst, liefern extrem wenig Energie",
+                                  "isCorrect": true
+                                },
+                                {
+                                  "id": "C",
+                                  "text": "Es schläft beim Klettern",
+                                  "isCorrect": false
+                                },
+                                {
+                                  "id": "D",
+                                  "text": "Es hat Angst, herunterzufallen",
+                                  "isCorrect": false
+                                }
+                              ],
+                              "facts": [
+                                {
+                                  "icon": "eco",
+                                  "title": "Diät-Essen",
+                                  "desc": "Blätter enthalten so wenig Nährstoffe und Kalorien, dass das Faultier absolut jede Bewegung sparen muss."
+                                },
+                                {
+                                  "icon": "hourglass_bottom",
+                                  "title": "Mega-Verdauung",
+                                  "desc": "Sein Magen ist riesig! Es dauert oft bis zu einem ganzen Monat, um eine einzige Mahlzeit komplett zu verdauen."
+                                },
+                                {
+                                  "icon": "thermostat",
+                                  "title": "Schwankende Temperatur",
+                                  "desc": "Faultiere können ihre Körpertemperatur kaum selbst regeln. Sie sonnen sich morgens wie Echsen, um warm zu werden."
+                                }
+                              ]
+                            },
+                            {
+                              "quest_id": "q_sloth_02",
+                              "biome": "TROPISCHER REGENWALD",
+                              "challengeType": "TAR-NUNG",
+                              "questionText": "Warum schimmert das Fell vieler Faultiere leicht grünlich?",
+                              "image": "https://images.unsplash.com/photo-1517036224168-1e43e26fb1da?q=80&w=800&auto=format&fit=crop",
+                              "options": [
+                                {
+                                  "id": "A",
+                                  "text": "Sie reiben sich mit zerquetschten Blättern ein",
+                                  "isCorrect": false
+                                },
+                                {
+                                  "id": "B",
+                                  "text": "Sie schwitzen grüne Farbe aus",
+                                  "isCorrect": false
+                                },
+                                {
+                                  "id": "C",
+                                  "text": "In ihrem Fell wachsen echte Algen",
+                                  "isCorrect": true
+                                },
+                                {
+                                  "id": "D",
+                                  "text": "Es ist eine optische Täuschung durch die Sonne",
+                                  "isCorrect": false
+                                }
+                              ],
+                              "facts": [
+                                {
+                                  "icon": "bug_report",
+                                  "title": "Wandelndes Ökosystem",
+                                  "desc": "Das Fell ist voll von Rissen, in denen sich Regenwasser sammelt. Perfekt für Algen, kleine Motten und Käfer."
+                                },
+                                {
+                                  "icon": "visibility_off",
+                                  "title": "Perfekte Tarnung",
+                                  "desc": "Der grüne Schimmer der Algen hilft dem Faultier, zwischen den Blättern unsichtbar für Harpyien (Greifvögel) und Jaguare zu sein."
+                                },
+                                {
+                                  "icon": "restaurant",
+                                  "title": "Notfall-Snack",
+                                  "desc": "Forscher glauben, dass Faultiere diese Algen manchmal sogar ablecken, um zusätzliche Nährstoffe zu bekommen."
+                                }
+                              ]
+                            },
+                            {
+                              "quest_id": "q_sloth_03",
+                              "biome": "TROPISCHER REGENWALD",
+                              "challengeType": "TIERISCHER ALLTAG",
+                              "questionText": "Wie oft verlässt das Faultier seinen sicheren Baum, um auf dem Boden aufs Klo zu gehen?",
+                              "image": "https://images.unsplash.com/photo-1517036224168-1e43e26fb1da?q=80&w=800&auto=format&fit=crop",
+                              "options": [
+                                {
+                                  "id": "A",
+                                  "text": "Jeden Morgen",
+                                  "isCorrect": false
+                                },
+                                {
+                                  "id": "B",
+                                  "text": "Es lässt es einfach von oben fallen",
+                                  "isCorrect": false
+                                },
+                                {
+                                  "id": "C",
+                                  "text": "Nur etwa einmal in der Woche",
+                                  "isCorrect": true
+                                },
+                                {
+                                  "id": "D",
+                                  "text": "Einmal im Jahr",
+                                  "isCorrect": false
+                                }
+                              ],
+                              "facts": [
+                                {
+                                  "icon": "warning",
+                                  "title": "Lebensgefahr",
+                                  "desc": "Der Weg zum Boden ist der gefährlichste Moment im Leben eines Faultiers, da es dort Raubtieren schutzlos ausgeliefert ist."
+                                },
+                                {
+                                  "icon": "monitor_weight",
+                                  "title": "Gewaltige Erleichterung",
+                                  "desc": "Wenn es dann endlich aufs Klo geht, verliert es bis zu einem Drittel seines gesamten Körpergewichts auf einmal!"
+                                },
+                                {
+                                  "icon": "volunteer_activism",
+                                  "title": "Dünger für den Baum",
+                                  "desc": "Es gräbt ein Loch am Fuß SEINES Baumes und düngt ihn damit – als Dank für die Nahrung."
+                                }
+                              ]
+                            },
+                            {
+                              "quest_id": "q_sloth_04",
+                              "biome": "TROPISCHER REGENWALD",
+                              "challengeType": "KÖRPERBAU",
+                              "questionText": "Wie schläft ein Faultier, ohne von den Ästen zu fallen?",
+                              "image": "https://images.unsplash.com/photo-1517036224168-1e43e26fb1da?q=80&w=800&auto=format&fit=crop",
+                              "options": [
+                                {
+                                  "id": "A",
+                                  "text": "Es bindet sich mit dem Schwanz fest",
+                                  "isCorrect": false
+                                },
+                                {
+                                  "id": "B",
+                                  "text": "Es schläft auf dem Boden",
+                                  "isCorrect": false
+                                },
+                                {
+                                  "id": "C",
+                                  "text": "Seine Krallen rasten wie Kleiderhaken ein",
+                                  "isCorrect": true
+                                },
+                                {
+                                  "id": "D",
+                                  "text": "Es fällt oft, tut sich aber nicht weh",
+                                  "isCorrect": false
+                                }
+                              ],
+                              "facts": [
+                                {
+                                  "icon": "hardware",
+                                  "title": "Eingebaute Haken",
+                                  "desc": "Die bis zu 10 cm langen Krallen funktionieren wie Fleischerhaken. Zum Hängen braucht das Faultier absolut keine Muskelkraft."
+                                },
+                                {
+                                  "icon": "favorite",
+                                  "title": "Festgetackert",
+                                  "desc": "Der Griff ist so fest, dass Faultiere manchmal sogar nach ihrem Tod noch eine Zeit lang kopfüber im Baum hängen bleiben."
+                                },
+                                {
+                                  "icon": "flip",
+                                  "title": "Organe gesichert",
+                                  "desc": "Ihre Organe (wie Magen und Leber) sind an den Rippen festgewachsen, damit sie beim Kopfüberhängen nicht auf die Lunge drücken."
+                                }
+                              ]
+                            },
+                            {
+                              "quest_id": "q_sloth_05",
+                              "biome": "TROPISCHER REGENWALD",
+                              "challengeType": "ÜBERRASCHUNG",
+                              "questionText": "Was passiert, wenn ein Faultier versehentlich aus dem Baum in einen tiefen Fluss fällt?",
+                              "image": "https://images.unsplash.com/photo-1517036224168-1e43e26fb1da?q=80&w=800&auto=format&fit=crop",
+                              "options": [
+                                {
+                                  "id": "A",
+                                  "text": "Es ertrinkt sofort",
+                                  "isCorrect": false
+                                },
+                                {
+                                  "id": "B",
+                                  "text": "Es sinkt auf den Grund und läuft",
+                                  "isCorrect": false
+                                },
+                                {
+                                  "id": "C",
+                                  "text": "Es ist ein erstaunlich guter und schneller Schwimmer",
+                                  "isCorrect": true
+                                },
+                                {
+                                  "id": "D",
+                                  "text": "Es ruft nach Hilfe",
+                                  "isCorrect": false
+                                }
+                              ],
+                              "facts": [
+                                {
+                                  "icon": "pool",
+                                  "title": "Brustschwimmer",
+                                  "desc": "Überraschung! Im Wasser bewegen sich Faultiere fast dreimal so schnell wie an Land. Sie schwimmen eine Art Brustschwimmen."
+                                },
+                                {
+                                  "icon": "air",
+                                  "title": "Luft-Ballon",
+                                  "desc": "Ihr riesiger, gasgefüllter Magen wirkt wie ein natürlicher Schwimmflügel und hält sie mühelos über Wasser."
+                                },
+                                {
+                                  "icon": "timer",
+                                  "title": "Langer Atem",
+                                  "desc": "Sie können beim Schwimmen ihren Herzschlag verlangsamen und bis zu 40 Minuten unter Wasser die Luft anhalten."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
   ]
-}
-] 
-}
-]
 }
